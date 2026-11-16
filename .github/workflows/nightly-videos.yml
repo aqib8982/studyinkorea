@@ -61,6 +61,10 @@ jobs:
           echo "www.aqibinkorea.com" > CNAME
           : > .nojekyll
           git add -A
+          if git diff --cached --quiet; then
+            echo "The website is already up to date."
+            exit 0
+          fi
           git commit -q -m "Add new YouTube videos to the website"
           git push -q origin HEAD:main
           echo "Website updated."
