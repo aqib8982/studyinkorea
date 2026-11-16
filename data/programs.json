@@ -1,0 +1,2042 @@
+{
+ "source": "2027 MARCH AVAILABLE UNIVERSITIES & PROGRAMS",
+ "intake": "March 2027",
+ "labels": {
+  "programs": "Available Programs",
+  "tuition": "Tuition Fee (per semester)",
+  "requirements": "Requirements",
+  "application_fee": "University Online Application Fee",
+  "enrollment_fee": "Enrollment/Matriculation Fee",
+  "scholarship": "Scholarship",
+  "visa_from_korea": "Visa From Korea",
+  "dormitory": "Dormitory",
+  "deadline": "Deadline"
+ },
+ "universities": [
+  {
+   "slug": "tongmyong",
+   "name": "Tongmyong University",
+   "city": "Busan",
+   "city_ko": "부산",
+   "logo": "assets/logos/tongmyong.png",
+   "levels": [
+    {
+     "name": "Bachelors",
+     "slug": "bachelors",
+     "categories": [
+      "bachelors"
+     ],
+     "deadlines": [
+      "2026-11-15"
+     ],
+     "programs": [
+      {
+       "name": "School of Business",
+       "details": [
+        "• Marketing",
+        "• International Business & Management",
+        "• Supply Chain Management",
+        "• AI & Intelligent Business Systems",
+        "• Advance Financial Literacy"
+       ],
+       "tuition_krw": "3,000,000 KRW",
+       "tuition_usd": "2,250 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Maritime Economics and Finance",
+       "details": [],
+       "tuition_krw": "3,000,000 KRW",
+       "tuition_usd": "2,250 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "AI and Software Engineering",
+       "details": [
+        "(Blockchain + DeFi)"
+       ],
+       "tuition_krw": "4,150,000 KRW",
+       "tuition_usd": "3,100 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Mechanical and Automotive Engineering",
+       "details": [],
+       "tuition_krw": "4,150,000 KRW",
+       "tuition_usd": "3,100 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• High School/ Equivalent Completion\n• IELTS 5.5 or iBT TOEFL 80"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "70,000 KRW",
+        "usd": "55 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "X"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• IELTS 5.5 / iBT TOEFL 80 = 40% scholarship\n• IELTS 6.0 / iBT TOEFL 85 = 50% scholarship\n• IELTS 6.5 / iBT TOEFL 90 = 70% scholarship\n• IELTS 7.5 / iBT TOEFL 105 = 100% scholarship\n\nFrom 2nd Semester:\nDepends on GPA in previous semester\n(details TBC)"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "No"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n1,900,000 KRW (approx. 1,450 USD) for 6 months (1 semester + 2 months holiday)\n\nKitchen/cooking facility available\n\n2x meals a day from Monday-Friday\nNo meals on weekends & holidays\n(Not optional)"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Masters",
+     "slug": "masters",
+     "categories": [
+      "masters"
+     ],
+     "deadlines": [
+      "2026-11-15"
+     ],
+     "programs": [
+      {
+       "name": "Global Business",
+       "details": [
+        "• Global Business and Logistics Major",
+        "• Port/Logistics Management Major"
+       ],
+       "tuition_krw": "2,852,000 KRW",
+       "tuition_usd": "2,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "AI Convergence",
+       "details": [],
+       "tuition_krw": "3,661,000 KRW",
+       "tuition_usd": "2,800 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• Bachelors Degree/Equivalent\n• IELTS 5.5 or iBT TOEFL 80"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "70,000 KRW",
+        "usd": "55 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "krw": "550,000 KRW",
+        "usd": "450 USD"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• IELTS 5.5 / iBT TOEFL 80 = 30% scholarship\n\nFrom 2nd Semester:\n• IELTS 5.5 / iBT TOEFL 80 = 20% scholarship\n• IELTS 6.0 / iBT TOEFL 85 = 30% scholarship"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Available\n(E-Visa)\n\nVisa fee applies"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n1,900,000 KRW (approx. 1,450 USD) for 6 months (1 semester + 2 months holiday)\n\nKitchen/cooking facility available\n\n2x meals a day from Monday-Friday\nNo meals on weekends & holidays\n(Not optional)"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "dong-a",
+   "name": "Dong-A University",
+   "city": "Busan",
+   "city_ko": "부산",
+   "logo": "assets/logos/dong-a.png",
+   "levels": [
+    {
+     "name": "Bachelors",
+     "slug": "bachelors",
+     "categories": [
+      "bachelors"
+     ],
+     "deadlines": [
+      "2026-12-20"
+     ],
+     "programs": [
+      {
+       "name": "Integrated Business Management (IBM)",
+       "details": [],
+       "tuition_krw": "3,857,000 KRW",
+       "tuition_usd": "2,900 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Global Media (GM)",
+       "details": [],
+       "tuition_krw": "3,857,000 KRW",
+       "tuition_usd": "2,900 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Global Advanced Integrated Engineering (GAIE)",
+       "details": [],
+       "tuition_krw": "4,608,800 KRW",
+       "tuition_usd": "3,500 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Global IT (GIT)",
+       "details": [],
+       "tuition_krw": "4,608,800 KRW",
+       "tuition_usd": "3,500 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• High School/Equivalent Completion\n• IELTS 5.5 or iBT TOEFL 59"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "60,000 KRW",
+        "usd": "50 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "X"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• IELTS 5.5 / iBT TOEFL 3.5 = 15% scholarship\n• IELTS 6.0 / iBT TOEFL 4.0 = 25%  scholarship\n• IELTS 6.5 / iBT TOEFL 4.5 = 50% scholarship\n• IELTS 7.0 / iBT TOEFL 5.0 = 100% scholarship\n\nFrom 2nd Semester:\n• All international students = 25% scholarship\n• Top 40% ranking = 40% scholarship\n• Top 20% ranking = 60% scholarship\n• Top 5% ranking = 100% scholarship"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "No"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n• Male: 1,070,000 KRW (approx. 900 USD)\n• Female: 939,000 KRW (approx. 800 USD)\nFor 1 semester (around 4 months)\n\nNo kitchen/cooking facility at all\n\nMeals available optionally (additional charge)"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Masters & PhD",
+     "slug": "masters-phd",
+     "categories": [
+      "masters",
+      "phd"
+     ],
+     "deadlines": [
+      "2026-12-20"
+     ],
+     "programs": [
+      {
+       "name": "English Language and Literature",
+       "details": [
+        "• Linguistics Major",
+        "• Literature Major",
+        "• Education Major"
+       ],
+       "tuition_krw": "Masters Program:\n4,618,000 KRW\n\nPhD Program:\n4,799,000 KRW",
+       "tuition_usd": "Masters Program:\n3,500 USD\n\nPhD Program:\n3,600 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Public Administration",
+       "details": [
+        "• Organization Management Major",
+        "• Financial Administration Major",
+        "• Local Administration and Urban Policy Major"
+       ],
+       "tuition_krw": "Masters Program:\n4,618,000 KRW\n\nPhD Program:\n4,799,000 KRW",
+       "tuition_usd": "Masters Program:\n3,500 USD\n\nPhD Program:\n3,600 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Public Policy and Public Relations (★PhD Only)",
+       "details": [],
+       "tuition_krw": "Masters Program:\n4,618,000 KRW\n\nPhD Program:\n4,799,000 KRW",
+       "tuition_usd": "Masters Program:\n3,500 USD\n\nPhD Program:\n3,600 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Sociology",
+       "details": [
+        "• Industrial Society Major",
+        "• Social Class and Social Change Major"
+       ],
+       "tuition_krw": "Masters Program:\n4,618,000 KRW\n\nPhD Program:\n4,799,000 KRW",
+       "tuition_usd": "Masters Program:\n3,500 USD\n\nPhD Program:\n3,600 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Mathematics",
+       "details": [
+        "• Analysis Major",
+        "• Algebra Major",
+        "• Geometry and Topology Major",
+        "• Applied Mathematics and Statistics Major"
+       ],
+       "tuition_krw": "Masters Program:\n5,480,000 KRW\n\nPhD Program:\n5,765,000 KRW",
+       "tuition_usd": "Masters Program:\n4,100 USD\n\nPhD Program:\n4,300 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Fashion and Textiles",
+       "details": [],
+       "tuition_krw": "Masters Program:\n5,480,000 KRW\n\nPhD Program:\n5,765,000 KRW",
+       "tuition_usd": "Masters Program:\n4,100 USD\n\nPhD Program:\n4,300 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "ICT Integrated Ocean Smart City Engineering",
+       "details": [
+        "(Integration majors in Architecture, Civil, and Electronics Engineering)"
+       ],
+       "tuition_krw": "Masters Program:\n6,149,000 KRW\n\nPhD Program:\n6,478,000 KRW",
+       "tuition_usd": "Masters Program:\n4,600 USD\n\nPhD Program:\n4,900 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Smart Convergence System Engineering",
+       "details": [
+        "• Industrial & Management Engineering Major",
+        "• Mechanical Engineering Major",
+        "• Materials Science & Engineering Major",
+        "• Computer Engineering Major",
+        "• Electronics Engineering Major",
+        "• Electrical Engineering Major",
+        "• Health Care Engineering Major",
+        "• Food Science & Nutrition Engineering Major",
+        "• Physical Education Engineering Major"
+       ],
+       "tuition_krw": "Masters Program:\n6,149,000 KRW\n\nPhD Program:\n6,478,000 KRW",
+       "tuition_usd": "Masters Program:\n4,600 USD\n\nPhD Program:\n4,900 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "Masters Program:\n• Bachelors Degree/Equivalent\n• IELTS 5.5 / iBT TOEFL 59\n\nPhD Program:\n• Bachelor’s Degree/Equivalent\n• Masters Degree/Equivalent\n• IELTS 5.5 / iBT TOEFL 59\n• Research Proposal\n• List of Research Output (if applicable)"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "Masters Program:\n70,000 KRW\n\nPhD Program:\n80,000 KRW",
+        "usd": "Masters Program:\n55 USD\n\nPhD Program:\n65 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "krw": "692,000 KRW",
+        "usd": "520 USD"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "• IELTS 5.5 / iBT TOEFL 59 (3.5) = 50% scholarship\n• IELTS 6.5 / iBT TOEFL 86 (4.5) = 70% scholarship"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Available\n(E-Visa)\n\nVisa fee applies"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n• Male: 1,070,000 KRW (approx. 900 USD)\n• Female: 939,000 KRW (approx. 800 USD)\nFor 1 semester (around 4 months)\n\nNo kitchen/cooking facility at all\n\nMeals available optionally (additional charge)"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "dongseo",
+   "name": "Dongseo University",
+   "city": "Busan",
+   "city_ko": "부산",
+   "logo": "assets/logos/dongseo.png",
+   "levels": [
+    {
+     "name": "Bachelors",
+     "slug": "bachelors",
+     "categories": [
+      "bachelors"
+     ],
+     "deadlines": [
+      "2026-12-27"
+     ],
+     "programs": [
+      {
+       "name": "Korean Language and Business",
+       "details": [],
+       "tuition_krw": "3,007,000 KRW",
+       "tuition_usd": "2,300 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Computer Science",
+       "details": [],
+       "tuition_krw": "4,110,000 KRW",
+       "tuition_usd": "3,100 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Film and Visual Effects",
+       "details": [],
+       "tuition_krw": "4,110,000 KRW",
+       "tuition_usd": "3,100 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• High School/ Equivalent Completion\n• IELTS 5.5 or iBT TOEFL 59\n• Tuberculosis Test & Measles Vaccination (2 shots)"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "60,000 KRW",
+        "usd": "50 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "krw": "115,000 KRW",
+        "usd": "90 USD"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• IELTS 5.5 / iBT TOEFL 59 (3.5) = 20% scholarship + dorm for 1 semester\n• IELTS 6.5 / iBT TOEFL 80 (4.5) = 30% scholarship + dorm for 1 semester\n• IELTS 7.0 / iBT TOEFL 95 (5.0) = 60% scholarship + dorm for 2 semesters\n• IELTS 7.5 / iBT TOEFL 104 (5.5) = 100% scholarship + dorm for 4 semesters\n(dorm allowance exclude vacation periods)\n\nFrom 2nd Semester:\n• GPA above 2.5 = 20% scholarship\n• Top 25% GPA ranking = 50% scholarship\n• Top 10% GPA ranking = 70% scholarship"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "No"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n• Global Village\nDouble Room: 850,000 KRW (approx. USD) for 1 semester\nNo kitchen facility\nSwimming pool & fitness center available\n\n• International House 1\nDouble Room: 660,000 KRW (approx. USD) for 1 semester\nTriple Room: 600,000 KRW (approx. USD) for 1 semester\nCooking facility available\nNo swimming pool & fitness center\nShared bathroom\n\n• International House 2\nDouble Room: 800,000 KRW (approx. USD) for 1 semester\nCooking facility available\nNo swimming pool & fitness center\n\n\nAll dormitories cost 550,000 KRW (approx. USD) for the holidays\n\n\nPhD students are provided complimentary dormitory for the first year (2 semesters + 2 holiday periods)"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Masters",
+     "slug": "masters",
+     "categories": [
+      "masters"
+     ],
+     "deadlines": [
+      "2026-12-27"
+     ],
+     "programs": [
+      {
+       "name": "Business Administration",
+       "details": [],
+       "tuition_krw": "4,057,000 KRW",
+       "tuition_usd": "3,100 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Computer Engineering",
+       "details": [],
+       "tuition_krw": "5,428,000 KRW",
+       "tuition_usd": "4,100 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Digital Forensics",
+       "details": [],
+       "tuition_krw": "5,428,000 KRW",
+       "tuition_usd": "4,100 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Visual Contents",
+       "details": [
+        "• Film Major",
+        "• VFX Major",
+        "• Animation Major",
+        "• Digital Media Art Major",
+        "• Game Major"
+       ],
+       "tuition_krw": "5,505,000 KRW",
+       "tuition_usd": "4,200 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• Bachelors Degree\n• IELTS 5.5 or iBT TOEFL 59\n• Tuberculosis Test & Measles Vaccination (2 shots)"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "60,000 KRW",
+        "usd": "50 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "krw": "600,000 KRW",
+        "usd": "500 USD"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "N/A"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "No"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n• Global Village\nDouble Room: 850,000 KRW (approx. USD) for 1 semester\nNo kitchen facility\nSwimming pool & fitness center available\n\n• International House 1\nDouble Room: 660,000 KRW (approx. USD) for 1 semester\nTriple Room: 600,000 KRW (approx. USD) for 1 semester\nCooking facility available\nNo swimming pool & fitness center\nShared bathroom\n\n• International House 2\nDouble Room: 800,000 KRW (approx. USD) for 1 semester\nCooking facility available\nNo swimming pool & fitness center\n\n\nAll dormitories cost 550,000 KRW (approx. USD) for the holidays\n\n\nPhD students are provided complimentary dormitory for the first year (2 semesters + 2 holiday periods)"
+       }
+      ]
+     }
+    },
+    {
+     "name": "PhD",
+     "slug": "phd",
+     "categories": [
+      "phd"
+     ],
+     "deadlines": [
+      "2026-12-27"
+     ],
+     "programs": [
+      {
+       "name": "Business Administration",
+       "details": [],
+       "tuition_krw": "4,281,000 KRW",
+       "tuition_usd": "3,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Computer Engineering",
+       "details": [],
+       "tuition_krw": "5,602,000 KRW",
+       "tuition_usd": "4,250 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Visual Contents",
+       "details": [
+        "• Film Major",
+        "• VFX Major",
+        "• Animation Major",
+        "• Digital Media Art Major",
+        "• Game Major"
+       ],
+       "tuition_krw": "5,915,000 KRW",
+       "tuition_usd": "4,500 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• Masters Degree\n• IELTS 5.5 or iBT TOEFL 59\n• Tuberculosis Test & Measles Vaccination (2 shots)"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "90,000 KRW",
+        "usd": "70 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "krw": "600,000 KRW",
+        "usd": "500 USD"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "N/A"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "No"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n• Global Village\nDouble Room: 850,000 KRW (approx. USD) for 1 semester\nNo kitchen facility\nSwimming pool & fitness center available\n\n• International House 1\nDouble Room: 660,000 KRW (approx. USD) for 1 semester\nTriple Room: 600,000 KRW (approx. USD) for 1 semester\nCooking facility available\nNo swimming pool & fitness center\nShared bathroom\n\n• International House 2\nDouble Room: 800,000 KRW (approx. USD) for 1 semester\nCooking facility available\nNo swimming pool & fitness center\n\n\nAll dormitories cost 550,000 KRW (approx. USD) for the holidays\n\n\nPhD students are provided complimentary dormitory for the first year (2 semesters + 2 holiday periods)"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "woosung",
+   "name": "Woosong University",
+   "city": "Daejeon",
+   "city_ko": "대전",
+   "logo": "assets/logos/woosung.png",
+   "levels": [
+    {
+     "name": "Bachelors",
+     "slug": "bachelors",
+     "categories": [
+      "bachelors"
+     ],
+     "deadlines": [
+      "2027-01-10"
+     ],
+     "programs": [
+      {
+       "name": "Business Administration",
+       "details": [
+        "*Solbridge — AACSB Accredited"
+       ],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "12,600 USD\n(annual)\n*includes Fall, Winter, Spring, Summer semesters)"
+      },
+      {
+       "name": "Artificial Intelligence (AI)",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "5,250 USD"
+      },
+      {
+       "name": "Data Science",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "5,250 USD"
+      },
+      {
+       "name": "Global Culinary Arts",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "4,250 USD"
+      },
+      {
+       "name": "Global Restaurant Management",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "4,250 USD"
+      },
+      {
+       "name": "AI & Big Data",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "3,900 USD"
+      },
+      {
+       "name": "Media & Communication Arts",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "3,900 USD"
+      },
+      {
+       "name": "Global Railroad",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "3,900 USD"
+      },
+      {
+       "name": "K-Beauty Design",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "4,000 USD"
+      },
+      {
+       "name": "Global Hospitality",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "3,400 USD"
+      },
+      {
+       "name": "AI Management",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "3,400 USD"
+      },
+      {
+       "name": "Early Childhood Education",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "3,400 USD"
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• High School/ Equivalent Completion\n• 70~75% high school grade\n• IELTS 6.0 or equivalent"
+       }
+      ],
+      "application_fee": [
+       {
+        "value": "50 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "650 USD"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n30~70% scholarship\n\nFrom 2nd Semester:\n30~100% scholarship"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "No"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "MANDATORY FOR 1ST SEMESTER\n\n2,400 USD for 1 semester\nincluding meals"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Masters",
+     "slug": "masters",
+     "categories": [
+      "masters"
+     ],
+     "deadlines": [
+      "2027-01-10"
+     ],
+     "programs": [
+      {
+       "name": "MBA",
+       "details": [
+        "*Solbridge — AACSB Accredited"
+       ],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "28,200 USD\n(annual)\n*includes Fall, Winter, Spring, Summer semesters)"
+      },
+      {
+       "name": "MSc in Marketing and Analytics",
+       "details": [
+        "*Solbridge — AACSB Accredited"
+       ],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "21,200 USD\n(annual)\n*includes Fall, Winter, Spring, Summer semesters)"
+      },
+      {
+       "name": "MSc in Technology and Entrepreneurship",
+       "details": [
+        "*Solbridge — AACSB Accredited"
+       ],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "21,200 USD\n(annual)\n*includes Fall, Winter, Spring, Summer semesters)"
+      },
+      {
+       "name": "Artificial Intelligence (AI)",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "5,600 USD"
+      },
+      {
+       "name": "MSc in AI Convergence",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "5,600 USD"
+      },
+      {
+       "name": "AI Business Management",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "4,900 USD"
+      },
+      {
+       "name": "Hospitality Management",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "4,900 USD"
+      },
+      {
+       "name": "Early Childhood Education",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "4,150 USD"
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• Bachelors Degree (hons.)\n• 70~75% previous GPA grade\n• IELTS 6.5 or equivalent"
+       }
+      ],
+      "application_fee": [
+       {
+        "value": "50 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "825 USD"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n30~70% scholarship\n\nFrom 2nd Semester:\n30~100% scholarship"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Available\n(E-Visa)\n\nVisa fee applies"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n2,400 USD for 1 semester\nincluding meals"
+       }
+      ]
+     }
+    },
+    {
+     "name": "PhD",
+     "slug": "phd",
+     "categories": [
+      "phd"
+     ],
+     "deadlines": [
+      "2027-01-10"
+     ],
+     "programs": [
+      {
+       "name": "Global Management",
+       "details": [
+        "*Solbridge — AACSB Accredited"
+       ],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "14,100 USD\n(annual)"
+      },
+      {
+       "name": "AI Convergence",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "5,600 USD"
+      },
+      {
+       "name": "Artificial Intelligence (AI)",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "5,600 USD"
+      },
+      {
+       "name": "Management Studies",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "4,900 USD"
+      },
+      {
+       "name": "Hospitality and Tourism",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "4,900 USD"
+      },
+      {
+       "name": "Design Management",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "4,900 USD"
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• Masters Degree (hons.)\n• 70~75% previous GPA grade\n• IELTS 6.5 or equivalent"
+       }
+      ],
+      "application_fee": [
+       {
+        "value": "70 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "825 USD"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n30~70% scholarship\n\nFrom 2nd Semester:\n30~100% scholarship"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Available\n(E-Visa)\n\nVisa fee applies"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n2,400 USD for 1 semester\nincluding meals"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "ajou",
+   "name": "Ajou University",
+   "city": "Suwon",
+   "city_ko": "수원",
+   "logo": "assets/logos/ajou.png",
+   "levels": [
+    {
+     "name": "Bachelors",
+     "slug": "bachelors",
+     "categories": [
+      "bachelors"
+     ],
+     "deadlines": [
+      "2026-11-15"
+     ],
+     "programs": [
+      {
+       "name": "International Business",
+       "details": [
+        "• International Business Major",
+        "• IT Business Major"
+       ],
+       "tuition_krw": "4,684,000 KRW",
+       "tuition_usd": "3,500 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• High School/ Equivalent Completion\n• IELTS 5.5 or iBT TOEFL 71"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "150,000 KRW",
+        "usd": "125 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "N/A"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• IELTS 5.5 / iBT TOEFL 71 = 30% scholarship\n• IELTS 6.5 / iBT TOEFL 80 = 50% scholarship\n• IELTS 7.0 / iBT TOEFL 90 = 70% scholarship\n• IELTS 8.0 / iBT TOEFL 100 = 100% scholarship\n\nFrom 2nd Semester:\n• IELTS 6.0 / iBT TOEFL 80 + Top 15~30% ranking = 30% scholarship\n• IELTS 6.0 / iBT TOEFL 80 + Top 5~15% ranking = 50% scholarship\n• IELTS 6.0 / iBT TOEFL 80 + Top 5% ranking = 100% scholarship"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Available\n(Visa Code)\n\nVisa fee applies"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n1,644,000 KRW (approx. 1,300 USD) for 1 semester (around 4 months)"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "sejong",
+   "name": "Sejong University",
+   "city": "Seoul",
+   "city_ko": "서울",
+   "logo": "assets/logos/sejong.png",
+   "levels": [
+    {
+     "name": "Bachelors",
+     "slug": "bachelors",
+     "categories": [
+      "bachelors"
+     ],
+     "deadlines": [
+      "2026-11-11"
+     ],
+     "programs": [
+      {
+       "name": "Public Administration",
+       "details": [],
+       "tuition_krw": "4,669,000 KRW",
+       "tuition_usd": "3,550 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Media and Communication",
+       "details": [],
+       "tuition_krw": "4,669,000 KRW",
+       "tuition_usd": "3,550 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Business Administration",
+       "details": [],
+       "tuition_krw": "4,669,000 KRW",
+       "tuition_usd": "3,550 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Economics",
+       "details": [],
+       "tuition_krw": "4,669,000 KRW",
+       "tuition_usd": "3,550 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Hospitality, Tourism & Food Service Management",
+       "details": [],
+       "tuition_krw": "4,669,000 KRW",
+       "tuition_usd": "3,550 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Computer Science and Engineering",
+       "details": [],
+       "tuition_krw": "6,340,000 KRW",
+       "tuition_usd": "4,800 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Creative Studies",
+       "details": [
+        "• Comics & Animation Technology Major"
+       ],
+       "tuition_krw": "6,340,000 KRW",
+       "tuition_usd": null,
+       "tuition_combined": null
+      },
+      {
+       "name": "Global Liberal Studies",
+       "details": [],
+       "tuition_krw": "4,669,000 KRW",
+       "tuition_usd": "3,550 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Humanities and Social Sciences",
+       "details": [
+        "• Korean Language and Culture Education",
+        "• International Affairs"
+       ],
+       "tuition_krw": "4,669,000 KRW",
+       "tuition_usd": "3,550 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Convergence Technologies",
+       "details": [
+        "• AI and Software",
+        "• Smart Mobility"
+       ],
+       "tuition_krw": "6,340,000 KRW",
+       "tuition_usd": "4,800 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Entertainment and Content",
+       "details": [
+        "• K-Pop Entertainment",
+        "• Visual and Performing Content",
+        "• Contemporary Music"
+       ],
+       "tuition_krw": "6,392,000 KRW",
+       "tuition_usd": "4,850 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• High School/Equivalent Completion\n• IELTS 5.5 or iBT TOEFL 59"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "150,000 KRW",
+        "usd": "125 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "N/A"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• IELTS 5.5 / iBT TOEFL 59 (3.5) = 30% scholarship\n• IELTS 6.5 / iBT TOEFL 86 (4.5) = 50% scholarship\n• IELTS 8.0 / iBT TOEFL 114 (6.0) = 80% scholarship\n\nFrom 2nd Semester:\n20~50% scholarship depending on grades and performance in the previous semester"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Available\n(Visa Code)\n\nVisa fee applies"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\naround 1,600,000 KRW (1,300 USD) for 6 months (1 semester + 2 months’ holiday)"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Masters",
+     "slug": "masters",
+     "categories": [
+      "masters"
+     ],
+     "deadlines": [
+      "2026-11-11"
+     ],
+     "programs": [
+      {
+       "name": "English Language and Literature",
+       "details": [
+        "• English Language Convergence Major",
+        "• Convergence of English Education & Technology Major",
+        "• AI Translation Convergence Major"
+       ],
+       "tuition_krw": "6,323,000 KRW",
+       "tuition_usd": "4,800 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Public Administration",
+       "details": [
+        "• Public Administration Major",
+        "• Public Policy Major"
+       ],
+       "tuition_krw": "6,323,000 KRW",
+       "tuition_usd": "4,800 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Hospitality and Tourism Management",
+       "details": [],
+       "tuition_krw": "6,836,000 KRW",
+       "tuition_usd": "5,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Physics (Thesis Required for Graduation)",
+       "details": [],
+       "tuition_krw": "7,350,000 KRW",
+       "tuition_usd": "5,600 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Astronomy & Space Science (Thesis Required for Graduation)",
+       "details": [],
+       "tuition_krw": "7,350,000 KRW",
+       "tuition_usd": "5,600 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Integrative Bioscience & Biotechnology (Thesis Required for Graduation)",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Bioresources Engineering (Thesis Required for Graduation)",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Food Science & Biotechnology Engineering (Thesis Required for Graduation)",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Computer Science and Engineering",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Software Engineering",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "AI Convergence Electronics Engineering (Thesis Required fo Graduation)",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Computer and Information Security (Thesis Required for Graduation)",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Architectural Engineering",
+       "details": [
+        "• Architectural Structure Major",
+        "• Architectural Materials Major",
+        "• Architectural Environment & Building Systems Major",
+        "• Building IT/Construction Management Major"
+       ],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Architecture",
+       "details": [
+        "• Architectural Planning Design Major",
+        "• Architectural Planning Urban Design Major",
+        "• Architectural Theory & History Major",
+        "• Construction Management Major",
+        "• Built Environment and Building Systems Major"
+       ],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Civil and Environmental Engineering (Thesis Required for Graduation)",
+       "details": [
+        "• Structural Engineering Major",
+        "• Hydro Engineering Major",
+        "• Geotech and Pavement Engineering Major",
+        "• Environmental Engineering Major"
+       ],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Energy and Mineral Resources (Thesis Required for Graduation)",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Mechanical Engineering (Thesis Required for Graduation)",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Aerospace Engineering System (Thesis Required for Graduation)",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Nanotechnology and Advanced Materials Engineering (Thesis Required for Graduation)",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Environment and Energy Engineering",
+       "details": [
+        "• Climate Change Major",
+        "• Environmental Science Major"
+       ],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Nuclear Engineering (Thesis Required for Graduation)",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Artificial Intelligence and Robotics Engineering (Thesis Required for Graduation)",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "AI and Data Science Engineering",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Semiconductor Systems Engineering (Thesis Required for Graduation)",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "AI and IT Engineering (Thesis Required for Graduation)",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Advanced Integrated Medicine & Pharmaceutical Engineering (Thesis Required for Graduation)",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Defense AI Systems Engineering (Thesis Required for Graduation)",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• Bachelors Degree\n• IELTS 5.5 or iBT TOEFL 59"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "170,000 KRW",
+        "usd": "135 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "krw": "990,000 KRW",
+        "usd": "800 USD"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• IELTS 5.5 / iBT TOEFL 71 (4.0) = 50% scholarship\n\nFrom 2nd Semester:\n20~30% scholarship depending on previous semester’s GPA and overall academic performance"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Available\n(E-Visa)\n\nVisa fee applies"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\nKitchen facility available\n\nDetails TBC"
+       }
+      ]
+     }
+    },
+    {
+     "name": "PhD",
+     "slug": "phd",
+     "categories": [
+      "phd"
+     ],
+     "deadlines": [
+      "2026-11-11"
+     ],
+     "programs": [
+      {
+       "name": "English Language and Literature",
+       "details": [
+        "• English Language Convergence Major",
+        "• Convergence of English Education & Technology Major",
+        "• AI Translation Convergence Major"
+       ],
+       "tuition_krw": "6,323,000 KRW",
+       "tuition_usd": "4,800 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Business Administration",
+       "details": [],
+       "tuition_krw": "6,323,000 KRW",
+       "tuition_usd": "4,800 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Hospitality and Tourism Management",
+       "details": [],
+       "tuition_krw": "6,836,000 KRW",
+       "tuition_usd": "5,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Physics",
+       "details": [],
+       "tuition_krw": "7,350,000 KRW",
+       "tuition_usd": "5,600 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Astronomy & Space Science",
+       "details": [],
+       "tuition_krw": "7,350,000 KRW",
+       "tuition_usd": "5,600 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Integrative Bioscience & Biotechnology",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Bioresources Engineering",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Food Science & Biotechnology Engineering",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Computer Science and Engineering",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Software Engineering",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "AI Convergence Electronics Engineering",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Computer and Information Security",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Architectural Engineering",
+       "details": [
+        "• Architectural Structure Major",
+        "• Architectural Materials Major",
+        "• Architectural Environment & Building Systems Major",
+        "• Building IT/Construction Management Major"
+       ],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Architecture",
+       "details": [
+        "• Architectural Planning Design Major",
+        "• Architectural Planning Urban Design Major",
+        "• Architectural Theory & History Major",
+        "• Construction Management Major",
+        "• Built Environment and Building Systems Major"
+       ],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Civil and Environmental Engineering",
+       "details": [
+        "• Structural Engineering Major",
+        "• Hydro Engineering Major",
+        "• Geotech and Pavement Engineering Major",
+        "• Environmental Engineering Major"
+       ],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Energy and Mineral Resources",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Mechanical Engineering",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Aerospace Engineering System",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Nanotechnology and Advanced Materials Engineering",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Environment and Energy Engineering",
+       "details": [
+        "• Climate Change Major",
+        "• Environmental Science Major"
+       ],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Nuclear Engineering",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Artificial Intelligence and Robotics Engineering",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "AI and Data Science Engineering",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Semiconductor Systems Engineering",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "AI and IT Engineering",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Advanced Integrated Medicine & Pharmaceutical Engineering",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Defense AI Systems Engineering",
+       "details": [],
+       "tuition_krw": "8,216,000 KRW",
+       "tuition_usd": "6,200 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• Masters Degree\n• IELTS 5.5 or iBT TOEFL 59\n• Research Accomplishment List\n• CV\n• Employment Certificates"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "170,000 KRW",
+        "usd": "135 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "krw": "990,000 KRW",
+        "usd": "800 USD"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• IELTS 5.5 / iBT TOEFL 71 (4.0) = 50% scholarship\n\nFrom 2nd Semester:\n20~30% scholarship depending on previous semester’s GPA and overall academic performance"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Available\n(E-Visa)\n\nVisa fee applies"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\nKitchen facility available\n\nDetails TBC"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "kyungdong-global",
+   "name": "Kyungdong University Global (KDU Global)",
+   "city": "Goseong, Sokcho",
+   "city_ko": "고성 · 속초",
+   "logo": "assets/logos/kyungdong-global.png",
+   "levels": [
+    {
+     "name": "Bachelors",
+     "slug": "bachelors",
+     "categories": [
+      "bachelors"
+     ],
+     "deadlines": [
+      "2026-12-15"
+     ],
+     "programs": [
+      {
+       "name": "Artificial Intelligence (AI)",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "4,000 USD"
+      },
+      {
+       "name": "Hospitality and AI Innovation (HAI)",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "4,000 USD"
+      },
+      {
+       "name": "International Business Administration (IBA)",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "4,000 USD"
+      },
+      {
+       "name": "Korean Business - Artificial Intelligence (KB-AI)",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "4,000 USD"
+      },
+      {
+       "name": "Smart Computing (SC)",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "4,000 USD"
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• High School/Equivalent Completion\n• IELTS 6.0 / iBT TOEFL 4.0 / New TEPS 327\n• Gap of no more than 2 years\n• Bank balance over 16,000 USD (6 months statement)"
+       }
+      ],
+      "application_fee": [
+       {
+        "value": "x"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "$1300\n\nKUAC Application Handling + Airport Pickup Fee"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• IELTS 6.0 / iBT TOEFL 71~85 (3.5~4.0) = 30% scholarship\n• IELTS 6.5 / iBT TOEFL 86~94 (4.5) = 50% scholarship\n• IELTS 7.0 / iBT TOEFL 95~104 (5.0) = 70% scholarship\n• IELTS 7.5 / iBT TOEFL 105 (5.5) or higher = 100% scholarship\n• English requirement met + TOPIK Level 3 or higher = 100% scholarship\n\nFrom 2nd Semester (based on previous semester average):\n• 75% = 30% scholarship\n• 80% = 50% scholarship\n• 90% = 70% scholarship\n• 95% or above = 100% scholarship"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "No"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n1,100 USD for 1 semester (6 months), 2 students/room\n\nCafeteria meal plan: 424 USD for the first 2 months (mandatory for dormitory residents), 2 meals/day Monday–Friday"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Masters",
+     "slug": "masters",
+     "categories": [
+      "masters"
+     ],
+     "deadlines": [
+      "2026-12-15"
+     ],
+     "programs": [
+      {
+       "name": "Artificial Intelligence and Data Science (ME-AI & DS)",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "5,000 USD"
+      },
+      {
+       "name": "International Business Administration (MA-IBA)",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "5,000 USD"
+      },
+      {
+       "name": "International Hospitality and Tourism Management (MA-IHTM)",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "5,000 USD"
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• Bachelors Degree/Equivalent\n• IELTS 6.0 / iBT TOEFL 4.0 / New TEPS 327\n• Gap of no more than 5 years (with justification document)\n• Personal Statement & Study Plan\n• Bank balance over 16,000 USD (6 months statement)"
+       }
+      ],
+      "application_fee": [
+       {
+        "value": "x"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "$1300\n\nKUAC Application Handling + Airport Pickup Fee"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• IELTS 6.0 / iBT TOEFL 71~85 (3.5~4.0) = 30% scholarship\n• IELTS 6.5 / iBT TOEFL 86~94 (4.5) = 50% scholarship\n• IELTS 7.0 / iBT TOEFL 95~104 (5.0) = 70% scholarship\n• IELTS 7.5 / iBT TOEFL 105 (5.5) or higher = 100% scholarship\n• English requirement met + TOPIK Level 3 or higher = 100% scholarship\n\nFrom 2nd Semester (based on previous semester average):\n• 80% = 50% scholarship\n• 90% or above = 70% scholarship"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Available\n(E-Visa)\n\nVisa fee applies"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n1,100 USD for 1 semester (6 months), 2 students/room\n\nCafeteria meal plan: 424 USD for the first 2 months (mandatory for dormitory residents), 2 meals/day Monday–Friday"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Integrated Masters & PhD / PhD",
+     "slug": "masters-phd",
+     "categories": [
+      "masters",
+      "phd"
+     ],
+     "deadlines": [
+      "2026-12-15"
+     ],
+     "programs": [
+      {
+       "name": "Artificial Intelligence and Data Science",
+       "details": [
+        "(Integrated Masters & PhD)"
+       ],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "5,000 USD"
+      },
+      {
+       "name": "International Business Administration",
+       "details": [
+        "(Integrated Masters & PhD)"
+       ],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "5,000 USD"
+      },
+      {
+       "name": "Artificial Intelligence and Data Science (PhD-AI & DS)",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "5,000 USD"
+      },
+      {
+       "name": "International Business Administration (PhD-IBA)",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "5,000 USD"
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "PhD Program (3 years):\n• Masters Degree/Equivalent\n• IELTS 6.0 or equivalent\n• CV\n• 2 Recommendation Letters (university + company, if working)\n• Research Proposal/Statement\n• 1-hour group interview with KDU\n\nIntegrated Masters & PhD:\n• Bachelors Degree/Equivalent\n• Other requirements TBC"
+       }
+      ],
+      "application_fee": [
+       {
+        "value": "x"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "$1300\n\nKUAC Application Handling + Airport Pickup Fee"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "Same as Masters program"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Available\n(E-Visa)\n\nVisa fee applies"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n1,100 USD for 1 semester (6 months), 2 students/room\n\nCafeteria meal plan: 424 USD for the first 2 months (mandatory for dormitory residents), 2 meals/day Monday–Friday"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "catholic-kwandong",
+   "name": "Catholic Kwandong University (CKU)",
+   "city": "Gangneung",
+   "city_ko": "강릉",
+   "logo": "assets/logos/catholic-kwandong.png",
+   "levels": [
+    {
+     "name": "Bachelors",
+     "slug": "bachelors",
+     "categories": [
+      "bachelors"
+     ],
+     "deadlines": [
+      "2027-01-08"
+     ],
+     "programs": [
+      {
+       "name": "Global Business",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "$2800"
+      },
+      {
+       "name": "Global Tourism Management",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "$2800"
+      },
+      {
+       "name": "Korean Language",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "$2800"
+      },
+      {
+       "name": "AI & Digital",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "$2800"
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• High School/Equivalent Completion (provisional certificate not accepted)\n• IELTS 6.0 (IELTS 5.5 for Nepal)\n• Bank balance over 16,000 USD (6 months statement)\n• Parent's employment & income certificates\n• TB report"
+       }
+      ],
+      "application_fee": [
+       {
+        "value": "x"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "$1300\n\nKUAC Application Handling + Airport Pickup Fee"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "• 900 USD scholarship for all international freshmen\n• 300 hours of free Korean classes\n• Part-time job support"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "No"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Details TBC"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "korean-bible",
+   "name": "Korean Bible University (KBU)",
+   "city": "Seoul",
+   "city_ko": "서울",
+   "logo": "assets/logos/korean-bible.png",
+   "levels": [
+    {
+     "name": "Masters\n(1 day class per week)",
+     "slug": "masters",
+     "categories": [
+      "masters"
+     ],
+     "deadlines": [
+      "2026-11-20"
+     ],
+     "programs": [
+      {
+       "name": "Master of AI Convergence Studies",
+       "details": [],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": "$2800"
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• Bachelors Degree/Equivalent (provisional certificate not accepted)\n• IELTS 6.0 or iBT TOEFL (IELTS 5.5 for Nepal)\n• Gap up to 10 years (with justification document)\n• Bank balance over 20,000 USD in student's name\n• MMR vaccine certificate"
+       }
+      ],
+      "application_fee": [
+       {
+        "value": "$770"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "$1300\n\nKUAC Application Handling + Airport Pickup Fee"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "$230 for all International Students"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Available\n(E-Visa)\n\nVisa fee applies"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Details TBC"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

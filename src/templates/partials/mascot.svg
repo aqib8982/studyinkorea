@@ -1,0 +1,13 @@
+<svg {{attrs}} viewBox="0 0 200 228" {{a11y}}>
+          <defs><radialGradient id="{{p}}mg" cx="45%" cy="30%" r="75%"><stop offset="0" stop-color="#C9F1F2"/><stop offset="1" stop-color="#8ED6DB"/></radialGradient><clipPath id="{{p}}mh"><ellipse cx="100" cy="80" rx="80" ry="68"/></clipPath></defs>
+          <ellipse cx="58" cy="176" rx="13" ry="24" transform="rotate(18 58 176)" fill="url(#{{p}}mg)"/>
+          <path d="M66 172 Q66 138 100 138 Q134 138 134 172 L134 204 Q134 224 117 224 Q104 224 102 212 L98 212 Q96 224 83 224 Q66 224 66 204 Z" fill="url(#{{p}}mg)"/>
+          <g clip-path="url(#{{p}}mh)"><rect x="20" y="12" width="80" height="136" fill="#BFE0A4"/><rect x="100" y="12" width="80" height="136" fill="#5C9BD9"/></g>
+          <ellipse cx="100" cy="80" rx="67" ry="68" fill="url(#{{p}}mg)"/>
+          <ellipse cx="76" cy="76" rx="11.5" ry="16.5" fill="#fff"/><ellipse cx="76" cy="76" rx="8" ry="13" fill="#141414"/>
+          <ellipse cx="124" cy="76" rx="11.5" ry="16.5" fill="#fff"/><ellipse cx="124" cy="76" rx="8" ry="13" fill="#141414"/>
+          <circle cx="50" cy="100" r="13" fill="#F6A9A6"/><circle cx="150" cy="100" r="13" fill="#F6A9A6"/>
+{{face}}          <path d="M88 103 Q94 110 100 103 Q106 110 112 103" fill="none" stroke="#141414" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M72 142 Q100 156 128 142 Q126 150 100 152 Q74 150 72 142 Z" fill="#fff"/>
+{{neck}}          <g class="wave"><path d="M128 168 Q158 160 160 128" fill="none" stroke="#9FDDE1" stroke-width="24" stroke-linecap="round"/></g>
+        </svg>

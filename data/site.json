@@ -1,0 +1,83 @@
+{
+  "site_name": "Study In Korea with Muhammad Aqib Khan",
+  "domain": "www.aqibinkorea.com",
+  "owner": "Muhammad Aqib Khan",
+  "phone": "+82 10 2460 7914",
+  "whatsapp": "https://wa.me/821024607914",
+  "socials": {
+    "youtube": {
+      "label": "YouTube",
+      "handle": "@aqibinkorea",
+      "url": "https://youtube.com/@aqibinkorea"
+    },
+    "instagram": {
+      "label": "Instagram",
+      "handle": "@aqib2845",
+      "url": "https://www.instagram.com/aqib2845"
+    },
+    "tiktok": {
+      "label": "TikTok",
+      "handle": "@kaqib2845",
+      "url": "https://www.tiktok.com/@kaqib2845"
+    },
+    "facebook": {
+      "label": "Facebook",
+      "handle": "Aqib on Facebook",
+      "url": "https://www.facebook.com/share/1CNMxe47yx/?mibextid=wwXIfr"
+    }
+  },
+  "videos": [
+    {
+      "title": "Jobs and Earnings",
+      "url": "https://youtube.com/shorts/KtlXp7r9gZ0",
+      "youtube_id": "KtlXp7r9gZ0",
+      "description_html": "<p>A detailed explanation about jobs for Bachelors and Masters students, and earnings.</p>"
+    },
+    {
+      "title": "Total Cost",
+      "url": "https://youtube.com/shorts/T5EWk6QQUks",
+      "youtube_id": "T5EWk6QQUks",
+      "description_html": "<p>The estimated total cost is <b>PKR 12–15 lakh</b>, depending on your IELTS score. The package includes:</p><ul><li>University-related fees</li><li>Visa fees</li><li>Six months of dormitory accommodation</li></ul><p>If you achieve a good score in IELTS or TOEFL, the flight ticket may also be included.</p><p>The higher your English proficiency score, the lower your overall expenses are likely to be.</p>"
+    },
+    {
+      "title": "Bank Statement Requirement",
+      "url": "https://youtube.com/shorts/49ceQz0YGak",
+      "youtube_id": "49ceQz0YGak",
+      "description_html": "<p>The bank statement requirements explained in detail.</p>"
+    },
+    {
+      "title": "IELTS or TOEFL",
+      "url": "https://youtube.com/shorts/jqQsgEOPE1s",
+      "youtube_id": "jqQsgEOPE1s",
+      "description_html": "<p>IELTS or TOEFL is <b>mandatory</b> for both university admission and the immigration process.</p>"
+    },
+    {
+      "title": "Korean Embassy New Notice for Pakistani Students about Visa Review",
+      "url": "https://youtu.be/dbB_bHtg6wY",
+      "youtube_id": "dbB_bHtg6wY",
+      "description_html": ""
+    },
+    {
+      "title": "Full Process Explained in Pashto",
+      "url": "https://youtu.be/SqUvwsoplV0",
+      "youtube_id": "SqUvwsoplV0",
+      "description_html": ""
+    },
+    {
+      "title": "Done Base Policy Explained",
+      "url": "https://youtube.com/shorts/g73ADPmiJl8",
+      "youtube_id": "g73ADPmiJl8",
+      "description_html": ""
+    },
+    {
+      "title": "How to Avoid Paying a Consultation Fee",
+      "url": "https://youtube.com/shorts/TxujVIkWmKc",
+      "youtube_id": "TxujVIkWmKc",
+      "description_html": ""
+    }
+  ],
+  "role": "KUAC (Korean Universities Admission Center)",
+  "contact_photo": "portrait-avatar",
+  "kuac_note": "Some universities accept applications directly. Others hand their admission process to an authorised Korean company. At those universities, the company handles your admission whether you apply yourself or through an agent. If you apply through the university's authorised company yourself, you save the fee you would otherwise pay a consultant or agent.",
+  "bank_note": "This is the embassy requirement. Each university also sets its own requirements, so check its listing."
+}

@@ -1,0 +1,13 @@
+<section class="page" id="p-courses" data-nav="courses"><div class="wrap">
+  <header class="ph"><h1>Courses</h1><p class="sub">Search by course name, or narrow the list by location and degree. Select a course to see fees, requirements and scholarships.</p></header>
+  <div class="filters">
+    <div class="frow">
+      <input id="q" type="search" placeholder="Search courses, e.g. Artificial Intelligence, Business, Hospitality" aria-label="Search courses" autocomplete="off">
+      <span id="count" aria-live="polite"></span>
+    </div>
+    <div class="frow" id="cityrow"><span class="flabel">Location</span><button type="button" class="chip" data-city="" aria-pressed="true">All</button>{{city_chips}}</div>
+    <div class="frow" id="lvlrow"><span class="flabel">Degree</span><button type="button" class="chip" data-lvl="" aria-pressed="true">All</button><button type="button" class="chip" data-lvl="bachelors">Bachelors</button><button type="button" class="chip" data-lvl="masters">Masters</button><button type="button" class="chip" data-lvl="phd">PhD</button></div>
+  </div>
+  <div class="clist" data-passed-last>{{course_rows}}</div>
+  <p id="none" class="hide">No course matches these filters. Clear the search box or choose All.</p>
+</div></section>
