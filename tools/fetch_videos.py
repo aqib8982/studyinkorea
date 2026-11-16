@@ -137,8 +137,11 @@ def ids_from_pages():
     for tab, kind in (("videos", "watch"), ("shorts", "shorts")):
         page = get(f"https://www.youtube.com/@{HANDLE}/{tab}").decode("utf-8", "replace")
         pat = r'"reelWatchEndpoint":\{"videoId":"([\w-]{11})"' if kind == "shorts" else r'"videoId":"([\w-]{11})"'
-        for vid in dict.fromkeys(re.findall(pat, page)):
-            found.append((vid, kind))
+        ids = list(dict.fromkeys(re.findall(pat, page)))
+        print(f"  channel {tab}: {len(ids)} videos found")
+        found += [(vid, kind) for vid in ids]
+    if not found:
+        raise RuntimeError("no videos found on the channel pages (YouTube may have blocked the request)")
     return found
 
 
