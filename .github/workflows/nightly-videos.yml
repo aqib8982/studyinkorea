@@ -1,0 +1,66 @@
+# Every night at 23:55 Korea time: add new YouTube uploads to the website.
+# Lives in the site repository at .github/workflows/nightly-videos.yml (branch main).
+# The website's source is on branch "source"; the built site is on branch "main".
+# Nothing changes when there is no new video. No key is needed: GitHub gives this job
+# a short-lived permission to write to this repository only.
+name: Nightly YouTube videos
+
+on:
+  schedule:
+    - cron: "55 14 * * *"   # 14:55 UTC = 23:55 in Korea (GitHub may start it a few minutes late)
+  workflow_dispatch:         # "Run workflow" button for a manual run
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nightly-videos
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: source
+          path: source
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: site
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet pillow
+
+      - name: Look for new videos
+        working-directory: source
+        run: python tools/fetch_videos.py
+
+      - name: Publish the website if there are new videos
+        run: |
+          set -euo pipefail
+          cd source
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No new videos tonight. The website is unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Add new YouTube videos"
+          git push -q origin HEAD:source
+          python build.py
+          cd ../site
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          find . -mindepth 1 -maxdepth 1 ! -name .git ! -name .github -exec rm -rf {} +
+          rsync -a --exclude .htaccess ../source/dist/ ./
+          echo "www.aqibinkorea.com" > CNAME
+          : > .nojekyll
+          git add -A
+          git commit -q -m "Add new YouTube videos to the website"
+          git push -q origin HEAD:main
+          echo "Website updated."
