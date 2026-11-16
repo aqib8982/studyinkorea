@@ -120,7 +120,18 @@ def from_feed():
     """The channel's public Atom feed: newest 15 uploads with full descriptions."""
     ns = {"a": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/schemas/2015",
           "m": "http://search.yahoo.com/mrss/"}
-    root = ET.fromstring(get(f"https://www.youtube.com/feeds/videos.xml?channel_id={CHANNEL_ID}"))
+    import time
+    urls = [f"https://www.youtube.com/feeds/videos.xml?channel_id={CHANNEL_ID}",
+            f"https://www.youtube.com/feeds/videos.xml?playlist_id=UU{CHANNEL_ID[2:]}"]
+    for attempt in range(4):  # the feed is often down for a moment: try a few times
+        try:
+            root = ET.fromstring(get(urls[attempt % 2]))
+            break
+        except Exception as err:
+            print(f"  feed try {attempt + 1}: {err}")
+            if attempt == 3:
+                raise
+            time.sleep(20)
     out = []
     for e in root.findall("a:entry", ns):
         out.append({"id": e.find("yt:videoId", ns).text,
@@ -157,6 +168,19 @@ def from_watch_page(vid, kind):
     return {"id": vid, "url": url, "title_raw": d.get("title", ""),
             "description_raw": d.get("shortDescription", ""),
             "published": korea_date(mf.get("publishDate") or mf.get("uploadDate") or "")}
+
+
+def from_oembed(vid, kind):
+    """Title only, from YouTube's public oEmbed endpoint, which servers can usually still read.
+    The description and exact date come later, on a night when the feed answers."""
+    url = f"https://youtube.com/shorts/{vid}" if kind == "shorts" else f"https://youtu.be/{vid}"
+    d = json.loads(get(f"https://www.youtube.com/oembed?format=json&url=https://www.youtube.com/watch?v={vid}"))
+    if "youtube.com/channel/" + CHANNEL_ID not in d.get("author_url", "") and HANDLE not in d.get("author_url", "").lower():
+        return None
+    import datetime
+    today = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).date().isoformat()
+    return {"id": vid, "url": url, "title_raw": d.get("title", ""), "description_raw": "",
+            "published": today, "pending": True}
 
 
 def thumbnail(vid):
@@ -196,14 +220,21 @@ def main(dry_run=False):
         print(f"Feed not available ({err}); reading the channel pages instead")
         items = []
         for vid, kind in ids_from_pages():
-            if vid in hand_written or (vid in known and known[vid].get("youtube_title")):
+            old = known.get(vid)
+            if vid in hand_written or (old and old.get("youtube_title") and not old.get("pending")):
                 continue
             try:
                 v = from_watch_page(vid, kind)
-                if v:
-                    items.append(v)
             except Exception as err2:
                 print(f"  {vid}: video page not readable ({err2})")
+                v = None
+                if not old:  # new video: show it now with its title, details follow later
+                    try:
+                        v = from_oembed(vid, kind)
+                    except Exception as err3:
+                        print(f"  {vid}: title not readable either ({err3}); trying again next run")
+            if v:
+                items.append(v)
         print(f"Channel pages: {len(items)} videos to check")
 
     added = updated = 0
@@ -212,10 +243,11 @@ def main(dry_run=False):
             continue
         v = {"id": it["id"], "url": it["url"], "published": it["published"],
              "youtube_title": it["title_raw"], "youtube_description": it["description_raw"]}
+        if it.get("pending"):
+            v["pending"] = True  # description and exact date still to come
         old = known.get(v["id"])
-        if old:
-            old = {k: old[k] for k in v if k in old}
-        if old == v:
+        fields = ("url", "published", "youtube_title", "youtube_description", "pending")
+        if old and all(old.get(k) == v.get(k) for k in fields):
             continue
         print(("  update " if old else "  new    ") + f'{v["published"]}  {clean_title(v["youtube_title"])}')
         known[v["id"]] = v
