@@ -71,7 +71,9 @@ def load():
     latest = ROOT / "data/latest_videos.json"  # filled every night by tools/fetch_videos.py
     store = json.loads(latest.read_text(encoding="utf-8")) if latest.exists() else {"videos": []}
     own = store.get("overrides", {})  # the owner's own headline for a video always wins
-    site["latest"] = [dict(v, title=own.get(v["id"], v["title"])) for v in store["videos"]]
+    hide = set(store.get("hidden", []))  # clips of a long video, and any the owner hides
+    site["latest"] = [dict(v, title=own.get(v["id"], v["title"])) for v in store["videos"]
+                      if not v.get("clip_of") and v["id"] not in hide]
     return programs, site
 
 

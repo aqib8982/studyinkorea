@@ -15,6 +15,12 @@ Cleaning, as the owner asked (2026-11-16):
   Emoji are removed.
 - the owner can set his own headline for any video: "overrides" in data/latest_videos.json,
   {"<video id>": "<headline>"}. It always wins and is never overwritten.
+- Shorts cut from a long video are not shown (owner, 2026-11-17). A Short counts as a clip
+  when its description links one of the channel's long videos (youtu.be/<id> or
+  watch?v=<id>). Any other video can be hidden by hand: "hidden" in data/latest_videos.json,
+  a list of video ids.
+- thumbnails are checked every run; a cover changed on YouTube replaces the old one,
+  for the hand-written videos too.
 - descriptions: only the opening paragraph, cut to a short summary of whole sentences.
   No links, hashtags, phone numbers, email addresses or emoji.
 """
@@ -183,25 +189,48 @@ def from_oembed(vid, kind):
             "published": today, "pending": True}
 
 
-def thumbnail(vid):
-    """Save hqdefault (480 x 360) as JPEG and WebP, and record its size, like tools/prepare_assets.py."""
+def thumbnail(vid, sources):
+    """Save hqdefault (480 x 360) as JPEG and WebP, and record its size, like tools/prepare_assets.py.
+    Checked every run: when the owner changes a cover on YouTube, the new one replaces the old.
+    `sources` remembers a fingerprint of each downloaded cover, so unchanged ones are left alone."""
+    import hashlib
     jpg, webp = THUMBS / f"{vid}.jpg", THUMBS / f"{vid}.webp"
-    if jpg.exists() and webp.exists():
+    try:
+        raw = get(f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg")
+    except Exception as err:  # not reachable now: keep the saved one, try again next run
+        print(f"  thumbnail for {vid} not checked: {err}")
+        return jpg.exists() and webp.exists()
+    mark = hashlib.sha256(raw).hexdigest()[:16]
+    if sources.get(vid) == mark and jpg.exists() and webp.exists():
         return True
     try:
         from PIL import Image
         import io
-        im = Image.open(io.BytesIO(get(f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"))).convert("RGB")
-    except Exception as err:  # Pillow missing or image not reachable: try again next run
+        im = Image.open(io.BytesIO(raw)).convert("RGB")
+    except Exception as err:  # Pillow missing: try again next run
         print(f"  thumbnail for {vid} not saved: {err}")
-        return False
+        return jpg.exists() and webp.exists()
+    print(f"  thumbnail {'new' if vid not in sources else 'updated'}: {vid}")
     im.save(jpg, "JPEG", quality=82, optimize=True, progressive=True)
     im.save(webp, "WEBP", quality=78, method=6)
     man = json.loads(MANIFEST.read_text(encoding="utf-8"))
     for f in (jpg, webp):
         man[f"thumbs/{f.name}"] = list(im.size)
     MANIFEST.write_text(json.dumps(man, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    sources[vid] = mark
     return True
+
+
+def clip_of(v, long_ids):
+    """A Short cut from a long video says so by linking that video in its description
+    ("In the full video ... youtu.be/<id>"). Such clips are not shown on the website (owner,
+    2026-11-17): the long video is shown instead. Returns the long video's id, or None."""
+    if "/shorts/" not in v["url"]:
+        return None
+    for vid in re.findall(r"(?:youtu\.be/|watch\?v=|/live/)([\w-]{11})", v.get("youtube_description", "")):
+        if vid != v["id"] and vid in long_ids:
+            return vid
+    return None
 
 
 # ---------------------------------------------------------------- main
@@ -257,14 +286,23 @@ def main(dry_run=False):
     if dry_run:
         print(f"Dry run: {added} new, {updated} updated. Nothing saved.")
         return
+    sources = store.get("thumbnail_sources", {})
+    for vid in sorted(hand_written):  # covers of the hand-written videos stay current too
+        thumbnail(vid, sources)
     for vid in list(known):
-        if not thumbnail(vid):
+        if not thumbnail(vid, sources):
             known.pop(vid)  # no thumbnail yet: leave it for the next run
+    long_ids = {vid for vid, v in known.items() if "/shorts/" not in v["url"]}
+    long_ids |= {v["youtube_id"] for v in site["videos"] if "/shorts/" not in v.get("url", "")}
     for v in known.values():  # clean every video with the current rules
         v["title"] = clean_title(v.get("youtube_title", v.get("title", "")))
         v["title"] = v["title"] or tidy(HASHTAG.sub("", EMOJI.sub("", v.get("youtube_title", ""))))
         v["description"] = clean_description(v.get("youtube_description", ""))
-    store = {"overrides": store["overrides"]}
+        v.pop("clip_of", None)
+        if clip_of(v, long_ids):
+            v["clip_of"] = clip_of(v, long_ids)  # hidden on the website
+    store = {"overrides": store["overrides"], "hidden": store.get("hidden", []),
+             "thumbnail_sources": dict(sorted(sources.items()))}
     store["videos"] = sorted(known.values(), key=lambda v: (v["published"], v["id"]), reverse=True)
     DATA.write_text(json.dumps(store, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Saved: {added} new, {updated} updated, {len(store['videos'])} in total.")

@@ -50,7 +50,7 @@
     if (!('IntersectionObserver' in window) || reduceMotion) return;
     if (!io) {
       io = new IntersectionObserver(function (entries) {
-        entries.forEach(function (e) { if (e.isIntersecting) { io.unobserve(e.target); revealed(e.target); } });
+        entries.forEach(function (e) { if (e.isIntersecting || e.boundingClientRect.bottom < 0) { io.unobserve(e.target); revealed(e.target); } });
       }, {rootMargin: '0px 0px -8% 0px', threshold: 0.05});
     }
     var page = document.querySelector('.page.on'), inView = [];
@@ -64,11 +64,11 @@
       if (r.top < innerHeight * 0.92 && r.bottom > 0) inView.push(el); else io.observe(el);
     });
     requestAnimationFrame(function () { requestAnimationFrame(function () { inView.forEach(revealed); }); });
-    // safety net: anything on screen that has not appeared after 1.5 s is shown
+    // safety net: anything on screen or above it that has not appeared after 1.5 s is shown
     setTimeout(function () {
       $('.rv:not(.in)', page).forEach(function (el) {
         var r = el.getBoundingClientRect();
-        if (r.top < innerHeight && r.bottom > 0) { io.unobserve(el); revealed(el); }
+        if (r.top < innerHeight) { io.unobserve(el); revealed(el); }  // on screen, or already scrolled past
       });
     }, 1500);
   }
