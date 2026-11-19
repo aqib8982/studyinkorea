@@ -271,32 +271,75 @@ def city_chips(data):
     return "".join(f'<button type="button" class="chip" data-city="{attr(c)}">{esc(c)}</button>' for c in cities)
 
 
-LATEST_ON_PAGE = 6   # newest uploads shown on the Videos page
-HOME_CARDS = 8       # video cards on Home: newest uploads first, then the hand-written videos
+LATEST_ON_PAGE = 6   # newest uploads shown on the Videos page ("Latest videos")
+HOME_CARDS = 6       # video cards on Home: the owner's "start here" videos first, then the newest uploads
+SUBSCRIBE = "https://www.youtube.com/@aqibinkorea?sub_confirmation=1"  # opens YouTube's subscribe box
+
+
+def all_videos(site):
+    """Every video by id: nightly uploads and hand-written ones, with a short text when there is one."""
+    out = {}
+    for v in site["videos"]:
+        first = re.match(r"\s*<p>(.*?)</p>", v.get("description_html", ""), re.S)  # its opening paragraph
+        text = html.unescape(re.sub(r"<[^>]+>", "", first.group(1))).strip() if first else ""
+        if text.endswith(":"):  # leads into a list: too little on its own
+            text = ""
+        out[v["youtube_id"]] = {"id": v["youtube_id"], "title": v["title"], "url": v["url"],
+                                "description": text, "published": ""}
+    for v in site["latest"]:
+        out[v["id"]] = {"id": v["id"], "title": v["title"], "url": v["url"],
+                        "description": v.get("description", ""), "published": v.get("published", "")}
+    return out
+
+
+def featured(site):
+    """The owner's "start here" order (data/site.json "featured"), skipping ids that are not known."""
+    vids = all_videos(site)
+    return [vids[i] for i in site.get("featured", []) if i in vids]
+
+
+def video_card(v, thumbs, extra="", details=False):
+    """A card that plays the video in place (site.js swaps the cover for YouTube's player on click),
+    with links to comment on it and to subscribe on YouTube. Without scripts the cover opens YouTube."""
+    text = ""
+    if details:
+        date = f'<time datetime="{v["published"]}">{nice_date(v["published"])}</time>' if v["published"] else ""
+        desc = f'<span class="lvd">{esc(v["description"])}</span>' if v["description"] else ""
+        text = f'<span class="lvt">{date}<b>{esc(v["title"])}</b>{desc}</span>'
+    else:
+        text = f'<b>{esc(v["title"])}</b>'
+    return (f'<div class="vcard{extra}"><a class="vthumb" href="{attr(v["url"])}" data-yt="{attr(v["id"])}" '
+            f'aria-label="Play video: {attr(v["title"])}">{thumbs({"youtube_id": v["id"]})}'
+            f'<i class="vplay" aria-hidden="true"></i></a>{text}'
+            f'<span class="vact"><a href="{attr(v["url"])}">Comment<span class="vlong"> on YouTube</span></a>'
+            f'<a href="{SUBSCRIBE}">Subscribe</a></span></div>')
 
 
 def video_cards(site, thumbs):
-    out = []
-    newest = [{"title": v["title"], "url": v["url"], "youtube_id": v["id"]} for v in site["latest"]]
-    for v in (newest + site["videos"])[:HOME_CARDS]:
-        img = thumbs(v)
-        out.append(f'      <a class="vcard" href="{attr(v["url"])}"><span class="vthumb">{img}'
-                   f'<i class="vplay" aria-hidden="true"></i></span><b>{esc(v["title"])}</b></a>')
-    return "\n".join(out)
+    """Home: the first two "start here" videos large, then the rest of them, then the newest uploads."""
+    top = featured(site)
+    seen = {v["id"] for v in top}
+    rest = [v for i, v in all_videos(site).items() if i not in seen and v["published"]]
+    rest.sort(key=lambda v: v["published"], reverse=True)
+    cards = (top + rest)[:HOME_CARDS]
+    return "\n".join("      " + video_card(v, thumbs, " big" if k < 2 else "") for k, v in enumerate(cards))
 
 
 def latest_section(site, thumbs):
-    if not site["latest"]:
-        return ""
-    cards = []
-    for v in site["latest"][:LATEST_ON_PAGE]:
-        desc = f'<span class="lvd">{esc(v["description"])}</span>' if v["description"] else ""
-        date = f'<time datetime="{v["published"]}">{nice_date(v["published"])}</time>' if v["published"] else ""
-        cards.append(f'    <a class="vcard lv" href="{attr(v["url"])}"><span class="vthumb">'
-                     f'{thumbs({"youtube_id": v["id"]})}<i class="vplay" aria-hidden="true"></i></span>'
-                     f'<span class="lvt">{date}<b>{esc(v["title"])}</b>{desc}</span></a>')
-    return ('  <h2 class="vsh">Latest videos</h2>\n  <div class="lvgrid">\n' + "\n".join(cards)
-            + '\n  </div>\n  <h2 class="vsh">Video guides</h2>')
+    out = []
+    top = featured(site)
+    if top:
+        out.append('  <h2 class="vsh">Start here</h2>\n  <div class="lvgrid two">\n'
+                   + "\n".join("    " + video_card(v, thumbs, " lv", True) for v in top) + "\n  </div>")
+    seen = {v["id"] for v in top}
+    newest = [v for v in site["latest"] if v["id"] not in seen][:LATEST_ON_PAGE]
+    if newest:
+        vids = all_videos(site)
+        out.append('  <h2 class="vsh">Latest videos</h2>\n  <div class="lvgrid">\n'
+                   + "\n".join("    " + video_card(vids[v["id"]], thumbs, " lv", True) for v in newest) + "\n  </div>")
+    if out:
+        out.append('  <h2 class="vsh">Video guides</h2>')
+    return "\n".join(out)
 
 
 def video_articles(site):

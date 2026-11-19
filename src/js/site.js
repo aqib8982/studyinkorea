@@ -99,6 +99,7 @@
   /* ---------- pages: one section per address (#home, #uni-sejong-masters, ...) ---------- */
   var current = null;
   function show(name, initial) {
+    stopVideos();
     var page = byId('p-' + name);
     if (!page) { name = 'home'; page = byId('p-home'); }
     if (current === name) return;
@@ -126,6 +127,28 @@
     e.preventDefault();
     try { if (fromHash() !== name) location.hash = name; } catch (err) {}
     show(name);
+  });
+  /* ---------- videos play in place: the cover becomes YouTube's player on click ---------- */
+  // The player loads only when asked, so pages stay fast; a play here counts as a YouTube view.
+  function stopVideos() {
+    $('.vframe').forEach(function (box) { box.parentNode.replaceChild(box.cover, box); });
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest ? e.target.closest('a.vthumb[data-yt]') : null;
+    if (!a || e.metaKey || e.ctrlKey || e.shiftKey || e.button) return;
+    e.preventDefault();
+    stopVideos();  // one video at a time
+    var f = document.createElement('iframe');
+    f.src = 'https://www.youtube-nocookie.com/embed/' + a.getAttribute('data-yt') + '?autoplay=1&rel=0&playsinline=1';
+    f.title = (a.getAttribute('aria-label') || 'Video').replace(/^Play video: /, '');
+    f.setAttribute('allow', 'autoplay; encrypted-media; picture-in-picture; fullscreen');
+    f.setAttribute('allowfullscreen', '');
+    var box = document.createElement('span');
+    box.className = 'vthumb vframe';
+    box.cover = a;
+    box.appendChild(f);
+    a.parentNode.replaceChild(box, a);
+    f.focus();
   });
   window.addEventListener('hashchange', function () { show(fromHash()); });
   show(fromHash(), true);
