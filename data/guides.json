@@ -20,16 +20,16 @@
    "chip": "Visa-restricted list",
    "title": "Visa-restricted universities",
    "sub": "Universities where new international students cannot get a student visa for now.",
-   "keywords": "junk fake restricted banned blacklist visa ban list universities avoid",
+   "keywords": "junk fake restricted banned blacklist visa ban list universities avoid geumgang suwon catholic joong-ang sangha hyupsung busan kyungsang arts hanyeong salvation army transnational nungin bible baptist sunbokeum ezra healing counseling hapdong daegu haany sangji howon mokpo",
    "quick": "<p>In February 2026, Korea's Ministry of Justice and Ministry of Education named <b>16 universities</b> where student visas for degree programs are <b>banned in principle</b> for one year from the fall 2026 semester. Four more are restricted for Korean language programs.</p><p>If a university is on this list, do not apply to it for the March 2027 intake.</p>",
    "sections": [
     {
      "h": "Degree programs (16)",
-     "html": "<p>Names as written in the official list, which gives them in Korean only.</p><ul><li><b>Universities:</b> 금강대학교, 수원가톨릭대학교, 중앙승가대학교, 협성대학교</li><li><b>Junior colleges:</b> 부산경상대학교, 부산예술대학교, 한영대학교</li><li><b>Graduate-only universities:</b> 구세군사관대학원대학교, 국제법률경영대학원대학교, 능인대학원대학교, 성서침례대학원대학교, 순복음대학원대학교, 에스라성경대학원대학교, 치유상담대학원대학교, 한국상담대학원대학교, 합동신학대학원대학교</li></ul>"
+     "html": "<p>Names are the official English names the universities use, or Korea's official university information site, Higher Education in Korea (academyinfo.go.kr), where a university has no English page.</p><ul><li><b>Universities:</b> Geumgang University, Suwon Catholic University, Joong-Ang Sangha University, Hyupsung University</li><li><b>Junior colleges:</b> Busan Kyungsang College, Busan Arts College, Hanyeong University</li><li><b>Graduate-only universities:</b> The Salvation Army Graduate University for Officer Training, Transnational Law And Business University, Nungin University, Bible Baptist Theological Seminary, Sunbokeum Theological Seminary, Ezra Bible Institute For Graduate Studies, Healing &amp; Counseling Graduate University, Korea Counseling Graduate University, Hapdong Theological Seminary</li></ul>"
     },
     {
      "h": "Korean language programs (4)",
-     "html": "<ul><li><b>Universities:</b> 대구한의대학교, 상지대학교, 호원대학교</li><li><b>Junior college:</b> 목포과학대학교</li></ul><p>대구한의대학교 and 목포과학대학교 are certified for degree programs. Only their language programs are restricted.</p>"
+     "html": "<ul><li><b>Universities:</b> Daegu Haany University, Sangji University, Howon University</li><li><b>Junior college:</b> Mokpo Science University</li></ul><p>Daegu Haany University and Mokpo Science University are certified for degree programs. Only their language programs are restricted.</p>"
     },
     {
      "h": "What this means",
@@ -49,6 +49,10 @@
     {
      "name": "The full list, attachment 4 of the press release (PDF, Korean)",
      "url": "https://www.immigration.go.kr/bbs/moj/182/490757/download.do"
+    },
+    {
+     "name": "Higher Education in Korea (academyinfo.go.kr): official English names",
+     "url": "https://www.academyinfo.go.kr/index.do?lang=en"
     }
    ],
    "related": [
@@ -100,11 +104,11 @@
    "title": "How to check a university",
    "sub": "Four checks to make before you apply.",
    "keywords": "how to check verify junk fake university real genuine scam safe",
-   "quick": "<p>Before you apply, check that the university is <b>not on the visa-restricted list</b>, that it is <b>IEQAS certified</b>, and that it appears on <b>Academyinfo</b>, Korea's official university information site. Then apply through the university's official channel.</p>",
+   "quick": "<p>Before you apply, check that the university is <b>not on the visa-restricted list</b>, that it is <b>IEQAS certified</b>, and that it appears on <b>Higher Education in Korea</b> (academyinfo.go.kr), Korea's official university information site. Then apply through the university's official channel.</p>",
    "sections": [
     {
      "h": "The four checks",
-     "html": "<ol><li><b>Visa-restricted list.</b> If the university is on the <a href=\"#visa-restricted\">visa-restricted list</a>, do not apply.</li><li><b>IEQAS certified.</b> Look for it on the <a href=\"#ieqas\">certified list</a> on the Study in Korea portal. The portal also has a school and department search.</li><li><b>Academyinfo (대학알리미).</b> The official disclosure site for Korean universities, run by the Korean Council for University Education. Search the university's name there.</li><li><b>Official channel.</b> Apply through the university's own site or the channel it names. Each university page on this website has an \"Apply now\" button with its official link.</li></ol>"
+     "html": "<ol><li><b>Visa-restricted list.</b> If the university is on the <a href=\"#visa-restricted\">visa-restricted list</a>, do not apply.</li><li><b>IEQAS certified.</b> Look for it on the <a href=\"#ieqas\">certified list</a> on the Study in Korea portal. The portal also has a school and department search.</li><li><b>Higher Education in Korea (academyinfo.go.kr).</b> The official information site for Korean universities, run by the Korean Council for University Education. Search the university's name there.</li><li><b>Official channel.</b> Apply through the university's own site or the channel it names. Each university page on this website has an \"Apply now\" button with its official link.</li></ol>"
     },
     {
      "h": "What the embassy asks for",
@@ -118,8 +122,8 @@
      "url": "https://www.studyinkorea.go.kr/en/plan/certifiedUniversity.do"
     },
     {
-     "name": "Academyinfo (대학알리미), official university disclosure",
-     "url": "https://www.academyinfo.go.kr"
+     "name": "Higher Education in Korea (academyinfo.go.kr), official university information",
+     "url": "https://www.academyinfo.go.kr/index.do?lang=en"
     },
     {
      "name": "Ministry of Justice and Ministry of Education, press release, 12 Feb 2026 (Korean)",

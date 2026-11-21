@@ -135,8 +135,8 @@
   });
   /* ---------- Home search: guides, universities, degrees, courses, videos and pages ---------- */
   (function () {
-    var box = byId('fq'), list = byId('fres'), data = byId('qidx');
-    if (!box || !list || !data) return;
+    var data = byId('qidx');
+    if (!data) return;
     var items;
     try { items = JSON.parse(data.textContent); } catch (e) { return; }
     var RANK = {Guide: 0, University: 1, Degree: 2, Page: 3, Course: 4, Video: 5};
@@ -165,6 +165,9 @@
       var seen = {};  // one line per address and title
       return out.filter(function (r) { var k = r.it[2] + '|' + r.it[0]; if (seen[k]) return false; seen[k] = 1; return true; }).slice(0, 8);
     }
+    ['f', 'g'].forEach(function (p) {  // Home ("f") and the Guides page ("g")
+    var box = byId(p + 'q'), list = byId(p + 'res');
+    if (!box || !list) return;
     function show() {
       var q = box.value.trim(), res = find(q);
       list.innerHTML = '';
@@ -187,8 +190,9 @@
       if (e.key === 'Enter') { var first = list.querySelector('a'); if (first) first.click(); }
       if (e.key === 'Escape') { box.value = ''; show(); }
     });
-    byId('fgo').addEventListener('click', function () { show(); var first = list.querySelector('a'); if (first) first.focus(); else box.focus(); });
+    document.querySelector('[data-go="' + p + '"]').addEventListener('click', function () { show(); var first = list.querySelector('a'); if (first) first.focus(); else box.focus(); });
     list.addEventListener('click', function (e) { if (e.target.closest('a')) { box.value = ''; setTimeout(show, 0); } });
+    });
   })();
 
   /* ---------- videos play in place: the cover becomes YouTube's player on click ---------- */

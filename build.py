@@ -116,7 +116,7 @@ def logo(uni, extra=""):
 
 
 def city(uni):
-    return f'<p class="city">{esc(uni["city"])} <span lang="ko">{esc(uni["city_ko"])}</span></p>'
+    return f'<p class="city">{esc(uni["city"])}</p>'  # English only (owner, 2026-11-22)
 
 
 def deadline_td(iso):
@@ -175,7 +175,8 @@ def page_university(uni):
             f'<nav class="crumb" aria-label="Breadcrumb"><a href="#universities">Universities</a><span>{esc(uni["name"])}</span></nav>'
             f'<header class="ph">{logo(uni, "lgc")}{city(uni)}<h1>{esc(uni["name"])}</h1>'
             f'<p class="sub">Choose a degree to see its courses, fees and requirements.</p></header>'
-            f'<div class="tiles" data-passed-last>{"".join(tiles)}</div></div></section>')
+            f'<div class="tiles" data-passed-last>{"".join(tiles)}</div>'
+            f'{guide_strip(load_guides(), ["check-a-university", "visa", "cost", "earnings", "language-tests", "dormitory"])}</div></section>')
 
 
 def prog_cell(p):
@@ -273,7 +274,8 @@ def page_level(data, site, uni, lv):
             f'<h2 class="ch">Courses <span>{len(lv["programs"])}</span></h2>'
             f'<div class="tw"><table><thead><tr><th rowspan="2">{esc(L["programs"])}</th>'
             f'<th colspan="2">{esc(L["tuition"])}</th></tr><tr><th>KRW</th><th>USD (Approx.)</th></tr></thead>'
-            f'<tbody>{rows}</tbody></table></div><dl class="facts">{facts}</dl></div>{sib}</div></section>')
+            f'<tbody>{rows}</tbody></table></div><dl class="facts">{facts}</dl></div>'
+            f'{guide_strip(load_guides(), ["check-a-university", "visa", "cost", "earnings", "language-tests", "dormitory"])}{sib}</div></section>')
 
 
 # ---------------------------------------------------------------- guides and search (2026-11-21)
@@ -300,8 +302,8 @@ def page_guide(G, g, site, thumbs, picture):
     rel = [x for x in G["guides"] if x["slug"] in g.get("related", [])]
     related = ('<p class="sib">Related: ' + "".join(f'<a href="#{x["slug"]}">{esc(x["chip"])}</a>' for x in rel)
                + "</p>") if rel else ""
-    return (f'<section class="page" id="p-{g["slug"]}" data-nav="basics"><div class="wrap">'
-            f'<nav class="crumb" aria-label="Breadcrumb"><a href="#home">Home</a><span>{esc(group["title"])}</span></nav>'
+    return (f'<section class="page" id="p-{g["slug"]}" data-nav="guides"><div class="wrap">'
+            f'<nav class="crumb" aria-label="Breadcrumb"><a href="#guides">Guides</a><span>{esc(group["title"])}</span></nav>'
             f'<header class="ph"><h1>{esc(g["title"])}</h1><p class="sub">{esc(g["sub"])}</p></header>'
             f'<div class="guide"><div class="qa"><p class="qal">Quick answer</p>{g["quick"]}</div>'
             f'<div class="story">{body}</div>{video}'
@@ -310,21 +312,38 @@ def page_guide(G, g, site, thumbs, picture):
             f'</div>{related}</div></section>')
 
 
-def finder(G):
-    """Home: "What do you want to know?" search box and topic groups."""
+def finder(G, p="f", title="<h2>What do you want to know?</h2>", extra=""):
+    """"What do you want to know?" search box and topic groups (Home, and the Guides page with prefix "g")."""
     groups = "".join(
         f'<div class="fg"><h3>{esc(x["title"])}</h3><p>{esc(x["sub"])}</p><div class="fchips">'
         + "".join(f'<a href="#{g["slug"]}">{esc(g["chip"])}</a>' for g in G["guides"] if g["group"] == x["key"])
         + "</div></div>" for x in G["groups"])
-    return ('<div class="band find"><div class="wrap">'
-            '<h2>What do you want to know?</h2>'
-            '<div class="fsearch" role="search"><label class="vh" for="fq">Search this website</label>'
-            '<input id="fq" type="search" placeholder="Try: Sejong, part-time job, visa, dormitory" autocomplete="off" '
-            'aria-controls="fres" aria-describedby="fhint">'
-            '<button type="button" class="btn red" id="fgo">Search</button></div>'
-            '<p id="fhint" class="vh">Results appear below as you type.</p>'
-            '<ol id="fres" class="fres" aria-live="polite"></ol>'
-            f'<div class="fgroups">{groups}</div></div></div>')
+    return (f'{title}'
+            f'<div class="fsearch" role="search"><label class="vh" for="{p}q">Search this website</label>'
+            f'<input id="{p}q" type="search" placeholder="Try: Sejong, part-time job, visa, dormitory" autocomplete="off" '
+            f'aria-controls="{p}res" aria-describedby="{p}hint">'
+            f'<button type="button" class="btn red" data-go="{p}">Search</button></div>'
+            f'<p id="{p}hint" class="vh">Results appear below as you type.</p>'
+            f'<ol id="{p}res" class="fres" aria-live="polite"></ol>'
+            f'<div class="fgroups">{groups}{extra}</div>')
+
+
+def page_guides(G):
+    basics = ('<div class="fg"><h3>Korea Basics</h3><p>A short general guide for first-time applicants.</p>'
+              '<div class="fchips"><a href="#basics">Open Korea Basics</a></div></div>')
+    return ('<section class="page" id="p-guides" data-nav="guides"><div class="wrap">'
+            '<header class="ph"><h1>Guides</h1><p class="sub">Answers to the questions students ask most, '
+            'written from official sources.</p></header>'
+            f'<div class="find gpage">{finder(G, "g", "", basics)}</div></div></section>')
+
+
+def guide_strip(G, slugs):
+    """Links from a university page to the guides a student needs before applying."""
+    by = {g["slug"]: g for g in G["guides"]}
+    labels = {"check-a-university": "Check this university"}
+    chips = "".join(f'<a href="#{s}">{esc(labels.get(s, by[s]["title"]))}</a>' for s in slugs if s in by)
+    return (f'<div class="gstrip"><h2>Before you apply</h2><div class="fchips">{chips}'
+            f'<a href="#guides">All guides</a></div></div>') if chips else ""
 
 
 def search_index(data, site, G):
@@ -335,7 +354,7 @@ def search_index(data, site, G):
     for g in G["guides"]:
         out.append([g["title"], "Guide", g["slug"], " ".join([g["chip"], g.get("keywords", ""), plain(g["quick"])])])
     for u in data["universities"]:
-        out.append([u["name"], "University", f'uni-{u["slug"]}', f'{u["city"]} {u["city_ko"]}'])
+        out.append([u["name"], "University", f'uni-{u["slug"]}', u["city"]])
         for lv in u["levels"]:
             out.append([f'{u["name"]}: {short_level(lv)}', "Degree", f'uni-{u["slug"]}-{lv["slug"]}',
                         f'{u["city"]} {lv["name"]} scholarship fees deadline apply'])
@@ -574,7 +593,7 @@ def build():
     }
     G = load_guides()
     pages = [
-        tpl("home.html", **common, finder=finder(G),
+        tpl("home.html", **common, finder='<div class="band find"><div class="wrap">' + finder(G) + '</div></div>',
             mascot_hero=mascot("", 'class="masc hm"',
                                'role="img" aria-label="A cute blue girl mascot with a pink hair bow waving hello"',
                                face=(TPL / "partials/mascot-bow.svg").read_text(encoding="utf-8")),
@@ -597,6 +616,7 @@ def build():
         latest_section=latest_section(site, thumbs),
         video_articles=video_articles(site)))
     pages.append((TPL / "basics.html").read_text(encoding="utf-8"))
+    pages.append(page_guides(G))
     for g in G["guides"]:
         pages.append(page_guide(G, g, site, thumbs, A.picture))
     pages.append(tpl("about.html", **common, portrait=portrait))
