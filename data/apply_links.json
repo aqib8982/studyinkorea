@@ -1,0 +1,101 @@
+{
+  "_about": "Official application links per university and level, checked by hand. 'apply' is where a student applies (as linked from the university's own site); 'guide' is the official admission guideline or notice. Re-check before each intake. Owner asked for these on 2026-11-21. Entries with \"via\": \"kuac\" go to KUAC's portal; the owner (who works at KUAC) chose this on 2026-11-21 for KDU Global, CKU and KBU. CKU and KBU take applications through the Google Forms the owner gave on 2026-11-21 (\"forms\").",
+  "checked": "2026-11-21",
+  "tongmyong": {
+    "bachelors": {
+      "apply": "https://ipsi3.uwayapply.com/2027/foreign/tu/?CHA=4",
+      "guide": "https://www.tu.ac.kr/english/sub05_08.do?mode=view&articleNo=425754"
+    },
+    "masters": {
+      "apply": "https://ipsi3.uwayapply.com/2027/foreign/tu/?CHA=5",
+      "guide": "https://www.tu.ac.kr/english/sub05_08.do?mode=view&articleNo=425754"
+    }
+  },
+  "dong-a": {
+    "bachelors": {
+      "apply": "https://applydonga.accomsystem.co.kr/",
+      "guide": "https://global.donga.ac.kr/global/CMS/Board/Board.do?mCode=MN066&mode=view&mgr_seq=717&board_seq=8517030"
+    },
+    "masters-phd": {
+      "apply": "https://donga-graduate.znasoft.com/",
+      "guide": "https://global.donga.ac.kr/global/CMS/Board/Board.do?mCode=MN066&mode=view&mgr_seq=717&board_seq=8517032"
+    }
+  },
+  "woosung": {
+    "bachelors": {
+      "apply": "https://apply.wsu.ac.kr/apply/",
+      "guide": "https://english.wsu.ac.kr/page/index.jsp?code=eng0301"
+    },
+    "masters": {
+      "apply": "https://apply.wsu.ac.kr/apply/",
+      "guide": "https://english.wsu.ac.kr/page/index.jsp?code=eng0301"
+    },
+    "phd": {
+      "apply": "https://apply.wsu.ac.kr/apply/",
+      "guide": "https://english.wsu.ac.kr/page/index.jsp?code=eng0301"
+    }
+  },
+  "ajou": {
+    "bachelors": {
+      "apply": "https://enter.jinhakapply.com/Notice/1104072/A",
+      "guide": "https://www.ajou.ac.kr/iadmissions/undergraduate/guideline.do"
+    }
+  },
+  "sejong": {
+    "bachelors": {
+      "apply": "https://sos.sejong.ac.kr/eng/admission/univ/index.do",
+      "guide": "https://sos.sejong.ac.kr/eng/admission/guide/univ.do"
+    },
+    "masters": {
+      "apply": "https://sos.sejong.ac.kr/eng/admission/grad/index.do",
+      "guide": "https://sos.sejong.ac.kr/eng/admission/guide/grad1.do"
+    },
+    "phd": {
+      "apply": "https://sos.sejong.ac.kr/eng/admission/grad/index.do",
+      "guide": "https://sos.sejong.ac.kr/eng/admission/guide/grad1.do"
+    }
+  },
+  "kyungdong-global": {
+    "bachelors": {
+      "apply": "https://kuacglobal.com/signup",
+      "via": "kuac",
+      "guide": "https://global.kduniv.ac.kr/global/CMS/Contents/Contents.do?mCode=MN094"
+    },
+    "masters": {
+      "apply": "https://kuacglobal.com/signup",
+      "via": "kuac",
+      "guide": "https://global.kduniv.ac.kr/global/CMS/Contents/Contents.do?mCode=MN094"
+    },
+    "masters-phd": {
+      "apply": "https://kuacglobal.com/signup",
+      "via": "kuac",
+      "guide": "https://global.kduniv.ac.kr/global/CMS/Contents/Contents.do?mCode=MN094"
+    }
+  },
+  "catholic-kwandong": {
+    "bachelors": {
+      "via": "kuac",
+      "forms": [
+        {
+          "label": "EAP + Bachelor",
+          "url": "https://forms.gle/suF4nukKhE7fnK6j7"
+        },
+        {
+          "label": "Bachelor",
+          "url": "https://forms.gle/MMpLcjFKki1nj8Ft7"
+        }
+      ]
+    }
+  },
+  "korean-bible": {
+    "masters": {
+      "via": "kuac",
+      "forms": [
+        {
+          "label": "Master",
+          "url": "https://forms.gle/xwHPjJr1AzPKvaPf8"
+        }
+      ]
+    }
+  }
+}

@@ -25,6 +25,11 @@
     el.appendChild(document.createTextNode(' '));
     el.appendChild(flag);
   });
+  // "Apply now" boxes: once the deadline on the page has passed, say so and relabel the button.
+  $('.apply[data-date]').forEach(function (box) {
+    var n = daysLeft(box.getAttribute('data-date'));
+    if (n !== null && n < 0) box.classList.add('closed');
+  });
   // Lists marked data-passed-last keep their order, but entries whose deadline has passed move to the end.
   $('[data-passed-last]').forEach(function (list) {
     var items = Array.prototype.slice.call(list.children);

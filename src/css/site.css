@@ -704,3 +704,17 @@ nav.fcolm a:not(.wabtn){box-sizing:border-box;height:44px;padding-block:0;margin
 @media (max-width:600px){.lvgrid.two{grid-template-columns:1fr}.vact{padding:0 4px;font-size:13.5px;gap:0 14px}}
 .vcard:has(.vframe),.vcard:has(.vframe):hover{transform:none}
 @media (max-width:600px){.vgrid .vcard:not(.big) .vlong{display:none}.vgrid .vcard:not(.big) .vact{gap:0 12px;font-size:13px}}
+
+/* Apply now box on each university level page (2026-11-21) */
+.apply{display:flex;align-items:center;justify-content:space-between;gap:20px 28px;flex-wrap:wrap;margin:28px 0 8px;padding:24px 28px;border-radius:22px;background:var(--bluetint, #EEF4F8);border:1px solid var(--line)}
+.apt{flex:1 1 360px;min-width:0}
+.apply h2{margin:0 0 6px;font-size:clamp(20px,2.2vw,24px);line-height:1.2;letter-spacing:-.02em;color:var(--navy)}
+.apply p{margin:0;font-size:15.5px;line-height:1.5;color:#2B3944}
+.apply .apc{margin-top:8px;font-size:13px;color:var(--muted)}
+.apb{display:flex;flex-wrap:wrap;gap:10px}
+.apshut,.apclosed,.apply.closed .apopen{display:none}
+.apply.closed .apclosed{display:inline}
+.apply.closed .apshut{display:block;margin-top:6px;color:var(--red);font-weight:600}
+@media (max-width:600px){.apply{padding:20px 18px;border-radius:18px}.apb{width:100%}.apb .btn{flex:1 1 auto;justify-content:center;text-align:center}}
+.uni .apply{margin:0 36px 28px}
+@media (max-width:600px){.uni .apply{margin:0 18px 22px}}

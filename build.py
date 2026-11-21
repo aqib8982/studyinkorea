@@ -74,6 +74,8 @@ def load():
     hide = set(store.get("hidden", []))  # clips of a long video, and any the owner hides
     site["latest"] = [dict(v, title=own.get(v["id"], v["title"])) for v in store["videos"]
                       if not v.get("clip_of") and v["id"] not in hide]
+    links = ROOT / "data/apply_links.json"  # official application links, checked by hand
+    site["apply"] = json.loads(links.read_text(encoding="utf-8")) if links.exists() else {}
     return programs, site
 
 
@@ -189,6 +191,42 @@ def fact(label, entries, wide=False, note=""):
     return f'<div class="fact {"wide" if wide else ""}"><dt>{esc(label)}</dt><dd>{fact_value(entries)}{note}</dd></div>'
 
 
+def apply_box(site, uni, lv, dl):
+    """"Apply now" to the university's own application site, KUAC's portal, or the application
+    form(s) the owner gave (data/apply_links.json). When the deadline on this page has passed,
+    site.js shows the note and relabels a single button."""
+    link = site["apply"].get(uni["slug"], {}).get(lv["slug"])
+    if not link:
+        return ""
+    checked = nice_date(site["apply"]["checked"])
+    guide = f'<a class="btn" href="{attr(link["guide"])}">Admission guide</a>' if link.get("guide") else ""
+    forms = link.get("forms")
+    if forms:  # one form per program track, e.g. "EAP + Bachelor" and "Bachelor"
+        head = f'Apply to {esc(uni["name"])} through KUAC'
+        text = ('This university\'s admission is handled by KUAC (Korean Universities Admission Center). '
+                'Fill in the online application form yourself. You need to be signed in to a Google account.')
+        buttons = "".join(f'<a class="btn{" red" if k == 0 else ""}" href="{attr(f["url"])}">'
+                          f'Apply: {esc(f["label"])}</a>' for k, f in enumerate(forms))
+        source = "Application form"
+    else:
+        if link.get("via") == "kuac":  # admission handled by the university's authorised company
+            head = f'Apply to {esc(uni["name"])} through KUAC'
+            text = ('This university\'s admission is handled by KUAC (Korean Universities Admission Center). '
+                    'The button opens KUAC\'s application portal, where you create a free account and apply yourself.')
+            source = "KUAC portal"
+        else:
+            head = f'Apply directly to {esc(uni["name"])}'
+            text = 'The button opens the university\'s own application site, so you can apply yourself.'
+            source = "Official link"
+        buttons = (f'<a class="btn red" href="{attr(link["apply"])}"><span class="apopen">Apply now</span>'
+                   f'<span class="apclosed">Official application site</span></a>')
+    return (f'<div class="apply" data-date="{dl or ""}"><div class="apt">'
+            f'<h2>{head}</h2><p>{text}</p>'
+            f'<p class="apshut">The deadline on this page has passed. The university\'s site shows its next intake.</p>'
+            f'<p class="apc">{source}, checked {checked}</p></div>'
+            f'<div class="apb">{buttons}{guide}</div></div>')
+
+
 def page_level(data, site, uni, lv):
     L = data["labels"]
     rows = "".join(f"<tr>{prog_cell(p)}{fee_cells(p)}</tr>" for p in lv["programs"])
@@ -217,6 +255,7 @@ def page_level(data, site, uni, lv):
             f'<a href="#uni-{uni["slug"]}">{esc(uni["name"])}</a><span>{esc(short_level(lv))}</span></nav>'
             f'<div class="uni"><header class="uh"><div>{logo(uni)}{city(uni)}'
             f'<h1 class="pre">{esc(lv["name"])}</h1><p class="at">{esc(uni["name"])}</p></div>{uhd}</header>'
+            f'{apply_box(site, uni, lv, dl)}'
             f'<h2 class="ch">Courses <span>{len(lv["programs"])}</span></h2>'
             f'<div class="tw"><table><thead><tr><th rowspan="2">{esc(L["programs"])}</th>'
             f'<th colspan="2">{esc(L["tuition"])}</th></tr><tr><th>KRW</th><th>USD (Approx.)</th></tr></thead>'
