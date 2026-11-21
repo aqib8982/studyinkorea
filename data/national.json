@@ -1,0 +1,3523 @@
+{
+ "_about": "National and government-funded universities researched from their official international admission guidelines (owner asked 2026-11-22: English-taught programs only, no Korean-track). Every figure comes from the sources listed per university. USD = KRW / usd_rate, rounded to 10.",
+ "checked": "2026-11-22",
+ "usd_rate": 1330,
+ "universities": [
+  {
+   "slug": "seoultech",
+   "name": "Seoul National University of Science and Technology (SeoulTech)",
+   "city": "Seoul",
+   "city_ko": "",
+   "logo": "assets/logos/seoultech.png",
+   "kind": "National university",
+   "sources": [
+    {
+     "name": "SeoulTech: Spring 2027 Admission Guidelines for International Students (PDF)",
+     "url": "https://global.seoultech.ac.kr/storage/irt2/ckfinder/files/F0E4E852ED39449A8BF10D92E57F528C.pdf"
+    },
+    {
+     "name": "SeoulTech Office of International Affairs: undergraduate admission",
+     "url": "https://global.seoultech.ac.kr/apply/undergraduate"
+    }
+   ],
+   "levels": [
+    {
+     "name": "Bachelors\n(English track)",
+     "slug": "bachelors",
+     "categories": [
+      "bachelors"
+     ],
+     "deadlines": [
+      "2026-11-18"
+     ],
+     "programs": [
+      {
+       "name": "Global IT Convergence (International College)",
+       "details": [
+        "All courses taught in English, years 1–4",
+        "Plus program fee 1,000,000 KRW per semester (semesters 1–6)"
+       ],
+       "tuition_krw": "3,047,230 KRW",
+       "tuition_usd": "2,290 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Business Administration (IMS: International Management Studies)",
+       "details": [
+        "All courses taught in English, years 1–4",
+        "Plus program fee 1,000,000 KRW per semester"
+       ],
+       "tuition_krw": "2,599,230 KRW",
+       "tuition_usd": "1,950 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Manufacturing Systems and Design Engineering (MSDE)",
+       "details": [
+        "All courses taught in English, years 1–4",
+        "Dual degree with Northumbria University (UK), studied in Korea; spring intake only",
+        "Plus program fee 2,330,000 KRW per semester"
+       ],
+       "tuition_krw": "3,047,230 KRW",
+       "tuition_usd": "2,290 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• High school completed (GED, home-schooling and online schooling not accepted)\n• MSDE: TOEFL iBT 80 / IELTS 6.0\n• IMS and Global IT Convergence: TOEFL iBT 71 / IELTS 5.5\n• Citizens of countries where English is an official language are exempt from the English test\n• TOPIK not required\n• Document review and interview\n• Bank balance for the visa: KRW 20,000,000 (submit only if admitted)"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "120,000 KRW",
+        "usd": "90 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "None stated"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester (by test score and interview grade):\n• IELTS 7.0 / iBT TOEFL 100 = full tuition (+ dormitory fee for grade A)\n• IELTS 6.5 / iBT TOEFL 90 = full tuition (A) or 70% (B)\n• IELTS 6.0 / iBT TOEFL 80 = 70% (A) or 50% (B)\n\nFrom 2nd Semester (TOEFL iBT 80 / IELTS 6.0, 12+ credits):\n• GPA 4.0+ = full tuition + dormitory fee\n• GPA 3.8+ = 50%\n• GPA 3.5+ = 30%\n\nScholarships do not cover program fees."
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Applicants living in Korea can apply. Visa change from Korea not stated."
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\nSung Lim dormitory, per semester (as of 2026):\n• Male: single 1,272,320 KRW, double 1,001,280 KRW\n• Female: double 1,016,960 KRW\n\nMeals optional (from 543,900 KRW per semester for 1 meal a day)"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "pukyong",
+   "name": "Pukyong National University",
+   "city": "Busan",
+   "city_ko": "",
+   "logo": "assets/logos/pukyong.png",
+   "kind": "National university",
+   "sources": [
+    {
+     "name": "Pukyong National University: Admissions Guide for International Students, Spring 2027 (PDF)",
+     "url": "http://admission.pknu.ac.kr/pdf/Admissions_Guide_for_International_Students_for_Spring_2027.pdf"
+    },
+    {
+     "name": "Pukyong National University: Global Innovation College announcement, 3 Aug 2026",
+     "url": "https://www.pknu.ac.kr/eng/52?action=view&no=725852"
+    }
+   ],
+   "levels": [
+    {
+     "name": "Bachelors\n(English track)",
+     "slug": "bachelors",
+     "categories": [
+      "bachelors"
+     ],
+     "deadlines": [
+      "2026-11-13"
+     ],
+     "programs": [
+      {
+       "name": "Division of International Liberal Arts (Global Innovation College)",
+       "details": [
+        "Year 1 for all English-track freshmen, taught in English, with Korean language courses",
+        "From year 2 you choose one of the majors below"
+       ],
+       "tuition_krw": "2,831,850 KRW",
+       "tuition_usd": "2,130 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Computer Science · Artificial Intelligence",
+       "details": [
+        "English track, from year 2",
+        "Engineering fee band"
+       ],
+       "tuition_krw": "3,042,900 KRW",
+       "tuition_usd": "2,290 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Tourism & Hospitality Management",
+       "details": [
+        "English track, from year 2",
+        "Humanities and social sciences fee band"
+       ],
+       "tuition_krw": "2,384,200 KRW",
+       "tuition_usd": "1,790 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• High school completed (12 years of schooling)\n• TOEFL iBT 69 / IELTS 5.5 / CEFR B2 / New TEPS 202\n• High school in the US, UK, Canada, South Africa, New Zealand, Australia or Ireland replaces the test\n• TOPIK not required for the English track\n• Bank balance for the visa: KRW 16,000,000"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "100,000 KRW",
+        "usd": "80 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "None stated"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• IELTS 8.0 / iBT TOEFL 111 = 100%\n• IELTS 7.5 / iBT TOEFL 102 = about 80%\n• IELTS 7.0 / iBT TOEFL 93 = about 40%\n• IELTS 6.5 / iBT TOEFL 84 = about 20%\n(paid only if you pass 12 credits with GPA 2.5 in the first semester)\n\nFrom 2nd Semester (GPA 3.0+, 12+ credits):\n• Top 7% = about 80%\n• Top 7–15% = about 40%\n• Top 15–30% = about 20%"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Applicants living in Korea (D-2, D-4, D-10) can apply. Visa change from Korea not stated."
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\nSejong Bldg. 1, 2 people per room:\n• About 2,800,000 KRW for 6 months, 3 meals a day included (as of August 2026)"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Masters & PhD\n(English track)",
+     "slug": "masters-phd",
+     "categories": [
+      "masters",
+      "phd"
+     ],
+     "deadlines": [
+      "2026-11-13"
+     ],
+     "programs": [
+      {
+       "name": "Marine and Fisheries Science and Convergent Technology (interdisciplinary program)",
+       "details": [
+        "Master's and PhD, English track",
+        "Contact a supervising professor before you apply",
+        "Tuition per semester: 2,570,000 KRW (natural sciences) or 2,737,000 KRW (engineering), as of 2026"
+       ],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• Master's: bachelor's degree; PhD: master's degree\n• TOEFL iBT 69 / IELTS 5.5 / CEFR B2 / New TEPS 202, or TOPIK 3, or a waiver from your supervising professor\n• Bank balance for the visa: KRW 16,000,000"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "100,000 KRW",
+        "usd": "80 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "krw": "178,000 KRW",
+        "usd": "130 USD"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "• RA/TA scholarship: 50% of tuition, with your professor's recommendation (12 hours a week of research or teaching help)"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Applicants living in Korea can apply. Visa change from Korea not stated."
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\nSejong Bldg. 1, 2 people per room:\n• About 2,800,000 KRW for 6 months, 3 meals a day included (as of August 2026)"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "kaist",
+   "name": "KAIST (Korea Advanced Institute of Science and Technology)",
+   "city": "Daejeon",
+   "city_ko": "",
+   "logo": "assets/logos/kaist.png",
+   "kind": "Government science institute",
+   "sources": [
+    {
+     "name": "KAIST: 2027 Admissions Guide for International Undergraduates (PDF)",
+     "url": "https://admission.kaist.ac.kr/wz/api/common/files/view/intl-undergraduate/pdf/Admissions_Guide_for_2027_admission.pdf"
+    },
+    {
+     "name": "KAIST: undergraduate cost of attendance",
+     "url": "https://admission.kaist.ac.kr/intl-undergraduate/support/coa"
+    },
+    {
+     "name": "KAIST: Fall 2027 International Graduate Application Guide (PDF)",
+     "url": "https://admission.kaist.ac.kr/wz/api/board/44/2279/download/0"
+    },
+    {
+     "name": "KAIST: graduate scholarship",
+     "url": "https://admission.kaist.ac.kr/intl-graduate/FinancialSupport/Scholarship/KAISTScholarship"
+    }
+   ],
+   "levels": [
+    {
+     "name": "Bachelors",
+     "slug": "bachelors",
+     "categories": [
+      "bachelors"
+     ],
+     "deadlines": [
+      "2027-01-14"
+     ],
+     "programs": [
+      {
+       "name": "Physics",
+       "details": [
+        "Major chosen in year 2"
+       ],
+       "tuition_krw": "3,433,000 KRW",
+       "tuition_usd": "2,580 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Mathematical Sciences",
+       "details": [
+        "Major chosen in year 2"
+       ],
+       "tuition_krw": "3,433,000 KRW",
+       "tuition_usd": "2,580 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Chemistry",
+       "details": [
+        "Major chosen in year 2"
+       ],
+       "tuition_krw": "3,433,000 KRW",
+       "tuition_usd": "2,580 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Biological Sciences",
+       "details": [
+        "Major chosen in year 2"
+       ],
+       "tuition_krw": "3,433,000 KRW",
+       "tuition_usd": "2,580 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Brain and Cognitive Sciences",
+       "details": [
+        "Major chosen in year 2"
+       ],
+       "tuition_krw": "3,433,000 KRW",
+       "tuition_usd": "2,580 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Mechanical Engineering",
+       "details": [
+        "Major chosen in year 2"
+       ],
+       "tuition_krw": "3,433,000 KRW",
+       "tuition_usd": "2,580 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Aerospace Engineering",
+       "details": [
+        "Major chosen in year 2"
+       ],
+       "tuition_krw": "3,433,000 KRW",
+       "tuition_usd": "2,580 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Electrical Engineering",
+       "details": [
+        "Major chosen in year 2"
+       ],
+       "tuition_krw": "3,433,000 KRW",
+       "tuition_usd": "2,580 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Computer Science",
+       "details": [
+        "Major chosen in year 2"
+       ],
+       "tuition_krw": "3,433,000 KRW",
+       "tuition_usd": "2,580 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Civil & Environmental Engineering",
+       "details": [
+        "Major chosen in year 2"
+       ],
+       "tuition_krw": "3,433,000 KRW",
+       "tuition_usd": "2,580 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Bio & Brain Engineering",
+       "details": [
+        "Major chosen in year 2"
+       ],
+       "tuition_krw": "3,433,000 KRW",
+       "tuition_usd": "2,580 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Industrial Design",
+       "details": [
+        "Major chosen in year 2"
+       ],
+       "tuition_krw": "3,433,000 KRW",
+       "tuition_usd": "2,580 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Chemical & Biomolecular Engineering",
+       "details": [
+        "Major chosen in year 2"
+       ],
+       "tuition_krw": "3,433,000 KRW",
+       "tuition_usd": "2,580 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Materials Science & Engineering",
+       "details": [
+        "Major chosen in year 2"
+       ],
+       "tuition_krw": "3,433,000 KRW",
+       "tuition_usd": "2,580 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Business and Technology Management",
+       "details": [
+        "Major chosen in year 2"
+       ],
+       "tuition_krw": "3,433,000 KRW",
+       "tuition_usd": "2,580 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• High school completed by August 2027\n• At least one standardized test (e.g. SAT, ACT, AP, IB, A-Level or national exam)\n• Recommended: TOEFL iBT 83 / IELTS 6.5 (English-medium high school or English-speaking country exempt)\n• Fall 2027 intake (regular round)\n• Bank balance for the visa: About USD 3,200 for scholarship students"
+       }
+      ],
+      "application_fee": [
+       {
+        "value": "80 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "None stated"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "All international students receive full support:\n• Full tuition for 4 years\n• 350,000 KRW per month living stipend\n• Health insurance paid"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Not stated"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n• 664,000 KRW per semester (Hee Mang Hall, 2 people per room)"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Masters & PhD",
+     "slug": "masters-phd",
+     "categories": [
+      "masters",
+      "phd"
+     ],
+     "deadlines": [
+      "2027-02-05"
+     ],
+     "programs": [
+      {
+       "name": "Physics",
+       "details": [
+        "M.S.-Ph.D., Ph.D."
+       ],
+       "tuition_krw": "9,559,000 KRW",
+       "tuition_usd": "7,190 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Mathematical Sciences",
+       "details": [
+        "M.S., M.S.-Ph.D."
+       ],
+       "tuition_krw": "9,559,000 KRW",
+       "tuition_usd": "7,190 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Chemistry",
+       "details": [
+        "M.S.-Ph.D., Ph.D."
+       ],
+       "tuition_krw": "9,559,000 KRW",
+       "tuition_usd": "7,190 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Biological Sciences",
+       "details": [
+        "M.S.-Ph.D., Ph.D."
+       ],
+       "tuition_krw": "9,559,000 KRW",
+       "tuition_usd": "7,190 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Mechanical Engineering",
+       "details": [
+        "M.S., Ph.D."
+       ],
+       "tuition_krw": "9,559,000 KRW",
+       "tuition_usd": "7,190 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Aerospace Engineering",
+       "details": [
+        "M.S., Ph.D."
+       ],
+       "tuition_krw": "9,559,000 KRW",
+       "tuition_usd": "7,190 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Electrical Engineering",
+       "details": [
+        "M.S., M.S.-Ph.D., Ph.D."
+       ],
+       "tuition_krw": "9,559,000 KRW",
+       "tuition_usd": "7,190 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "School of Computing",
+       "details": [
+        "M.S., M.S.-Ph.D., Ph.D."
+       ],
+       "tuition_krw": "9,559,000 KRW",
+       "tuition_usd": "7,190 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Civil and Environmental Engineering",
+       "details": [
+        "M.S., Ph.D."
+       ],
+       "tuition_krw": "9,559,000 KRW",
+       "tuition_usd": "7,190 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Bio and Brain Engineering",
+       "details": [
+        "M.S., M.S.-Ph.D., Ph.D."
+       ],
+       "tuition_krw": "9,559,000 KRW",
+       "tuition_usd": "7,190 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Industrial Design",
+       "details": [
+        "M.S., Ph.D."
+       ],
+       "tuition_krw": "9,559,000 KRW",
+       "tuition_usd": "7,190 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Industrial & Systems Engineering",
+       "details": [
+        "M.S., M.S.-Ph.D., Ph.D."
+       ],
+       "tuition_krw": "9,559,000 KRW",
+       "tuition_usd": "7,190 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Chemical and Biomolecular Engineering",
+       "details": [
+        "M.S., Ph.D."
+       ],
+       "tuition_krw": "9,559,000 KRW",
+       "tuition_usd": "7,190 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Materials Science and Engineering",
+       "details": [
+        "M.S., Ph.D."
+       ],
+       "tuition_krw": "9,559,000 KRW",
+       "tuition_usd": "7,190 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Nuclear and Quantum Engineering",
+       "details": [
+        "M.S., Ph.D."
+       ],
+       "tuition_krw": "9,559,000 KRW",
+       "tuition_usd": "7,190 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Kim Jaechul Graduate School of Artificial Intelligence",
+       "details": [
+        "M.S., M.S.-Ph.D., Ph.D."
+       ],
+       "tuition_krw": "9,559,000 KRW",
+       "tuition_usd": "7,190 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Graduate School of Science and Technology Policy",
+       "details": [
+        "M.S., M.S.-Ph.D., Ph.D."
+       ],
+       "tuition_krw": "9,559,000 KRW",
+       "tuition_usd": "7,190 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Business and Technology Management",
+       "details": [
+        "M.S., Ph.D."
+       ],
+       "tuition_krw": "9,559,000 KRW",
+       "tuition_usd": "7,190 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• Master's: bachelor's degree (4 years); PhD: master's degree, by August 2027\n• TOEFL iBT 83 / IELTS 6.5 / TOEIC 720 / TEPS 326\n• From Fall 2027, English-medium degrees from listed countries can apply for a waiver\n• Fall 2027 intake\n• Bank balance for the visa: USD 16,000 (self-funded)"
+       }
+      ],
+      "application_fee": [
+       {
+        "value": "80 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "None stated"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "KAIST Scholarship (almost all departments):\n• Full tuition (4 semesters Master's, 8 semesters PhD, 10 semesters Master's–PhD)\n• Monthly stipend (amount set by department and advisor)\n• Health insurance paid"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Available\n(apply at immigration in Korea after admission)"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n• From about 115,000 KRW per month (1–2 people per room)"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "hanbat",
+   "name": "Hanbat National University",
+   "city": "Daejeon",
+   "city_ko": "",
+   "logo": "assets/logos/hanbat.png",
+   "kind": "National university",
+   "sources": [
+    {
+     "name": "Hanbat National University: Spring 2027 Undergraduate Admissions Guide for International Students (PDF)",
+     "url": "https://www.hanbat.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000015726Dg4&fileSn=0"
+    },
+    {
+     "name": "Hanbat National University: Office of Admissions - international admission page",
+     "url": "https://www.hanbat.ac.kr/admission/sub04_010102.do"
+    }
+   ],
+   "levels": [
+    {
+     "name": "Bachelors\n(English track)",
+     "slug": "bachelors",
+     "categories": [
+      "bachelors"
+     ],
+     "deadlines": [
+      "2026-12-16"
+     ],
+     "programs": [
+      {
+       "name": "Global Software Convergence (School of International Studies)",
+       "details": [
+        "Taught in English",
+        "School of International Studies (Nomad College), international students only",
+        "Freshman entry only (no transfer)",
+        "Nomad College fee band (2026 Spring amount)"
+       ],
+       "tuition_krw": "2,329,400 KRW",
+       "tuition_usd": "1,750 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Interdisciplinary Big Data Studies (School of International Studies)",
+       "details": [
+        "Taught in English",
+        "School of International Studies (Nomad College), international students only",
+        "Freshman entry only (no transfer)",
+        "Nomad College fee band (2026 Spring amount)"
+       ],
+       "tuition_krw": "2,329,400 KRW",
+       "tuition_usd": "1,750 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• High school completed abroad (12 years); both applicant and parents foreign nationals\n• English: IELTS 5.5, TOEFL iBT 71 or Duolingo 100 (scores after 18 Dec 2024)\n• Exempt: citizens of English native/official-language countries (Pakistan is listed)\n• If below the minimum, English may be accepted through the interview\n• TOPIK not required for these two majors\n• Interview 6 Jan 2027 (online for overseas applicants; request by email by 27 Dec 2026)\n• Bank balance for the visa: USD 18,000 (overseas residents); KRW 16,000,000 (residents of Korea)"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "60,000 KRW",
+        "usd": "50 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "None stated"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• IELTS 7.0 / TOEFL 101 / Duolingo 130 or higher: 100% tuition waiver\n• IELTS 6.0 / TOEFL 79 / Duolingo 110 or higher: 50% tuition waiver\n\nFrom 2nd Semester:\n• GPA 3.700+: 100% waiver\n• GPA 3.400-3.699: 50% waiver\n• GPA 3.000-3.399: 30% waiver\n• Requires IELTS 6.0 / TOEFL 79 / Duolingo 110 and 12+ credits in the previous semester"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Not stated"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n• Dormitory 1 double room: 1,437,990 KRW per semester (room 680,000 + mandatory 2-meal plan 757,990; utilities included)\n• Based on Spring 2026 fees"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "pusan",
+   "name": "Pusan National University",
+   "city": "Busan",
+   "city_ko": "",
+   "logo": "assets/logos/pusan.png",
+   "kind": "National university",
+   "sources": [
+    {
+     "name": "Pusan National University: 2027 Spring Undergraduate Admission Guide for International Students (PDF)",
+     "url": "https://international.pusan.ac.kr/bbs/international/2089/1533745/download.do"
+    },
+    {
+     "name": "Pusan National University: Office of International Affairs - guide notice",
+     "url": "https://international.pusan.ac.kr/bbs/international/2089/1459481/artclView.do"
+    },
+    {
+     "name": "Pusan National University: Office of International Affairs",
+     "url": "https://international.pusan.ac.kr/international/15210/subview.do"
+    }
+   ],
+   "levels": [
+    {
+     "name": "Bachelors\n(English track)",
+     "slug": "bachelors",
+     "categories": [
+      "bachelors"
+     ],
+     "deadlines": [
+      "2026-10-23"
+     ],
+     "programs": [
+      {
+       "name": "Department of Global Studies",
+       "details": [
+        "All courses taught in English (the only English-taught undergraduate department)",
+        "College of Economics & International Trade (Busan campus)",
+        "Selection: English essay test and interview in English (tentative)",
+        "Tuition = Tuition I 378,000 + Tuition II 1,691,000 (2027 table)"
+       ],
+       "tuition_krw": "2,069,000 KRW",
+       "tuition_usd": "1,560 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• High school graduate (or expected); both applicant and parents foreign nationals\n• English: TOEFL iBT 80 (new scale 4), IELTS 5.5 or NewTEPS 327\n• Nepal, Mongolia, Vietnam, Uzbekistan: IELTS 7 or TOEFL iBT 85 (5)\n• TOPIK not compulsory\n• Exempt from English test only for US, UK, Australia, Canada, Ireland, New Zealand, South Africa (Pakistan not exempt)\n• Bank balance for the visa: KRW 16,000,000"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "144,000 KRW",
+        "usd": "110 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "None (2027 table shows admission fee 0)"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• TOPIK 4: Tuition I waived\n• TOPIK 5: Tuition II waived\n• TOPIK 6: Tuition I and II waived\n• No English-score scholarship stated\n\nFrom 2nd Semester:\n• PNU scholarship for TOPIK 4+ holders with high GPA (amount varies)\n• TOPIK 4+ gained after admission: 400,000 KRW (max 3 times)\n• Needs GPA 2.5+/4.5 and 12+ credits"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Admitted students can change to a student visa at the Busan Immigration Office after receiving the Certificate of Admission"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n• Costs not stated in the guide; see PNU Housing page (international.pusan.ac.kr)"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "incheon",
+   "name": "Incheon National University",
+   "city": "Incheon",
+   "city_ko": "",
+   "logo": "assets/logos/incheon.png",
+   "kind": "National university",
+   "sources": [
+    {
+     "name": "Incheon National University: 2027 Spring Semester Undergraduate Admission Guide for International Students (PDF)",
+     "url": "https://www.inu.ac.kr/bbs/isc/3184/396472/download"
+    },
+    {
+     "name": "Incheon National University: International Service Center - 2027.3 Undergraduate Admissions notice",
+     "url": "https://www.inu.ac.kr/bbs/isc/3184/429961/artclView.do"
+    },
+    {
+     "name": "Incheon National University: International Service Center",
+     "url": "https://www.inu.ac.kr/isc/12368/subview.do"
+    }
+   ],
+   "levels": [
+    {
+     "name": "Bachelors\n(English track)",
+     "slug": "bachelors",
+     "categories": [
+      "bachelors"
+     ],
+     "deadlines": [
+      "2026-11-20"
+     ],
+     "programs": [
+      {
+       "name": "International Business Economics (IBE) Major",
+       "details": [
+        "English track (courses taught in English); some courses may be in Korean",
+        "School of Northeast Asian Studies",
+        "Freshman and transfer entry",
+        "All students must complete the IPA programme incl. mandatory Korean language classes",
+        "No admission fee"
+       ],
+       "tuition_krw": "2,823,000 KRW",
+       "tuition_usd": "2,120 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• High school graduate (or expected); transfer: 1 or 2 years of university completed\n• Both applicant and parents foreign nationals\n• English: TOEFL iBT 75, TOEIC 700, IELTS 5.5 or PETS Level 4\n• Exempt only for UK, US, Canada, Ireland, New Zealand, Australia, South Africa (Pakistan must submit a score)\n• TOPIK not required for IBE\n• Document review, then interview\n• Bank balance for the visa: KRW 20,000,000"
+       }
+      ],
+      "application_fee": [
+       {
+        "value": "80,000 KRW (60,000 stage 1 + 20,000 stage 2)"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "None"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• IELTS 7.0 / TOEIC 800 / TOEFL 94: 70% of tuition\n• IELTS 6.5 / TOEIC 750 / TOEFL 87: 50%\n• IELTS 6.0 / TOEIC 700 / TOEFL 82: 30%\n• (TOPIK 6/5/4 gives the same rates)\n\nFrom 2nd Semester:\n• 15+ credits and GPA 4.2+: 100%\n• GPA 4.0+: 85%\n• GPA 3.5+: 50%\n• GPA 3.0+: 30%"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "D-4 holders in Korea change status to D-2 via HiKorea (e-application) before the current visa expires; D-2 holders from another Korean university must leave Korea and reapply"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n• Single room: 1,280,000 KRW per 16 weeks\n• Double room: 1,040,000 KRW\n• Triple room: 720,000 KRW\n• 2026 fees"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "jeonbuk",
+   "name": "Jeonbuk National University",
+   "city": "Jeonju",
+   "city_ko": "",
+   "logo": "assets/logos/jeonbuk.png",
+   "kind": "National university",
+   "sources": [
+    {
+     "name": "Jeonbuk National University: 2027 Spring Undergraduate Admission Guidelines for International Students (English) (PDF)",
+     "url": "https://ioffice.jbnu.ac.kr/sites/ioffice/file/2-1%20English.pdf"
+    },
+    {
+     "name": "Jeonbuk National University: 2027학년도 전기 학부 외국인특별전형 모집요강 (Korean) (PDF)",
+     "url": "https://ioffice.jbnu.ac.kr/sites/ioffice/file/2-2%20Korean.pdf"
+    },
+    {
+     "name": "Jeonbuk National University: 2027 Spring Semester Graduate School Admission Guide for International Students (PDF, attached to notice)",
+     "url": "https://www.jbnu.ac.kr/web/Board/217658/detailView.do"
+    },
+    {
+     "name": "Jeonbuk National University: Office of International Affairs admission page",
+     "url": "https://ioffice.jbnu.ac.kr/ioffice/32603/subview.do"
+    }
+   ],
+   "levels": [
+    {
+     "name": "Bachelors\n(English track)",
+     "slug": "bachelors",
+     "categories": [
+      "bachelors"
+     ],
+     "deadlines": [
+      "2026-11-20"
+     ],
+     "programs": [
+      {
+       "name": "School of International Studies (International Studies Major)",
+       "details": [
+        "English Track: more than 50% of graduation credits taught in English",
+        "College of Humanities (Korean name: 국제학부 국제협력)",
+        "Freshmen; transfer into year 2 or 3",
+        "Humanities fee band"
+       ],
+       "tuition_krw": "2,016,000 KRW",
+       "tuition_usd": "1,520 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "School of International Engineering and Science (Engineering Science Major)",
+       "details": [
+        "English Track: more than 50% of graduation credits taught in English",
+        "University Headquarters, engineering field (Korean name: 국제이공학부)",
+        "Freshmen; transfer into year 2",
+        "Engineering fee band (listed by name in Korean guide)"
+       ],
+       "tuition_krw": "2,704,000 KRW",
+       "tuition_usd": "2,030 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• High school graduate (or graduating by Feb 2027); transfer: 2+ years / 65+ credits at a 4-year university, or junior-college graduate\n• Applicant and both parents foreign, or all schooling (12 years) completed abroad\n• English: IELTS 5.5, TOEFL iBT 71 (tests after 20 Jan 2026: 3.5), TEPS 600, New TEPS 330\n• Nationals of English-speaking countries may submit their diploma instead of a test score\n• TOPIK not required for English Track\n• Document screening (language) + interview in Korean or English\n• Bank balance for the visa: KRW 16,000,000"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "80,000 KRW",
+        "usd": "60 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "None stated"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• IELTS 8.0 (or TOPIK 6): Tuition I & II fully waived\n• IELTS 7.5 (or TOPIK 5): 50% of Tuition II waived\n• Other official language scores: Tuition I waived, within budget\n• Self-funded students only; scores must be submitted by 23 Dec 2026\n\nFrom 2nd Semester:\n• Merit scholarship (about 15% to 100%) chosen by department: previous-semester GPA 2.75+ and 15+ credits"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Change to D-2 through JBNU Office of International Affairs in Feb 2027; takes about 5-8 weeks"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available (all applicants who apply and pay can live in)\n\n• Chambit Hall (Jeonju, triple room, 3 meals 5 days/week, compulsory): 1,404,630 KRW per semester\n• Daedong Hall (Jeonju, men only, double room, no meals): 580,000 KRW per semester\n• Cheongun Hall (Iksan, double room, no meals): 870,000 KRW per semester\n• Fall 2026 rates"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Masters & PhD\n(English track)",
+     "slug": "masters-phd",
+     "categories": [
+      "masters",
+      "phd"
+     ],
+     "deadlines": [
+      "2026-11-20"
+     ],
+     "programs": [
+      {
+       "name": "International Development Studies",
+       "details": [
+        "English Track: all classes conducted in English",
+        "Master's only (transfer also accepted)",
+        "Needs TOEFL iBT 85 / IELTS 6.0 / New TEPS 346 or native English speaker; JBNU English Track graduates exempt",
+        "Humanities/Social Sciences fee band"
+       ],
+       "tuition_krw": "2,962,000 KRW",
+       "tuition_usd": "2,230 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "International Cyber Trade and Area Study",
+       "details": [
+        "English Track: all classes conducted in English",
+        "Master's only",
+        "Needs TOEFL iBT 85 / IELTS 6.0 / New TEPS 346 or native English speaker",
+        "Humanities/Social Sciences fee band"
+       ],
+       "tuition_krw": "2,962,000 KRW",
+       "tuition_usd": "2,230 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "English Education",
+       "details": [
+        "English Track: all classes conducted in English",
+        "PhD only (transfer also accepted)",
+        "Needs TOEFL iBT 71 / IELTS 5.5 / New TEPS 326 or native English speaker",
+        "Humanities/Social Sciences fee band"
+       ],
+       "tuition_krw": "2,962,000 KRW",
+       "tuition_usd": "2,230 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• Master's: Bachelor's degree (by start of semester); PhD: Master's degree\n• Applicant and both parents foreign, or all education completed abroad\n• English (by major): IELTS 6.0 / TOEFL iBT 85 / New TEPS 346 (International Development Studies, International Cyber Trade); IELTS 5.5 / TOEFL iBT 71 / New TEPS 326 (English Education); native English speakers exempt\n• TOPIK not required for these majors\n• Documents (40) + interview (60); pass mark 60\n• Bank balance for the visa: KRW 16,000,000"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "80,000 KRW",
+        "usd": "60 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "178,000 KRW (first semester only)"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• Freshman scholarship: up to 80% tuition reduction for full-time students (Humanities: actual payment about 595,000 KRW incl. admission fee)\n\nFrom 2nd Semester:\n• Academic scholarship: about 15% to 100% (GPA 3.63+, chosen by department)\n• TOPIK scholarship: 15% (TOPIK 4+ gained at JBNU)\n• Research scholarship: 50% (advisor recommendation)\n• BK21 participants: 1,000,000 KRW/month (Master) or 1,600,000 KRW/month (PhD), or 50% reduction"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Change or extend visa through JBNU Office of International Affairs after paying tuition, before current stay expires"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n• Chambit (Jeonju, triple, 3 meals 5 days/week): about 1,050 USD per semester\n• Daedong (Jeonju, men, triple, 3 meals): about 1,200 USD; no meals: about 450 USD\n• Haemin / Changweui (medical, dental, pharmacy students): about 550 / 670 USD\n• Cheongun (Iksan, veterinary): about 670 USD"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "chungbuk",
+   "name": "Chungbuk National University",
+   "city": "Cheongju",
+   "city_ko": "",
+   "logo": "assets/logos/chungbuk.png",
+   "kind": "National university",
+   "sources": [
+    {
+     "name": "Chungbuk National University: (ENG) 2027 Spring Undergraduate Guideline for Intl Admission, School of International Studies (PDF, attached to notice)",
+     "url": "https://oia.cbnu.ac.kr/home/sub.do?menukey=7900&mode=view&dsn=1790819647-913-452"
+    },
+    {
+     "name": "Chungbuk National University: (ENG) 2027 Spring Graduate Guideline for Intl Admission, School of Int'l Studies (PDF, attached to notice)",
+     "url": "https://oia.cbnu.ac.kr/home/sub.do?menukey=7900&mode=view&dsn=1790819770-222-431"
+    },
+    {
+     "name": "Chungbuk National University: Office of International Affairs admission notices",
+     "url": "https://oia.cbnu.ac.kr/home/sub.do?menukey=7900"
+    }
+   ],
+   "levels": [
+    {
+     "name": "Bachelors\n(English track)",
+     "slug": "bachelors",
+     "categories": [
+      "bachelors"
+     ],
+     "deadlines": [
+      "2026-12-11"
+     ],
+     "programs": [
+      {
+       "name": "Global Education (English Track), School of International Studies",
+       "details": [
+        "Bilingual program: at least 50% of graduation credits taught in a foreign language",
+        "Humanities and Social Sciences",
+        "Freshmen only (transfer is Chinese track only)"
+       ],
+       "tuition_krw": "2,440,000 KRW",
+       "tuition_usd": "1,830 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Convergence Software (English Track), School of International Studies",
+       "details": [
+        "Bilingual program: at least 50% of graduation credits taught in a foreign language",
+        "Natural Sciences",
+        "Freshmen only"
+       ],
+       "tuition_krw": "2,642,000 KRW",
+       "tuition_usd": "1,990 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• High school graduate (or graduating by Feb 2027)\n• Applicant and both parents foreign, or all schooling completed abroad\n• English: TOEFL iBT 71 (CBT 197, PBT 530), IELTS 5.5, CEFR B2, TEPS 600 (New TEPS 326); Home Edition not accepted\n• Nationals of USA, UK, Canada, South Africa, New Zealand, Australia, Ireland exempt from test (Pakistan not on this list)\n• TOPIK not required for English Track\n• Interview 100% (online for overseas applicants)\n• Bank balance for the visa: KRW 16,000,000"
+       }
+      ],
+      "application_fee": [
+       {
+        "value": "72,000 KRW (or 72 USD)"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "None stated"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• TOPIK 5: about 70% off tuition; TOPIK 4: about 40%; TOPIK 3: about 20%\n• CBNU Bridge Scholarship: 1,000,000 KRW once, for students who finished the CBNU Korean Language Program the semester before\n\nFrom 2nd Semester:\n• TOPIK 5 + A+: about 70%; TOPIK 5 + A0: about 40%; TOPIK 4 + B+: about 20%"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "D-4/D-10 to D-2 change (fee 135,000 KRW) or D-2 extension (fee 60,000 KRW) handled through CBNU Office of International Affairs; must be done by 28 Feb 2027"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available (Yanghyunjae, international students only)\n\n• 2 in 1 room, 7-day meals: 2,009,800 KRW per semester\n• 5-day meals: 1,812,100 KRW per semester\n• No meals: 982,600 KRW per semester\n• Fall 2026 rates (111 days)"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Masters\n(English track)",
+     "slug": "masters",
+     "categories": [
+      "masters"
+     ],
+     "deadlines": [
+      "2026-12-11"
+     ],
+     "programs": [
+      {
+       "name": "Global Education (English Track), Graduate School of International Studies",
+       "details": [
+        "Bilingual program: more than 50% of graduation credits taught in a foreign language",
+        "Master's only",
+        "Humanities and Social Sciences",
+        "Plus enrollment fee 175,000 KRW in first semester"
+       ],
+       "tuition_krw": "3,426,000 KRW",
+       "tuition_usd": "2,580 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Convergence Software (English Track), Graduate School of International Studies",
+       "details": [
+        "Bilingual program: more than 50% of graduation credits taught in a foreign language",
+        "Master's only",
+        "Engineering",
+        "Plus enrollment fee 175,000 KRW in first semester"
+       ],
+       "tuition_krw": "3,578,000 KRW",
+       "tuition_usd": "2,690 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• Bachelor's degree (by start of semester)\n• Applicant and both parents foreign, or all education completed abroad\n• Must contact a prospective CBNU advisor before applying (Form 3-1)\n• English: TOEFL iBT 71 (CBT 197, PBT 530), IELTS 5.5, CEFR B2, TEPS 601 (New TEPS 327)\n• Nationals of USA, UK, Canada, South Africa, New Zealand, Australia, Ireland exempt from test (Pakistan not on this list)\n• TOPIK not required for English Track\n• Bank balance for the visa: KRW 16,000,000"
+       }
+      ],
+      "application_fee": [
+       {
+        "value": "50,000 KRW (or 50 USD)"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "krw": "175,000 KRW",
+        "usd": "130 USD"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• TOEFL iBT 95 / IELTS 7.0 / New TEPS 427: about 80% off tuition\n• TOEFL iBT 80 / IELTS 6.5 / New TEPS 347: about 40% off\n• All other English Track applicants: about 15% off\n• CBNU Bridge Scholarship: 1,000,000 KRW once (CBNU Korean Language Program completers)\n\nFrom 2nd Semester:\n• TOEFL iBT 80 / IELTS 6.5 / New TEPS 347 + GPA B+: about 40% off"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "D-4/D-10 to D-2 change (fee 135,000 KRW) or D-2 extension (fee 60,000 KRW) handled through CBNU Office of International Affairs; must be done by 28 Feb 2027"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available (Yanghyunjae, international students only)\n\n• 2 in 1 room, 7-day meals: 2,009,800 KRW per semester\n• 5-day meals: about 1,812,000 KRW per semester\n• No meals: 982,600 KRW per semester\n• Fall 2026 rates (111 days)"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "chungnam",
+   "name": "Chungnam National University",
+   "city": "Daejeon",
+   "city_ko": "",
+   "logo": "assets/logos/chungnam.png",
+   "kind": "National university",
+   "sources": [
+    {
+     "name": "Chungnam National University: 2027 Spring Undergraduate Admission Guide for International Students (Korean/English/Chinese) (PDF)",
+     "url": "https://ipsi.cnu.ac.kr/Upl/uadm/yokang/08010101_A_0_1790818525.pdf"
+    },
+    {
+     "name": "Chungnam National University: International admissions page",
+     "url": "https://ipsi.cnu.ac.kr/html/uadm/sub08/sub08_08010101.html"
+    }
+   ],
+   "levels": [
+    {
+     "name": "Bachelors\n(English track)",
+     "slug": "bachelors",
+     "categories": [
+      "bachelors"
+     ],
+     "deadlines": [
+      "2026-11-20"
+     ],
+     "programs": [
+      {
+       "name": "School of International Studies (International Studies)",
+       "details": [
+        "Major courses taught in English for applicants who apply with an English score (or both English and Korean scores)",
+        "Courses offered may differ by language",
+        "Freshmen and transfers"
+       ],
+       "tuition_krw": "2,469,000 KRW",
+       "tuition_usd": "1,860 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• High school graduate (or graduating by Feb 2027); transfer: 1 year (sophomore) or 2 years (junior) at a 4-year university, or junior-college graduate\n• Applicant and both parents not Korean citizens\n• English: TOEIC 700, TOEFL iBT 71, New TEPS 327, IELTS 5.5 (scores taken after 20 Nov 2024 if no expiry date is shown)\n• Nationals of countries where English is the first or official language may apply without an English score\n• TOPIK not required when applying with an English score\n• Interview or document evaluation (video/phone for overseas applicants)\n• Bank balance for the visa: KRW 16,000,000"
+       }
+      ],
+      "application_fee": [
+       {
+        "value": "60,000 KRW (or 50 USD)"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "None stated"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• Top admission results: part of tuition (number set by the university)\n• TOPIK 5+: 100% of tuition; TOPIK 4: part of tuition\n• Descendants of UN Korean War veterans: 100% of tuition\n• CNU Korean Language Course (4 semesters): 500,000 KRW\n\nFrom 2nd Semester:\n• Part of tuition: GPA 2.75+ and 15 credits in recent semester"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Moving from another Korean bachelor's program (dropped out or graduated) is restricted; such students must return home, get a new student visa and re-enter"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available (limited places)\n\n• International students in Building 2, 2 per room\n• 2027 fees not stated in guide; see dorm.cnu.ac.kr"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "kongju",
+   "name": "Kongju National University",
+   "city": "Gongju",
+   "city_ko": "",
+   "logo": "assets/logos/kongju.png",
+   "kind": "National university",
+   "sources": [
+    {
+     "name": "Kongju National University: 2027 Spring Semester Undergraduate (Freshmen & Transfer) Admission Guide for International Students (PDF)",
+     "url": "https://ipsi.kongju.ac.kr/attach/bf5482a8198c895e0d499b6cd253bb28/9a9db098b587ee18b321c826f3707a49"
+    },
+    {
+     "name": "Kongju National University: Office of International Affairs admission board",
+     "url": "https://oia.kongju.ac.kr/admboard"
+    }
+   ],
+   "levels": [
+    {
+     "name": "Bachelors\n(English track)",
+     "slug": "bachelors",
+     "categories": [
+      "bachelors"
+     ],
+     "deadlines": [
+      "2026-11-13"
+     ],
+     "programs": [
+      {
+       "name": "International Financial Engineering (Division of International Studies, English Track)",
+       "details": [
+        "100% English major courses; general education is in Korean",
+        "Guide notes some courses are conducted in Korean; contact the department",
+        "Freshman and transfer entry",
+        "Gongju campus (Headquarters unit)"
+       ],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• Freshman: high school graduate (or graduating by Feb 2027); Transfer: 2 years (4 semesters) of a 4-year university or junior college graduate\n• Applicant and both parents must be non-Korean\n• TOPIK Level 2 or higher is REQUIRED (in addition to English)\n• English: TOEFL iBT 71 / IELTS 5.5 / CEFR B2 / TOEIC 700 / New TEPS 326 (valid at deadline)\n• Native English countries (USA, UK, Canada, Australia, NZ, Ireland, South Africa) exempt from English test\n• Countries where English is an official language may instead submit an English Medium of Instruction certificate for secondary school + HS diploma + transcript (apostilled)\n• Document review + interview (video/phone possible for overseas applicants)\n• Bank balance for the visa: KRW 16,000,000"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "60,000 KRW",
+        "usd": "50 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "None stated"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• Global Student Scholarship: 20% of tuition (all freshmen/transfers)\n• TOPIK Level 4+ at admission: additional 40% of tuition\n• Top 30% of applicants in department: 20% tuition waiver\n• Top-ranked applicant in department: full waiver (departments with quota 10+)\n\nFrom 2nd Semester:\n• GPA 3.0+ in previous semester: 20% of tuition\n• TOPIK 4+ within one year of admission: 40% of tuition (one-time)\n• TOPIK 5 / 6 during enrollment: 300,000 / 500,000 KRW"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Not stated"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available (priority for international students)\n\n• Gongju campus: 1,647,400 ~ 2,608,900 KRW per semester incl. meals (as of 2026 Fall)\n• Electricity billed separately in some halls"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "sunchon",
+   "name": "Sunchon National University",
+   "city": "Suncheon",
+   "city_ko": "",
+   "logo": "assets/logos/sunchon.png",
+   "kind": "National university",
+   "sources": [
+    {
+     "name": "Sunchon National University: 2027 Spring Semester Undergraduate Admission Guide for International Students (PDF)",
+     "url": "https://www.scnu.ac.kr/upload/download/ials/2027-FUnderGraduate%20School%20Admission%20guide_e.pdf"
+    },
+    {
+     "name": "Sunchon National University: Office of International Affairs and Education admission page",
+     "url": "https://www.scnu.ac.kr/ials/cm/cntnts/cntntsView.do?cntntsId=3467&mi=6132"
+    },
+    {
+     "name": "Sunchon National University: Dormitory page",
+     "url": "https://www.scnu.ac.kr/ials/cm/cntnts/cntntsView.do?mi=1856&cntntsId=1594"
+    }
+   ],
+   "levels": [
+    {
+     "name": "Bachelors\n(English track)",
+     "slug": "bachelors",
+     "categories": [
+      "bachelors"
+     ],
+     "deadlines": [
+      "2026-11-13"
+     ],
+     "programs": [
+      {
+       "name": "Global Management (English Track), Division of Global Business and Creative Studies",
+       "details": [
+        "English track department for international students only",
+        "Freshman (1st year) and transfer (2nd/3rd year) entry",
+        "Study plan and pledge forms written in English"
+       ],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• Freshman: completed high school (or by Feb 2027); Transfer: 2 years of a 4-year university or junior college graduate\n• Applicant and both parents must be foreign nationals\n• English: TOEFL iBT 3.5 (new scale; 59 for tests taken by 2026-01-20) / IELTS 5.5 / CEFR B2 / NEW TEPS 202, issued on or after 2024-11-02\n• TOPIK not required for the English track\n• Citizens of countries where English is a native or official language are exempt from the English test (submit e.g. graduation certificate)\n• Document screening (guide says new departments are evaluated on documents without interview)\n• Bank balance for the visa: KRW 16,000,000"
+       }
+      ],
+      "application_fee": [
+       {
+        "value": "Free"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "None stated"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• TOPIK 4+: full tuition fee 1 and tuition fee 2\n• TOPIK 2+: full tuition fee 1\n• SCNU Korean Language School graduates: tuition fee 1 (TOPIK 2+: tuition fee 2; top scorer with TOPIK 3+: both)\n\nFrom 2nd Semester (12+ credits in previous semester):\n• GPA 4.00+: full tuition fee 1 and 2\n• GPA 3.75+: full tuition fee 2\n• GPA 3.40+: 50% of tuition fee 2\n• GPA 3.00+: full tuition fee 1"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Not stated"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available (all international students can be housed)\n\n• About 1,000,000 KRW per semester with meals, about 500,000 KRW without (2-person apartment type, 2023 Spring basis, 16 weeks)"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "gyeongsang",
+   "name": "Gyeongsang National University",
+   "city": "Jinju",
+   "city_ko": "",
+   "logo": "assets/logos/gyeongsang.png",
+   "kind": "National university",
+   "sources": [
+    {
+     "name": "Gyeongsang National University: Graduate School Admission Guide, Spring 2027 (International Students & Overseas Koreans) (PDF)",
+     "url": "https://www.gnu.ac.kr/graduate/na/ntt/selectNttInfo.do?mi=19062&bbsId=1990&nttSn=8796824"
+    },
+    {
+     "name": "Gyeongsang National University: International admissions page",
+     "url": "https://www.gnu.ac.kr/international/cm/cntnts/cntntsView.do?mi=8327&cntntsId=4367"
+    }
+   ],
+   "levels": [
+    {
+     "name": "Masters & PhD\n(English track)",
+     "slug": "masters-phd",
+     "categories": [
+      "masters",
+      "phd"
+     ],
+     "deadlines": [
+      "2026-11-11"
+     ],
+     "programs": [
+      {
+       "name": "Management Information Systems",
+       "details": [
+        "English track department",
+        "Humanities & Social Sciences fee band"
+       ],
+       "tuition_krw": "2,408,000 KRW",
+       "tuition_usd": "1,810 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Political Science",
+       "details": [
+        "English track department",
+        "Humanities & Social Sciences fee band",
+        "Master's, Ph.D. and combined"
+       ],
+       "tuition_krw": "2,408,000 KRW",
+       "tuition_usd": "1,810 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "English Language and Literature",
+       "details": [
+        "English track department",
+        "Humanities & Social Sciences fee band"
+       ],
+       "tuition_krw": "2,408,000 KRW",
+       "tuition_usd": "1,810 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Smart Distribution and Logistics",
+       "details": [
+        "English track department",
+        "Humanities & Social Sciences fee band"
+       ],
+       "tuition_krw": "2,408,000 KRW",
+       "tuition_usd": "1,810 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Applied Life Science",
+       "details": [
+        "English track department",
+        "Natural Sciences fee band",
+        "Master's, Ph.D. and combined",
+        "BK21 FOUR department"
+       ],
+       "tuition_krw": "2,981,000 KRW",
+       "tuition_usd": "2,240 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Physics",
+       "details": [
+        "English track department",
+        "Natural Sciences fee band"
+       ],
+       "tuition_krw": "2,981,000 KRW",
+       "tuition_usd": "2,240 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Chemistry",
+       "details": [
+        "English track department",
+        "Natural Sciences fee band",
+        "Master's, Ph.D. and combined",
+        "BK21 FOUR department"
+       ],
+       "tuition_krw": "2,981,000 KRW",
+       "tuition_usd": "2,240 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Pharmacy",
+       "details": [
+        "English track department",
+        "Natural Sciences/Pharmacy fee band",
+        "Master's, Ph.D. and combined"
+       ],
+       "tuition_krw": "2,981,000 KRW",
+       "tuition_usd": "2,240 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Convergence Medical Science",
+       "details": [
+        "English track department",
+        "Natural Sciences fee band",
+        "Master's, Ph.D. and combined",
+        "BK21 FOUR department"
+       ],
+       "tuition_krw": "2,981,000 KRW",
+       "tuition_usd": "2,240 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Mechanical and Aerospace Engineering",
+       "details": [
+        "English track department",
+        "Engineering fee band",
+        "Master's, Ph.D. and combined",
+        "BK21 FOUR department"
+       ],
+       "tuition_krw": "3,208,000 KRW",
+       "tuition_usd": "2,410 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Mechanical Engineering",
+       "details": [
+        "English track department",
+        "Engineering fee band"
+       ],
+       "tuition_krw": "3,208,000 KRW",
+       "tuition_usd": "2,410 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Materials Engineering and Convergence Technology",
+       "details": [
+        "English track department",
+        "Engineering fee band",
+        "Master's, Ph.D. and combined",
+        "BK21 FOUR department"
+       ],
+       "tuition_krw": "3,208,000 KRW",
+       "tuition_usd": "2,410 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Industrial and Systems Engineering",
+       "details": [
+        "English track department",
+        "Engineering fee band",
+        "Master's, Ph.D. and combined"
+       ],
+       "tuition_krw": "3,208,000 KRW",
+       "tuition_usd": "2,410 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Electronic Engineering",
+       "details": [
+        "English track department",
+        "Engineering fee band",
+        "Master's, Ph.D. and combined",
+        "BK21 FOUR department"
+       ],
+       "tuition_krw": "3,208,000 KRW",
+       "tuition_usd": "2,410 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Civil Engineering",
+       "details": [
+        "English track department",
+        "Engineering fee band",
+        "Master's, Ph.D. and combined"
+       ],
+       "tuition_krw": "3,208,000 KRW",
+       "tuition_usd": "2,410 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Chemical Engineering",
+       "details": [
+        "English track department",
+        "Engineering fee band",
+        "Master's, Ph.D. and combined"
+       ],
+       "tuition_krw": "3,208,000 KRW",
+       "tuition_usd": "2,410 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "AI Convergence Engineering",
+       "details": [
+        "English track department",
+        "Engineering fee band",
+        "Master's, Ph.D. and combined",
+        "BK21 FOUR department"
+       ],
+       "tuition_krw": "3,208,000 KRW",
+       "tuition_usd": "2,410 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Aerospace Software Engineering",
+       "details": [
+        "English track department",
+        "Engineering fee band",
+        "Master's, Ph.D. and combined"
+       ],
+       "tuition_krw": "3,208,000 KRW",
+       "tuition_usd": "2,410 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Veterinary Medicine",
+       "details": [
+        "English track department",
+        "Medicine & Veterinary Medicine fee band",
+        "Master's, Ph.D. and combined",
+        "Clinical Veterinary Medicine major not available"
+       ],
+       "tuition_krw": "4,085,000 KRW",
+       "tuition_usd": "3,070 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Bio & Medical Big Data",
+       "details": [
+        "English track department",
+        "Interdepartmental program",
+        "Master's, Ph.D. and combined",
+        "BK21 FOUR department"
+       ],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• Master's: bachelor's degree (or by Feb 2027); Ph.D.: master's degree (or by Feb 2027)\n• Applicant and parents non-Korean (or all schooling completed abroad)\n• English track: TOEFL iBT 59 (tests to 2026-01-20) or 3.5 (new scale) / IELTS 5.5 / CEFR B2 / NEW TEPS 202\n• TOPIK not required for English-track departments\n• Pakistan is named as exempt from the language requirement (English official language country)\n• Document screening + department review (100 points, pass 60)\n• Bank balance for the visa: KRW 16,000,000"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "70,000 KRW",
+        "usd": "50 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "180,000 KRW (admission fee, first semester; 2026 basis)"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• Full-Time Student Scholarship: 100% tuition in 1st and 2nd semesters if not in the 4 major insurances, within 5 years of previous degree, and able to meet research requirements\n\nFrom 2nd Semester:\n• 2nd semester: full tuition continues under the same rules\n• 3rd semester on: full tuition only if continued-payment research criteria are met\n• BK21 FOUR participants: 1,000,000 KRW/month (Master's), 1,600,000 KRW/month (Ph.D.); no double benefits"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Not stated"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available (tick 'Yes' when applying online)\n\n• Maintenance fee: 658,950 ~ 815,350 KRW\n• Meals: 510,000 KRW (1 meal/day) or 915,000 KRW (3 meals/day)"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "gyeongkuk",
+   "name": "Gyeongkuk National University",
+   "city": "Andong",
+   "city_ko": "",
+   "logo": "assets/logos/gyeongkuk.png",
+   "kind": "National university",
+   "sources": [
+    {
+     "name": "Gyeongkuk National University: 2027 Spring Semester Graduate Admission Guideline (PDF)",
+     "url": "https://ic.gknu.ac.kr/bbs/file_download2.php?type1=Undergraduate&type2=english"
+    },
+    {
+     "name": "Gyeongkuk National University: Office of International Affairs admission page",
+     "url": "https://ic.gknu.ac.kr/bbs/admission.php?lang="
+    }
+   ],
+   "levels": [
+    {
+     "name": "Masters & PhD\n(English track)",
+     "slug": "masters-phd",
+     "categories": [
+      "masters",
+      "phd"
+     ],
+     "deadlines": [
+      "2026-11-13"
+     ],
+     "programs": [
+      {
+       "name": "Economics (Economics(E))",
+       "details": [
+        "English track (♣), Master's & PhD",
+        "Humanities & Social Sciences fee band"
+       ],
+       "tuition_krw": "1,910,000 KRW",
+       "tuition_usd": "1,440 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Educational Technology (Educational Technology(E))",
+       "details": [
+        "English track (♣), Master's & PhD",
+        "Humanities & Social Sciences fee band"
+       ],
+       "tuition_krw": "1,910,000 KRW",
+       "tuition_usd": "1,440 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Biology (Botany, Zoology, Microbiology)",
+       "details": [
+        "English track (♣), Master's & PhD",
+        "Natural Sciences fee band"
+       ],
+       "tuition_krw": "2,290,000 KRW",
+       "tuition_usd": "1,720 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Plant Medicine (Plant Pathology, Applied Entomology, Industrial Biotechnology)",
+       "details": [
+        "English track (♣), Master's & PhD",
+        "Industrial Biotechnology: Master's only",
+        "Natural Sciences fee band"
+       ],
+       "tuition_krw": "2,290,000 KRW",
+       "tuition_usd": "1,720 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Materials Science and Engineering (Ceramic Materials)",
+       "details": [
+        "English track (♣), Master's & PhD",
+        "Engineering fee band"
+       ],
+       "tuition_krw": "2,450,000 KRW",
+       "tuition_usd": "1,840 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Automotive Engineering (Future Automotive Engineering)",
+       "details": [
+        "English track (♣), Master's & PhD",
+        "Engineering fee band"
+       ],
+       "tuition_krw": "2,450,000 KRW",
+       "tuition_usd": "1,840 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Mechanical Design and System Engineering (Mechanical Design Engineering)",
+       "details": [
+        "English track (♣), Master's & PhD",
+        "Engineering fee band"
+       ],
+       "tuition_krw": "2,450,000 KRW",
+       "tuition_usd": "1,840 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Electronics Engineering",
+       "details": [
+        "English track (♣): Master's only (PhD listed without ♣)",
+        "Engineering fee band"
+       ],
+       "tuition_krw": "2,450,000 KRW",
+       "tuition_usd": "1,840 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Computer Engineering",
+       "details": [
+        "English track (♣), Master's & PhD",
+        "Engineering fee band"
+       ],
+       "tuition_krw": "2,450,000 KRW",
+       "tuition_usd": "1,840 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Software Convergence Engineering",
+       "details": [
+        "English track (♣), Master's & PhD",
+        "Engineering fee band"
+       ],
+       "tuition_krw": "2,450,000 KRW",
+       "tuition_usd": "1,840 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Civil and Environmental Engineering (Civil Engineering, Environmental Engineering)",
+       "details": [
+        "English track (♣)",
+        "Master's: Civil & Environmental; PhD: Environmental only",
+        "Engineering fee band"
+       ],
+       "tuition_krw": "2,450,000 KRW",
+       "tuition_usd": "1,840 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Architecture Engineering",
+       "details": [
+        "English track (♣): Master's only",
+        "Engineering fee band"
+       ],
+       "tuition_krw": "2,450,000 KRW",
+       "tuition_usd": "1,840 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Chemical and Biological Engineering",
+       "details": [
+        "English track (♣), Master's & PhD",
+        "Engineering fee band"
+       ],
+       "tuition_krw": "2,450,000 KRW",
+       "tuition_usd": "1,840 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Earthquake Disaster Prevention Engineering (Construction and Disaster Prevention Eng., Geologic Disaster Prevention)",
+       "details": [
+        "Convergence major; English track (♣) for Master's",
+        "PhD listed with (E) but without ♣",
+        "Engineering fee band"
+       ],
+       "tuition_krw": "2,450,000 KRW",
+       "tuition_usd": "1,840 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Music (Vocal Music·Musical, Orchestra·Conducting, Piano, Composition·Musicology)",
+       "details": [
+        "Marked ♣ in Master's table only",
+        "Not eligible for scholarships",
+        "Music fee band"
+       ],
+       "tuition_krw": "3,530,000 KRW",
+       "tuition_usd": "2,650 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• Master's: Bachelor's degree; PhD: Master's degree\n• Applicant and both parents foreign nationals (or all schooling outside Korea)\n• English (one of): TOEFL iBT 3.5 (new scale; 59 if taken by 2026-01-20), IELTS 5.5, CEFR B2, NEW TEPS 202, or native English speaker\n• TOPIK not required for the English track\n• Recommendation letter from prospective advisor required; contact advisor first\n• Pakistan is not on the guide's native-English country list, so a test score is needed\n• Graduation: TOPIK 4 or the same English score before thesis proposal\n• Bank balance for the visa: KRW 16,000,000"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "60,000 KRW",
+        "usd": "50 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "krw": "170,000 KRW",
+        "usd": "130 USD"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• Admission Scholarship: 30% of tuition (first semester only)\n• Sister University / GKNU graduate: 30% (needs TOPIK 4+)\n• UN Veterans descendants: 30%\n\nFrom 2nd Semester:\n• GKNU Global Leader: 30–50% of tuition by academic achievement\n• TOPIK Excellence: 300,000 KRW for reaching set TOPIK levels\n• RA/TA and Outstanding Graduate Student: when funds are available\n• Music majors not eligible"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Not stated"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n• Andong campus, per semester incl. meals (2026): 1,285,000–1,840,000 KRW\n• Solmoe Hall (male) 2-person: 1,360,000 KRW\n• Garam Hall (female) 2-person: 1,575,000 KRW; 4-person: 1,285,000 KRW\n• Solbit Hall 2-person (25 weeks): 1,840,000 KRW"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "jeju",
+   "name": "Jeju National University",
+   "city": "Jeju",
+   "city_ko": "",
+   "logo": "assets/logos/jeju.png",
+   "kind": "National university",
+   "sources": [
+    {
+     "name": "Jeju National University: 2027 Graduate Admission Guide for International Students (PDF)",
+     "url": "https://jejunu.ac.kr/cs/download.htm?act=download&seq=249846&no=3"
+    },
+    {
+     "name": "Jeju National University: Graduate School Admission Guide page",
+     "url": "https://intleng.jejunu.ac.kr/intleng/admission/graduateschool/graduate.htm"
+    }
+   ],
+   "levels": [
+    {
+     "name": "Masters & PhD\n(English track)",
+     "slug": "masters-phd",
+     "categories": [
+      "masters",
+      "phd"
+     ],
+     "deadlines": [
+      "2026-12-04"
+     ],
+     "programs": [
+      {
+       "name": "Chemistry",
+       "details": [
+        "50% of graduation credits in English",
+        "Master's, PhD, Integrated",
+        "Natural Science fee band"
+       ],
+       "tuition_krw": "3,067,000 KRW",
+       "tuition_usd": "2,310 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Marine Life Sciences",
+       "details": [
+        "50% of graduation credits in English",
+        "Master's, PhD, Integrated",
+        "Natural Science fee band"
+       ],
+       "tuition_krw": "3,067,000 KRW",
+       "tuition_usd": "2,310 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Biomedicine and Drug Development",
+       "details": [
+        "50% of graduation credits in English",
+        "Master's, PhD, Integrated",
+        "Natural Science fee band"
+       ],
+       "tuition_krw": "3,067,000 KRW",
+       "tuition_usd": "2,310 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Mechanical Engineering",
+       "details": [
+        "50% of graduation credits in English",
+        "Master's, PhD, Integrated",
+        "Fee band not stated (listed under 'Field of Science and Engineering')"
+       ],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": null
+      },
+      {
+       "name": "Energy and Chemical Engineering",
+       "details": [
+        "50% of graduation credits in English",
+        "Master's, PhD, Integrated",
+        "Fee band not stated (listed under 'Field of Science and Engineering')"
+       ],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": null
+      },
+      {
+       "name": "Electronic Engineering",
+       "details": [
+        "50% of graduation credits in English",
+        "Master's, PhD, Integrated",
+        "Fee band not stated (listed under 'Field of Science and Engineering')"
+       ],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": null
+      },
+      {
+       "name": "Mechatronics Engineering",
+       "details": [
+        "50% of graduation credits in English",
+        "Master's, PhD, Integrated",
+        "Fee band not stated (listed under 'Field of Science and Engineering')"
+       ],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": null
+      },
+      {
+       "name": "Ocean System",
+       "details": [
+        "50% of graduation credits in English",
+        "Master's, PhD, Integrated",
+        "Fee band not stated (listed under 'Field of Science and Engineering')"
+       ],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": null
+      },
+      {
+       "name": "Computer Engineering",
+       "details": [
+        "50% of graduation credits in English",
+        "Master's, PhD, Integrated",
+        "Engineering fee band"
+       ],
+       "tuition_krw": "3,338,000 KRW",
+       "tuition_usd": "2,510 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Wind Power Mechanical System Engineering",
+       "details": [
+        "50% of graduation credits in English",
+        "Master's only",
+        "Engineering fee band"
+       ],
+       "tuition_krw": "3,338,000 KRW",
+       "tuition_usd": "2,510 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Veterinary Medicine",
+       "details": [
+        "50% of graduation credits in English",
+        "Master's, PhD, Integrated",
+        "Medicine fee band (Field of Medicine)"
+       ],
+       "tuition_krw": "4,322,000 KRW",
+       "tuition_usd": "3,250 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Medicine (General Graduate School)",
+       "details": [
+        "50% of graduation credits in English",
+        "Master's, PhD, Integrated",
+        "Medicine fee band"
+       ],
+       "tuition_krw": "4,322,000 KRW",
+       "tuition_usd": "3,250 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Interdisciplinary Postgraduate Program in Marine Meteorology",
+       "details": [
+        "50% of graduation credits in English",
+        "Master's, PhD, Integrated",
+        "Fee band not stated"
+       ],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": null
+      },
+      {
+       "name": "Interdisciplinary Graduate Program in Advanced Convergence Technology and Science",
+       "details": [
+        "50% of graduation credits in English",
+        "Master's, PhD, Integrated",
+        "Fee band not stated"
+       ],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• Master's: Bachelor's degree; PhD: Master's degree\n• Integrated MS-PhD: Bachelor's average 85/100 or higher\n• Applicant and both parents foreign nationals\n• English (one of): TOEFL iBT 3.5 (tests from 2026-01-21) or 59 (earlier), IELTS 5.5, CEFR B2, New TEPS 202\n• Or: advisor's language exemption letter (Form 5), or nationality of a country with English as mother tongue/official language plus proof of English courses\n• TOPIK not required for the English track (English track is only for students admitted on English ability)\n• Pakistan not named; English-official-language route may apply, so confirm with the office\n• Bank balance for the visa: KRW 16,000,000"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "70,000 KRW",
+        "usd": "50 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "krw": "183,000 KRW",
+        "usd": "140 USD"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• A: 100% of tuition for 1 new student per professor who is financially guaranteed by that professor\n• E: 20% of tuition, selected within budget\n• 700,000 KRW incentive for JNU Korean Language Program graduates or former JNU exchange students\n\nFrom 2nd Semester:\n• C: 50% of tuition (professor-guaranteed students, or GPA 3.7/4.3+)\n• E: 20% of tuition (GPA 3.3/4.3+, TOPIK 3+ holders prioritised)"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Not stated"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n• Apply through the JNU portal (Student Dormitory 'Ara')\n• Fees set each year; not stated in the guide"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "kentech",
+   "name": "Korea Institute of Energy Technology (KENTECH)",
+   "city": "Naju",
+   "city_ko": "",
+   "logo": "assets/logos/kentech.png",
+   "kind": "Government science institute",
+   "sources": [
+    {
+     "name": "KENTECH: 2027 Graduate Admissions Guide for International Students (PDF)",
+     "url": "https://admission.kentech.ac.kr/file/download.do?sfn=20260903124317647_%eb%8c%80%ed%95%99%ec%9b%90%eb%aa%a8%ec%a7%91%ec%9a%94%ea%b0%95+%ec%98%81%eb%ac%b8+2027+%ec%b5%9c%ec%a2%85.pdf&ofn=%eb%8c%80%ed%95%99%ec%9b%90%eb%aa%a8%ec%a7%91%ec%9a%94%ea%b0%95+%ec%98%81%eb%ac%b8+2027+%ec%b5%9c%ec%a2%85.pdf"
+    },
+    {
+     "name": "KENTECH: Graduate School Admission Guide page",
+     "url": "https://gs.kentech.ac.kr/eng/admission/"
+    },
+    {
+     "name": "KENTECH: Graduate Scholarship and Student Support page",
+     "url": "https://gs.kentech.ac.kr/eng/admission/scholarship"
+    }
+   ],
+   "levels": [
+    {
+     "name": "Masters & PhD",
+     "slug": "masters-phd",
+     "categories": [
+      "masters",
+      "phd"
+     ],
+     "deadlines": [
+      "2026-10-15"
+     ],
+     "programs": [
+      {
+       "name": "Department of Energy Engineering (Master's, Integrated Master's-PhD, PhD)",
+       "details": [
+        "Single department; 12 major research fields: AI Algorithms and Systems, AI Applications, Battery Materials and Systems, Carbon Upcycling, Chemical Engineering for Energy, Materials for Hydrogen Energy, Nanofabrication and Characterization, Nuclear Energy Systems, Power Electronics and Semiconductors, Processes for Hydrogen Energy, Smart Grids and Electric Power Systems, Solar Energy Applications",
+        "Tuition: full scholarship if grades meet the selection criteria (amount not published)",
+        "Credits: Master's 33, PhD/Integrated 60",
+        "KENTECH does not state the language of instruction; admission and documents are in English, with an English test and no Korean requirement"
+       ],
+       "tuition_krw": null,
+       "tuition_usd": null,
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• Master's/Integrated: Bachelor's degree; PhD: Master's degree\n• Applicant and both parents non-Korean (or all schooling outside Korea)\n• English test required (one of): TOEFL PBT/ITP 550, TOEFL iBT 79, TOEIC 750, NEW TEPS 285, IELTS 6.0, Duolingo 115 (within 2 years)\n• English test waived for a degree from a university in an English-official-language country; Pakistan is on the list\n• No TOPIK requirement stated\n• Documents evaluation, then online interview (English proficiency assessed)"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "80,000 KRW",
+        "usd": "60 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "None stated"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• Tuition: full scholarship if grades meet the selection criteria\n• Monthly stipend (RA): Master's 1,300,000 KRW; PhD 1,600,000 KRW\n• Educational materials: up to 2,000,000 KRW\n• Housing: 150,000 KRW/month in dorm, or 300,000 KRW/month if living outside\n• Presidential Fellowship I/II: 30,000,000 / 20,000,000 KRW (selected at admission)\n\nFrom 2nd Semester:\n• Same tuition and stipend support (up to 4 years)\n• Integrated students get the PhD stipend from the 3rd semester\n• TA (PhD): 350,000 KRW/month; service 300,000 KRW/month; Student Council 1,000,000 KRW/semester"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Not stated"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n• All new students can stay\n• Double room: 150,000 KRW per month\n• Quad room: 120,000 KRW per month"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "gist",
+   "name": "Gwangju Institute of Science and Technology (GIST)",
+   "city": "Gwangju",
+   "city_ko": "",
+   "logo": "assets/logos/gist.png",
+   "kind": "Government science institute",
+   "sources": [
+    {
+     "name": "GIST: 2027 Fall Undergraduate Admission Guideline for International Applicants (PDF)",
+     "url": "https://www.gist.ac.kr/iuadm/img/sub02/2027_Fall_Undergraduate_Admission_Guideline_Final.pdf"
+    },
+    {
+     "name": "GIST: [Notice] 2027 GIST Undergraduate Admission Guidelines for International Applicants",
+     "url": "https://www.gist.ac.kr/iuadm/html/sub04/0401.html?mode=V&no=222779"
+    },
+    {
+     "name": "GIST: Graduate Application for 2027 Spring Admission (notice)",
+     "url": "https://www.gist.ac.kr/iadm/html/sub05/0502.html?mode=V&no=222702"
+    },
+    {
+     "name": "GIST: Graduate Admission Schedule",
+     "url": "https://www.gist.ac.kr/iadm/html/sub02/020101.html"
+    },
+    {
+     "name": "GIST: Graduate Application Procedure / English Requirements",
+     "url": "https://www.gist.ac.kr/iadm/html/sub02/020102.html"
+    },
+    {
+     "name": "GIST: Graduate Required Documents",
+     "url": "https://www.gist.ac.kr/iadm/html/sub02/020103.html"
+    },
+    {
+     "name": "GIST: Graduate Degree Programs",
+     "url": "https://www.gist.ac.kr/iadm/html/sub03/0301.html"
+    },
+    {
+     "name": "GIST: Graduate Financial Support (GIST Scholarships)",
+     "url": "https://www.gist.ac.kr/iadm/html/sub04/0401.html"
+    }
+   ],
+   "levels": [
+    {
+     "name": "Bachelors",
+     "slug": "bachelors",
+     "categories": [
+      "bachelors"
+     ],
+     "deadlines": [
+      "2027-01-29"
+     ],
+     "programs": [
+      {
+       "name": "AI",
+       "details": [
+        "College of Artificial Intelligence",
+        "Taught in English (basic science and major courses)",
+        "Tuition fully waived for 8 semesters"
+       ],
+       "tuition_krw": "4,050,000 KRW",
+       "tuition_usd": "3,050 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "AX",
+       "details": [
+        "College of Artificial Intelligence",
+        "Taught in English (basic science and major courses)",
+        "Tuition fully waived for 8 semesters"
+       ],
+       "tuition_krw": "4,050,000 KRW",
+       "tuition_usd": "3,050 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Electrical Engineering and Computer Science",
+       "details": [
+        "College of Artificial Intelligence",
+        "Taught in English (basic science and major courses)",
+        "Tuition fully waived for 8 semesters"
+       ],
+       "tuition_krw": "4,050,000 KRW",
+       "tuition_usd": "3,050 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Physics and Photon Science",
+       "details": [
+        "College of Natural Sciences",
+        "Taught in English (basic science and major courses)",
+        "Tuition fully waived for 8 semesters"
+       ],
+       "tuition_krw": "4,050,000 KRW",
+       "tuition_usd": "3,050 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Chemistry",
+       "details": [
+        "College of Natural Sciences",
+        "Taught in English (basic science and major courses)",
+        "Tuition fully waived for 8 semesters"
+       ],
+       "tuition_krw": "4,050,000 KRW",
+       "tuition_usd": "3,050 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Mathematical Sciences",
+       "details": [
+        "College of Natural Sciences",
+        "Taught in English (basic science and major courses)",
+        "Tuition fully waived for 8 semesters"
+       ],
+       "tuition_krw": "4,050,000 KRW",
+       "tuition_usd": "3,050 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Materials Science and Engineering",
+       "details": [
+        "College of Engineering",
+        "Taught in English (basic science and major courses)",
+        "Tuition fully waived for 8 semesters"
+       ],
+       "tuition_krw": "4,050,000 KRW",
+       "tuition_usd": "3,050 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Mechanical and Robotics Engineering",
+       "details": [
+        "College of Engineering",
+        "Taught in English (basic science and major courses)",
+        "Tuition fully waived for 8 semesters"
+       ],
+       "tuition_krw": "4,050,000 KRW",
+       "tuition_usd": "3,050 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Environment and Energy Engineering",
+       "details": [
+        "College of Engineering",
+        "Taught in English (basic science and major courses)",
+        "Tuition fully waived for 8 semesters"
+       ],
+       "tuition_krw": "4,050,000 KRW",
+       "tuition_usd": "3,050 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Life Sciences",
+       "details": [
+        "College of Life Sciences and Medical Engineering",
+        "Taught in English (basic science and major courses)",
+        "Tuition fully waived for 8 semesters"
+       ],
+       "tuition_krw": "4,050,000 KRW",
+       "tuition_usd": "3,050 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Biomedical Science and Engineering",
+       "details": [
+        "College of Life Sciences and Medical Engineering",
+        "Taught in English (basic science and major courses)",
+        "Tuition fully waived for 8 semesters"
+       ],
+       "tuition_krw": "4,050,000 KRW",
+       "tuition_usd": "3,050 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• High school graduation by July 31, 2027 (apostilled diploma needed at registration, so graduation after early July cannot apply)\n• Neither parent a Korean citizen (Korean-origin applicants: all schooling outside Korea)\n• Official English test required: TOEFL (code 0144), IELTS, TEPS, TOEIC, CAE/CPE, PTE Academic or Duolingo; no minimum score stated; taken within 2 years\n• Native speakers (USA, Canada, UK, Ireland, Australia, New Zealand) exempt from English test\n• At least one standardized test: SAT, ACT, A-Level, IB, AP, Olympiad or national HS-exit/college-entrance exam\n• One recommendation letter (online)\n• TOPIK not required (optional; TOPIK 2/3 only exempts basic Korean courses)\n• Pakistan: an official English test such as IELTS may be required for visa issuance"
+       }
+      ],
+      "application_fee": [
+       {
+        "value": "None (GIST does not charge an application fee)"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "None stated"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• Tuition fully waived (4,050,000 KRW/semester) for all international students\n• Meal allowance 270,000 KRW/month and student allowance 130,000 KRW/month\n• Settlement subsidy 200,000 KRW (one-time)\n• One-way flight reimbursement after one month of study\n\nFrom 2nd Semester:\n• Tuition waiver continues (up to 8 semesters)\n• Student + meal allowances: at least 11 credits last semester, no academic probation\n• International allowance 130,000 KRW/month: GPA 3.0/4.5 or higher last semester"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Not stated"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n• Dormitory A & B, rooms shared, utilities free\n• Double room: 112,600 KRW/month; triple room: 74,200 KRW/month\n• Deposit: 140,000 KRW"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Masters & PhD",
+     "slug": "masters-phd",
+     "categories": [
+      "masters",
+      "phd"
+     ],
+     "deadlines": [
+      "2026-10-07"
+     ],
+     "programs": [
+      {
+       "name": "Electrical Engineering and Computer Science",
+       "details": [
+        "M.S., Ph.D. and integrated M.S./Ph.D.",
+        "English is the language of instruction",
+        "Tuition fully supported"
+       ],
+       "tuition_krw": "3,607,000 KRW",
+       "tuition_usd": "2,710 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Materials Science and Engineering",
+       "details": [
+        "M.S., Ph.D. and integrated M.S./Ph.D.",
+        "English is the language of instruction",
+        "Tuition fully supported"
+       ],
+       "tuition_krw": "3,607,000 KRW",
+       "tuition_usd": "2,710 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Mechanical and Robotics Engineering",
+       "details": [
+        "M.S., Ph.D. and integrated M.S./Ph.D.",
+        "English is the language of instruction",
+        "Tuition fully supported"
+       ],
+       "tuition_krw": "3,607,000 KRW",
+       "tuition_usd": "2,710 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Environment and Energy Engineering",
+       "details": [
+        "M.S., Ph.D. and integrated M.S./Ph.D.",
+        "English is the language of instruction",
+        "Tuition fully supported"
+       ],
+       "tuition_krw": "3,607,000 KRW",
+       "tuition_usd": "2,710 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Life Sciences",
+       "details": [
+        "M.S., Ph.D. and integrated M.S./Ph.D.",
+        "English is the language of instruction",
+        "Tuition fully supported"
+       ],
+       "tuition_krw": "3,607,000 KRW",
+       "tuition_usd": "2,710 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Physics and Photon Science",
+       "details": [
+        "M.S., Ph.D. and integrated M.S./Ph.D.",
+        "English is the language of instruction",
+        "Tuition fully supported"
+       ],
+       "tuition_krw": "3,607,000 KRW",
+       "tuition_usd": "2,710 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Chemistry",
+       "details": [
+        "M.S., Ph.D. and integrated M.S./Ph.D.",
+        "English is the language of instruction",
+        "Tuition fully supported"
+       ],
+       "tuition_krw": "3,607,000 KRW",
+       "tuition_usd": "2,710 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Biomedical Science and Engineering",
+       "details": [
+        "M.S., Ph.D. and integrated M.S./Ph.D.",
+        "English is the language of instruction",
+        "Tuition fully supported"
+       ],
+       "tuition_krw": "3,607,000 KRW",
+       "tuition_usd": "2,710 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Artificial Intelligence",
+       "details": [
+        "M.S., Ph.D. and integrated M.S./Ph.D.",
+        "English is the language of instruction",
+        "Tuition fully supported"
+       ],
+       "tuition_krw": "3,607,000 KRW",
+       "tuition_usd": "2,710 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Semiconductor Engineering",
+       "details": [
+        "M.S., Ph.D. and integrated M.S./Ph.D.",
+        "English is the language of instruction",
+        "Tuition fully supported"
+       ],
+       "tuition_krw": "3,607,000 KRW",
+       "tuition_usd": "2,710 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "AI Policy and Strategy",
+       "details": [
+        "M.S., Ph.D. and integrated M.S./Ph.D.",
+        "English is the language of instruction",
+        "Tuition fully supported"
+       ],
+       "tuition_krw": "3,607,000 KRW",
+       "tuition_usd": "2,710 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Integrative Neuroscience and Physiology",
+       "details": [
+        "M.S., Ph.D. and integrated M.S./Ph.D.",
+        "English is the language of instruction",
+        "Tuition fully supported"
+       ],
+       "tuition_krw": "3,607,000 KRW",
+       "tuition_usd": "2,710 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Mathematical Sciences",
+       "details": [
+        "M.S. program only",
+        "English is the language of instruction",
+        "Tuition fully supported"
+       ],
+       "tuition_krw": "3,607,000 KRW",
+       "tuition_usd": "2,710 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• Bachelor's degree for M.S. / integrated M.S.-Ph.D.; master's for Ph.D. (expected degree by 1st week of January 2027 for Spring)\n• English test: TOEFL iBT 80 (PBT 550), Academic IELTS 6.5, TOEIC 750 or New TEPS 285; taken within 2 years\n• Exempt: native citizens of / degree holders from Australia, Canada, Ireland, New Zealand, UK, USA (prior approval)\n• Conditional admission possible with an English-medium certificate; official score due within 6 months of admission\n• Two recommendation letters (Google Forms, after fee payment)\n• Apostilled or consular-verified degree and transcript after admission\n• TOPIK not required\n• GIST notes the Korean Immigration Service may ask for an English or Korean test score for the visa"
+       }
+      ],
+      "application_fee": [
+       {
+        "value": "Required (amount shown in the online application; not stated on GIST pages)"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "680,000 KRW one-time matriculation fee (non-refundable; waiver possible for financial hardship)"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• Tuition fully supported (3,607,000 KRW/semester) for all students, no separate application\n• Student allowance: 140,000 KRW/month (M.S.), 295,000 KRW/month (Ph.D.)\n• Meal allowance about 100,000 KRW/month\n• International student allowance 120,000 KRW/month\n• Research assistantship (avg. 2022): 6,400,000 KRW/year M.S., 13,740,000 KRW/year Ph.D.\n• 60% of National Health Insurance supported; one-way flight reimbursement\n\nFrom 2nd Semester:\n• Student and meal allowances need at least 9 credits in the previous semester\n• International allowance needs GPA 3.0/4.5 or higher in the previous semester"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Not stated"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n• Graduate dormitory (as of 2022): single 140,000 KRW/month; double 80,000-115,000 KRW/month; deposit 150,000 KRW\n• Married student apartment: 125,000-185,000 KRW/month\n• Utilities charged separately; fees rise yearly"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "unist",
+   "name": "Ulsan National Institute of Science and Technology (UNIST)",
+   "city": "Ulsan",
+   "city_ko": "",
+   "logo": "assets/logos/unist.png",
+   "kind": "Government science institute",
+   "sources": [
+    {
+     "name": "UNIST: Fall 2027 Undergraduate Admission Guidelines for International Applicants (PDF)",
+     "url": "https://admu-intl.unist.ac.kr/admission-eng/admissions/admissions.do?mode=download&articleNo=306812&attachNo=591437"
+    },
+    {
+     "name": "UNIST: International Undergraduate Scholarships",
+     "url": "https://admu-intl.unist.ac.kr/admission-eng/life/scholarships.do"
+    },
+    {
+     "name": "UNIST: Guidelines for 2027 Spring 2nd Graduate Admissions, International Applicants (PDF)",
+     "url": "https://admg-intl.unist.ac.kr/admg-eng/community/graduate_admissions.do?mode=download&articleNo=307609&attachNo=592196"
+    },
+    {
+     "name": "UNIST: 2027 Spring 2nd Graduate Admissions Application Guide (notice)",
+     "url": "https://admg-intl.unist.ac.kr/admg-eng/community/graduate_admissions.do?mode=view&articleNo=307609"
+    },
+    {
+     "name": "UNIST: Graduate Admissions FAQ",
+     "url": "https://admg-intl.unist.ac.kr/admg-eng/admission/faq.do"
+    }
+   ],
+   "levels": [
+    {
+     "name": "Bachelors",
+     "slug": "bachelors",
+     "categories": [
+      "bachelors"
+     ],
+     "deadlines": [
+      "2027-01-22"
+     ],
+     "programs": [
+      {
+       "name": "Mechanical Engineering",
+       "details": [
+        "College of Engineering",
+        "Engineering field (Engineering fee band)",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,316,500 KRW",
+       "tuition_usd": "2,490 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Materials Science and Engineering",
+       "details": [
+        "College of Engineering",
+        "Engineering field (Engineering fee band)",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,316,500 KRW",
+       "tuition_usd": "2,490 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Energy and Chemical Engineering",
+       "details": [
+        "College of Engineering",
+        "Engineering field (Engineering fee band)",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,316,500 KRW",
+       "tuition_usd": "2,490 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Nuclear Engineering",
+       "details": [
+        "College of Engineering",
+        "Engineering field (Engineering fee band)",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,316,500 KRW",
+       "tuition_usd": "2,490 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Civil, Urban, Earth, and Environmental Engineering",
+       "details": [
+        "College of Engineering",
+        "Engineering field (Engineering fee band)",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,316,500 KRW",
+       "tuition_usd": "2,490 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Design",
+       "details": [
+        "College of Information and Biotechnology",
+        "Engineering field (Engineering fee band)",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,316,500 KRW",
+       "tuition_usd": "2,490 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Biomedical Engineering",
+       "details": [
+        "College of Information and Biotechnology",
+        "Engineering field (Engineering fee band)",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,316,500 KRW",
+       "tuition_usd": "2,490 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Industrial Engineering",
+       "details": [
+        "College of Information and Biotechnology",
+        "Engineering field (Engineering fee band)",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,316,500 KRW",
+       "tuition_usd": "2,490 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Biological Sciences",
+       "details": [
+        "College of Information and Biotechnology",
+        "Engineering field (Engineering fee band)",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,316,500 KRW",
+       "tuition_usd": "2,490 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Electrical Engineering",
+       "details": [
+        "College of Information and Biotechnology",
+        "Engineering field (Engineering fee band)",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,316,500 KRW",
+       "tuition_usd": "2,490 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Computer Science and Engineering",
+       "details": [
+        "College of Information and Biotechnology",
+        "Engineering field (Engineering fee band)",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,316,500 KRW",
+       "tuition_usd": "2,490 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Physics",
+       "details": [
+        "College of Natural Sciences",
+        "Engineering field (Engineering fee band)",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,316,500 KRW",
+       "tuition_usd": "2,490 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Mathematical Sciences",
+       "details": [
+        "College of Natural Sciences",
+        "Engineering field (Engineering fee band)",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,316,500 KRW",
+       "tuition_usd": "2,490 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Chemistry",
+       "details": [
+        "College of Natural Sciences",
+        "Engineering field (Engineering fee band)",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,316,500 KRW",
+       "tuition_usd": "2,490 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Business Administration",
+       "details": [
+        "School of Business Administration",
+        "Business field (Business fee band)",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "2,795,500 KRW",
+       "tuition_usd": "2,100 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• High school graduation (or equivalent) by the start of Fall 2027\n• Neither parent a Korean citizen (or all schooling completed outside Korea)\n• Official English test report required: TOEFL (code 8807), IELTS, TEPS or TOEIC; no minimum score stated; within 2 years\n• Exempt: applicants from the U.S., Canada, U.K., Australia, New Zealand, Ireland\n• GED, homeschooling and online/distance credentials not recognized\n• Choose Engineering or Business field when applying; major declared later\n• Document screening plus (usually online) interview\n• TOPIK not required (optional supplementary document)"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "50,000 KRW",
+        "usd": "40 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "Enrollment deposit required at registration (amount not stated; non-refundable if the offer is declined)"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• All freshmen get a full tuition waiver\n• Living scholarship set by UNIST at admission: Gold 630,000 KRW/month, Silver 330,000 KRW/month or Global Dream 130,000 KRW/month\n• Meal plan: 2 meals a day in the dormitory cafeteria (Halal, Korean, vegetarian)\n• National Health Insurance (75,000 KRW/month) refunded\n\nFrom 2nd Semester:\n• Full tuition: 12 credits and GPA 2.7+ in the previous term (freshmen in 2nd term: GPA 2.0+)\n• Half tuition: 12 credits and GPA 2.0+\n• Living scholarship continues with 12 credits and GPA 2.7+ (Gold/Silver) or 2.0+ (Global Dream)"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Not stated"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n• On-campus dormitory with cafeteria meal plan\n• Cost not stated on admission pages"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Masters & PhD",
+     "slug": "masters-phd",
+     "categories": [
+      "masters",
+      "phd"
+     ],
+     "deadlines": [
+      "2026-10-15"
+     ],
+     "programs": [
+      {
+       "name": "Mechanical Engineering",
+       "details": [
+        "Master's, integrated, Ph.D.",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Materials Science and Engineering",
+       "details": [
+        "Master's, integrated, Ph.D.",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Energy and Chemical Engineering",
+       "details": [
+        "Energy Engineering / Battery Science & Technology / Chemical Engineering",
+        "Major assigned at admission",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Nuclear Engineering",
+       "details": [
+        "Master's, integrated, Ph.D.",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Urban Infrastructure Engineering",
+       "details": [
+        "Civil, Urban, Earth, and Environmental Engineering",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Environmental Science Engineering",
+       "details": [
+        "Civil, Urban, Earth, and Environmental Engineering",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Design",
+       "details": [
+        "Human-Centered Design and Technology",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Biomedical Engineering",
+       "details": [
+        "Master's, integrated, Ph.D.",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Industrial Engineering",
+       "details": [
+        "Master's, integrated, Ph.D.",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Health Science and Technology",
+       "details": [
+        "Graduate School of Health Science and Technology",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Artificial Intelligence",
+       "details": [
+        "Graduate School of Artificial Intelligence",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Electrical Engineering",
+       "details": [
+        "Master's, integrated, Ph.D.",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Computer Science and Engineering",
+       "details": [
+        "Master's, integrated, Ph.D.",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Physics",
+       "details": [
+        "Also Applied Physics",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Chemistry",
+       "details": [
+        "Master's, integrated, Ph.D.",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Biological Sciences",
+       "details": [
+        "Master's, integrated, Ph.D.",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Management Engineering",
+       "details": [
+        "School of Business Administration",
+        "Lower stipend scale; bank proof needed",
+        "All courses taught in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• Bachelor's degree for Master's / integrated program; master's for Ph.D. (degree needed before first day of class)\n• English test report mandatory for foreign applicants: TOEIC, TOEIC S/W, TOEFL (code 8807), IELTS Academic, TEPS, G-TELP or OPIc; no minimum score stated; within 2 years\n• Duolingo and other self-administered tests not accepted\n• Exempt: citizens of / degree holders from listed English-speaking countries, or with an English-medium certificate from the university\n• Documents screening + interview (online or in person)\n• Apostilled or embassy-verified degree and transcript after admission\n• TOPIK not required\n• Bank balance for the visa: USD 13,000 (Other Scholarship only); Management Engineering: USD 5,500 (Master's/integrated) or USD 4,000 (Ph.D.)"
+       }
+      ],
+      "application_fee": [
+       {
+        "value": "50,000 KRW (foreign nationals)"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "None stated"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• Government Scholarship: full tuition (3,840,000 KRW/semester) + stipend at least 800,000 KRW/month (Master's) or 1,100,000 KRW/month (Ph.D.)\n• UNIST Scholarship: tuition reimbursed through stipend; at least 17,280,000 KRW/year (Master's) or 20,880,000 KRW/year (Ph.D.)\n• Other Scholarship: student pays full tuition, no stipend\n• Management Engineering: lower stipend scale\n\nFrom 2nd Semester:\n• Same category continues under UNIST regulations; stipend depends on the lab"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Not stated"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n• On-campus graduate dormitory, paid by the student\n• Cost not stated in the guideline"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "dgist",
+   "name": "Daegu Gyeongbuk Institute of Science and Technology (DGIST)",
+   "city": "Daegu",
+   "city_ko": "",
+   "logo": "assets/logos/dgist.png",
+   "kind": "Government science institute",
+   "sources": [
+    {
+     "name": "DGIST: 2027 Undergraduate Admissions Guide for International Students (PDF, via Admissions Guidebook page)",
+     "url": "https://www.dgist.ac.kr/iuadm/sub03_01.do"
+    },
+    {
+     "name": "DGIST: International Undergraduate Eligibility",
+     "url": "https://www.dgist.ac.kr/iuadm/sub02_01.do"
+    },
+    {
+     "name": "DGIST: International Undergraduate Scholarships",
+     "url": "https://www.dgist.ac.kr/iuadm/sub04_01.do"
+    },
+    {
+     "name": "DGIST: 2027 Graduate Admission Brochure (PDF, via Admission Information page)",
+     "url": "https://www.dgist.ac.kr/iadm/sub02_01_01.do"
+    },
+    {
+     "name": "DGIST: Graduate Scholarship",
+     "url": "https://www.dgist.ac.kr/iadm/sub02_01_02.do"
+    },
+    {
+     "name": "DGIST: Graduate Requirements",
+     "url": "https://www.dgist.ac.kr/iadm/sub02_01_03.do"
+    },
+    {
+     "name": "DGIST: International Graduate Admissions (notices)",
+     "url": "https://www.dgist.ac.kr/iadm/index.do"
+    }
+   ],
+   "levels": [
+    {
+     "name": "Bachelors",
+     "slug": "bachelors",
+     "categories": [
+      "bachelors"
+     ],
+     "deadlines": [
+      "2027-01-28"
+     ],
+     "programs": [
+      {
+       "name": "Physics",
+       "details": [
+        "Single-major track after first-year basic science and engineering",
+        "Lectures in English (some general electives in Korean or English)",
+        "Tuition fully waived for 8 semesters"
+       ],
+       "tuition_krw": "3,967,000 KRW",
+       "tuition_usd": "2,980 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Chemistry",
+       "details": [
+        "Single-major track after first-year basic science and engineering",
+        "Lectures in English (some general electives in Korean or English)",
+        "Tuition fully waived for 8 semesters"
+       ],
+       "tuition_krw": "3,967,000 KRW",
+       "tuition_usd": "2,980 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Life Science",
+       "details": [
+        "Single-major track after first-year basic science and engineering",
+        "Lectures in English (some general electives in Korean or English)",
+        "Tuition fully waived for 8 semesters"
+       ],
+       "tuition_krw": "3,967,000 KRW",
+       "tuition_usd": "2,980 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Brain Science",
+       "details": [
+        "Single-major track after first-year basic science and engineering",
+        "Lectures in English (some general electives in Korean or English)",
+        "Tuition fully waived for 8 semesters"
+       ],
+       "tuition_krw": "3,967,000 KRW",
+       "tuition_usd": "2,980 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Mechanical Engineering",
+       "details": [
+        "Single-major track after first-year basic science and engineering",
+        "Lectures in English (some general electives in Korean or English)",
+        "Tuition fully waived for 8 semesters"
+       ],
+       "tuition_krw": "3,967,000 KRW",
+       "tuition_usd": "2,980 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Materials Science and Engineering",
+       "details": [
+        "Single-major track after first-year basic science and engineering",
+        "Lectures in English (some general electives in Korean or English)",
+        "Tuition fully waived for 8 semesters"
+       ],
+       "tuition_krw": "3,967,000 KRW",
+       "tuition_usd": "2,980 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Electronics Engineering",
+       "details": [
+        "Single-major track after first-year basic science and engineering",
+        "Lectures in English (some general electives in Korean or English)",
+        "Tuition fully waived for 8 semesters"
+       ],
+       "tuition_krw": "3,967,000 KRW",
+       "tuition_usd": "2,980 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Computer Science and Engineering",
+       "details": [
+        "Single-major track after first-year basic science and engineering",
+        "Lectures in English (some general electives in Korean or English)",
+        "Tuition fully waived for 8 semesters"
+       ],
+       "tuition_krw": "3,967,000 KRW",
+       "tuition_usd": "2,980 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Chemical Engineering",
+       "details": [
+        "Single-major track after first-year basic science and engineering",
+        "Lectures in English (some general electives in Korean or English)",
+        "Tuition fully waived for 8 semesters"
+       ],
+       "tuition_krw": "3,967,000 KRW",
+       "tuition_usd": "2,980 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Self-Designed Track",
+       "details": [
+        "Single-major track after first-year basic science and engineering",
+        "Lectures in English (some general electives in Korean or English)",
+        "Tuition fully waived for 8 semesters"
+       ],
+       "tuition_krw": "3,967,000 KRW",
+       "tuition_usd": "2,980 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• High school graduation by the registration deadline\n• Foreign citizenship; neither parent Korean (or Korean-origin with all schooling outside Korea)\n• GED, homeschooling and online-course qualifications not accepted\n• English test optional: TOEFL iBT, IELTS, New TEPS, TOEIC, CAE/CPE, PTE Academic, Duolingo; no minimum score\n• Standardized test (SAT, ACT, A-Level, IB, AP, national exam) optional but strongly recommended; IGCSE/AS not accepted\n• Freshman entry only (no transfer); interview for shortlisted applicants\n• TOPIK not required"
+       }
+      ],
+      "application_fee": [
+       {
+        "krw": "50,000 KRW",
+        "usd": "40 USD"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "None stated"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• Tuition fully waived (3,967,000 KRW/semester) for all international students\n• Financial aid 328,500 KRW/month\n• International student scholarship (DGISTep) 330,000 KRW/month\n• Settlement subsidy 500,000 KRW (one-time)\n• Health insurance paid back in full (79,320 KRW/month)\n\nFrom 2nd Semester:\n• Waiver and monthly aid continue (8 semesters) with more than 10 credits and no academic probation\n• Academic Excellence (DGISTep-S) 1,500,000 KRW/semester: GPA above 3.7/4.3 (freshman) or 4.0/4.3 (sophomore+) and at least 15 credits"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Not stated"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n• Dormitory fee NOT covered by scholarship; students pay it themselves\n• Cost not stated in the undergraduate guide"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Masters & PhD",
+     "slug": "masters-phd",
+     "categories": [
+      "masters",
+      "phd"
+     ],
+     "deadlines": [
+      "2026-11-19"
+     ],
+     "programs": [
+      {
+       "name": "Physics and Chemistry",
+       "details": [
+        "Master's, integrated, Ph.D.",
+        "All lectures and research in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Electrical Engineering and Computer Science",
+       "details": [
+        "Master's, integrated, Ph.D.",
+        "All lectures and research in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Robotics and Mechatronics Engineering",
+       "details": [
+        "Master's, integrated, Ph.D.",
+        "All lectures and research in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Energy Science and Engineering",
+       "details": [
+        "Master's, integrated, Ph.D.",
+        "All lectures and research in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Brain Sciences",
+       "details": [
+        "Master's, integrated, Ph.D.",
+        "All lectures and research in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "New Biology",
+       "details": [
+        "English test score mandatory (no minimum)",
+        "All lectures and research in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Interdisciplinary Engineering",
+       "details": [
+        "Interdisciplinary Studies",
+        "DGIST Scholarship type; contact a faculty member before applying",
+        "All lectures and research in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Artificial Intelligence",
+       "details": [
+        "Interdisciplinary Studies",
+        "All lectures and research in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Biomedical Science & Engineering",
+       "details": [
+        "Interdisciplinary Studies",
+        "All lectures and research in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Quantum Information Science",
+       "details": [
+        "Interdisciplinary Studies",
+        "All lectures and research in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Technology and Innovation Management",
+       "details": [
+        "Graduate School of Technology and Innovation Management",
+        "AIMS track: TOEFL iBT 60 / IELTS 5.5 / TOEIC 700 minimum",
+        "All lectures and research in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      },
+      {
+       "name": "Advanced Technology",
+       "details": [
+        "Graduate School of Engineering Practice",
+        "For employed applicants (General Scholarship)",
+        "All lectures and research in English"
+       ],
+       "tuition_krw": "3,840,000 KRW",
+       "tuition_usd": "2,890 USD",
+       "tuition_combined": null
+      }
+     ],
+     "facts": {
+      "requirements": [
+       {
+        "value": "• Bachelor's degree for Master's / integrated; master's for Ph.D. (expected certificates accepted, final needed before admission)\n• Degree certificate and transcripts apostilled or Korean-embassy notarized\n• English test optional, no minimum score (except New Biology: score mandatory; TIM AIMS track: TOEFL iBT 60, IELTS 5.5, TOEIC 700, New TEPS 300)\n• Exempt: graduates of universities in English-native countries; English-official-language countries need an English-medium certificate\n• Statement of Purpose online; recommendation letters optional\n• Document screening + interview\n• TOPIK not required (one Korean language course needed to graduate; TOPIK 3+ exempts)"
+       }
+      ],
+      "application_fee": [
+       {
+        "value": "Required (amount shown in UwayApply; not stated on DGIST pages)"
+       }
+      ],
+      "enrollment_fee": [
+       {
+        "value": "None stated"
+       }
+      ],
+      "scholarship": [
+       {
+        "value": "First Semester:\n• Government Scholarship (most international students): full tuition (3,840,000 KRW/semester) + stipend at least 9.6 million KRW/year (Master's) or 14.04 million KRW/year (Ph.D.) plus incentives\n• DGIST Scholarship (selected programs): student pays tuition but gets an equal extra stipend; at least 15 million KRW/year (Master's) or 22 million KRW/year (Ph.D.)\n• General Scholarship (employed): tuition paid by student/employer, no stipend\n\nFrom 2nd Semester:\n• Same category continues; incentives depend on research performance"
+       }
+      ],
+      "visa_from_korea": [
+       {
+        "value": "Not stated"
+       }
+      ],
+      "dormitory": [
+       {
+        "value": "Available\n\n• Biseul Village: single 220,000 KRW/month; double 170,000 KRW/month\n• Married student apartment 290,000 KRW/month\n• Prices may change by academic year"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

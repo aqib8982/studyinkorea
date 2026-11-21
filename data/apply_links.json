@@ -97,5 +97,141 @@
         }
       ]
     }
+  },
+  "seoultech": {
+    "bachelors": {
+      "apply": "https://global.seoultech.ac.kr/apply/undergraduate",
+      "guide": "https://global.seoultech.ac.kr/storage/irt2/ckfinder/files/F0E4E852ED39449A8BF10D92E57F528C.pdf"
+    }
+  },
+  "pukyong": {
+    "bachelors": {
+      "apply": "https://www.studyinkorea.go.kr",
+      "guide": "http://admission.pknu.ac.kr/pdf/Admissions_Guide_for_International_Students_for_Spring_2027.pdf"
+    },
+    "masters-phd": {
+      "apply": "https://www.studyinkorea.go.kr",
+      "guide": "http://admission.pknu.ac.kr/pdf/Admissions_Guide_for_International_Students_for_Spring_2027.pdf"
+    }
+  },
+  "kaist": {
+    "bachelors": {
+      "apply": "https://admission.kaist.ac.kr/intl-undergraduate/",
+      "guide": "https://admission.kaist.ac.kr/wz/api/common/files/view/intl-undergraduate/pdf/Admissions_Guide_for_2027_admission.pdf"
+    },
+    "masters-phd": {
+      "apply": "https://gradapply.kaist.ac.kr/",
+      "guide": "https://admission.kaist.ac.kr/wz/api/board/44/2279/download/0"
+    }
+  },
+  "hanbat": {
+    "bachelors": {
+      "apply": "https://admission.hanbat.ac.kr",
+      "guide": "https://www.hanbat.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000015726Dg4&fileSn=0"
+    }
+  },
+  "pusan": {
+    "bachelors": {
+      "apply": "https://www.jinhakapply.com",
+      "guide": "https://international.pusan.ac.kr/bbs/international/2089/1533745/download.do"
+    }
+  },
+  "incheon": {
+    "bachelors": {
+      "apply": "https://admission.inu.ac.kr",
+      "guide": "https://www.inu.ac.kr/bbs/isc/3184/396472/download"
+    }
+  },
+  "jeonbuk": {
+    "bachelors": {
+      "apply": "https://www.uwayapply.com",
+      "guide": "https://ioffice.jbnu.ac.kr/sites/ioffice/file/2-1%20English.pdf"
+    },
+    "masters-phd": {
+      "apply": "https://www.uwayapply.com",
+      "guide": "https://www.jbnu.ac.kr/web/Board/217658/detailView.do"
+    }
+  },
+  "chungbuk": {
+    "bachelors": {
+      "apply": "https://enter.jinhakapply.com/",
+      "guide": "https://oia.cbnu.ac.kr/home/sub.do?menukey=7900&mode=view&dsn=1790819647-913-452"
+    },
+    "masters": {
+      "apply": "https://enter.jinhakapply.com/",
+      "guide": "https://oia.cbnu.ac.kr/home/sub.do?menukey=7900&mode=view&dsn=1790819770-222-431"
+    }
+  },
+  "chungnam": {
+    "bachelors": {
+      "apply": "https://ipsi.cnu.ac.kr/html/uadm/sub08/sub08_08010101.html",
+      "guide": "https://ipsi.cnu.ac.kr/Upl/uadm/yokang/08010101_A_0_1790818525.pdf"
+    }
+  },
+  "kongju": {
+    "bachelors": {
+      "apply": "https://www.jinhakapply.com",
+      "guide": "https://ipsi.kongju.ac.kr/attach/bf5482a8198c895e0d499b6cd253bb28/9a9db098b587ee18b321c826f3707a49"
+    }
+  },
+  "sunchon": {
+    "bachelors": {
+      "apply": "https://www.studyinkorea.go.kr",
+      "guide": "https://www.scnu.ac.kr/upload/download/ials/2027-FUnderGraduate%20School%20Admission%20guide_e.pdf"
+    }
+  },
+  "gyeongsang": {
+    "masters-phd": {
+      "apply": "https://graduate.gnu.ac.kr",
+      "guide": "https://www.gnu.ac.kr/graduate/na/ntt/selectNttInfo.do?mi=19062&bbsId=1990&nttSn=8796824"
+    }
+  },
+  "gyeongkuk": {
+    "masters-phd": {
+      "apply": "https://ic.gknu.ac.kr/bbs/admission.php?lang=",
+      "guide": "https://ic.gknu.ac.kr/bbs/file_download2.php?type1=Undergraduate&type2=english"
+    }
+  },
+  "jeju": {
+    "masters-phd": {
+      "apply": "https://www.uwayapply.com",
+      "guide": "https://jejunu.ac.kr/cs/download.htm?act=download&seq=249846&no=3"
+    }
+  },
+  "kentech": {
+    "masters-phd": {
+      "apply": "https://www.uwayapply.com",
+      "guide": "https://admission.kentech.ac.kr/file/download.do?sfn=20260903124317647_%eb%8c%80%ed%95%99%ec%9b%90%eb%aa%a8%ec%a7%91%ec%9a%94%ea%b0%95+%ec%98%81%eb%ac%b8+2027+%ec%b5%9c%ec%a2%85.pdf&ofn=%eb%8c%80%ed%95%99%ec%9b%90%eb%aa%a8%ec%a7%91%ec%9a%94%ea%b0%95+%ec%98%81%eb%ac%b8+2027+%ec%b5%9c%ec%a2%85.pdf"
+    }
+  },
+  "gist": {
+    "bachelors": {
+      "apply": "https://service.gist.ac.kr/admission/uniforeigner",
+      "guide": "https://www.gist.ac.kr/iuadm/img/sub02/2027_Fall_Undergraduate_Admission_Guideline_Final.pdf"
+    },
+    "masters-phd": {
+      "apply": "https://ipsi3.uwayapply.com/2027/foreign/GIST/?CHA=1",
+      "guide": "https://www.gist.ac.kr/iadm/html/sub05/0502.html?mode=V&no=222702"
+    }
+  },
+  "unist": {
+    "bachelors": {
+      "apply": "https://www.studyinkorea.go.kr",
+      "guide": "https://admu-intl.unist.ac.kr/admission-eng/admissions/admissions.do?mode=download&articleNo=306812&attachNo=591437"
+    },
+    "masters-phd": {
+      "apply": "https://apply.uwayapply.com/c/519362ra554555",
+      "guide": "https://admg-intl.unist.ac.kr/admg-eng/community/graduate_admissions.do?mode=download&articleNo=307609&attachNo=592196"
+    }
+  },
+  "dgist": {
+    "bachelors": {
+      "apply": "https://www.studyinkorea.go.kr",
+      "guide": "https://www.dgist.ac.kr/iuadm/sub03_01.do"
+    },
+    "masters-phd": {
+      "apply": "https://ipsi1.uwayapply.com/2027/gradu1/dgist/?CHA=2",
+      "guide": "https://www.dgist.ac.kr/iadm/sub02_01_01.do"
+    }
   }
 }

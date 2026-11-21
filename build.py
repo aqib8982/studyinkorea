@@ -67,6 +67,13 @@ def short_level(level):
 # ---------------------------------------------------------------- data
 def load():
     programs = json.loads((ROOT / "data/programs.json").read_text(encoding="utf-8"))
+    # National universities researched from their official guidelines (since 2026-11-22), shown
+    # after the owner's own list; each carries its sources and the date it was checked.
+    nat = ROOT / "data/national.json"
+    if nat.exists():
+        N = json.loads(nat.read_text(encoding="utf-8"))
+        for u in N["universities"]:
+            programs["universities"].append(dict(u, national=True, checked=N["checked"], usd_rate=N["usd_rate"]))
     site = json.loads((ROOT / "data/site.json").read_text(encoding="utf-8"))
     latest = ROOT / "data/latest_videos.json"  # filled every night by tools/fetch_videos.py
     store = json.loads(latest.read_text(encoding="utf-8")) if latest.exists() else {"videos": []}
@@ -135,7 +142,8 @@ def names_summary(programs, limit=3):
 def uni_tile(uni):
     progs = [p for lv in uni["levels"] for p in lv["programs"]]
     chips = "".join(f"<li>{esc(short_level(lv))}</li>" for lv in uni["levels"])
-    return (f'<a class="tile ucard" href="#uni-{uni["slug"]}">{logo(uni)}{city(uni)}'
+    badge = f'<p class="natb">{esc(uni.get("kind", "National university"))}</p>' if uni.get("national") else ""
+    return (f'<a class="tile ucard" href="#uni-{uni["slug"]}">{logo(uni)}{city(uni)}{badge}'
             f'<h3>{esc(uni["name"])}</h3>'
             f'<ul class="lvchips" aria-label="Degree levels">{chips}</ul>'
             f'<p class="tm"><b>{plural(len(progs), "course")}</b> including {names_summary(progs)}</p>'
@@ -206,6 +214,17 @@ def fact(label, entries, wide=False, note=""):
     return f'<div class="fact {"wide" if wide else ""}"><dt>{esc(label)}</dt><dd>{fact_value(entries)}{note}</dd></div>'
 
 
+def national_sources(uni):
+    """For researched universities: where every figure on the page comes from."""
+    if not uni.get("national"):
+        return ""
+    src = "".join(f'<li><a href="{attr(x["url"])}">{esc(x["name"])}</a></li>' for x in uni.get("sources", []))
+    return (f'<div class="gsrc natsrc"><h2>Sources</h2><ul>{src}</ul>'
+            f'<p>From the university\'s official guideline, checked {nice_date(uni["checked"])}. '
+            f'USD figures are approximate, at 1 USD = {uni["usd_rate"]:,} KRW. '
+            f'Fees and rules can change, so confirm on the university\'s site before you apply.</p></div>')
+
+
 def apply_box(site, uni, lv, dl):
     """"Apply now" to the university's own application site, KUAC's portal, or the application
     form(s) the owner gave (data/apply_links.json). When the deadline on this page has passed,
@@ -213,7 +232,7 @@ def apply_box(site, uni, lv, dl):
     link = site["apply"].get(uni["slug"], {}).get(lv["slug"])
     if not link:
         return ""
-    checked = nice_date(site["apply"]["checked"])
+    checked = nice_date(uni.get("checked") or site["apply"]["checked"])  # researched universities carry their own date
     guide = f'<a class="btn" href="{attr(link["guide"])}">Admission guide</a>' if link.get("guide") else ""
     forms = link.get("forms")
     if forms:  # one form per program track, e.g. "EAP + Bachelor" and "Bachelor"
@@ -275,6 +294,7 @@ def page_level(data, site, uni, lv):
             f'<div class="tw"><table><thead><tr><th rowspan="2">{esc(L["programs"])}</th>'
             f'<th colspan="2">{esc(L["tuition"])}</th></tr><tr><th>KRW</th><th>USD (Approx.)</th></tr></thead>'
             f'<tbody>{rows}</tbody></table></div><dl class="facts">{facts}</dl></div>'
+            f'{national_sources(uni)}'
             f'{guide_strip(load_guides(), ["check-a-university", "visa", "cost", "earnings", "language-tests", "dormitory"])}{sib}</div></section>')
 
 

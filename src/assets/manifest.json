@@ -15,6 +15,30 @@
     420,
     96
   ],
+  "logos/chungbuk.png": [
+    210,
+    91
+  ],
+  "logos/chungbuk.webp": [
+    210,
+    91
+  ],
+  "logos/chungnam.png": [
+    600,
+    122
+  ],
+  "logos/chungnam.webp": [
+    600,
+    122
+  ],
+  "logos/dgist.png": [
+    309,
+    49
+  ],
+  "logos/dgist.webp": [
+    309,
+    49
+  ],
   "logos/dong-a.png": [
     420,
     116
@@ -30,6 +54,86 @@
   "logos/dongseo.webp": [
     420,
     117
+  ],
+  "logos/gist.png": [
+    156,
+    26
+  ],
+  "logos/gist.webp": [
+    156,
+    26
+  ],
+  "logos/gyeongkuk.png": [
+    330,
+    36
+  ],
+  "logos/gyeongkuk.webp": [
+    330,
+    36
+  ],
+  "logos/gyeongsang.png": [
+    189,
+    40
+  ],
+  "logos/gyeongsang.webp": [
+    189,
+    40
+  ],
+  "logos/hanbat.png": [
+    600,
+    86
+  ],
+  "logos/hanbat.webp": [
+    600,
+    86
+  ],
+  "logos/incheon.png": [
+    171,
+    30
+  ],
+  "logos/incheon.webp": [
+    171,
+    30
+  ],
+  "logos/jeju.png": [
+    600,
+    112
+  ],
+  "logos/jeju.webp": [
+    600,
+    112
+  ],
+  "logos/jeonbuk.png": [
+    600,
+    145
+  ],
+  "logos/jeonbuk.webp": [
+    600,
+    145
+  ],
+  "logos/kaist.png": [
+    248,
+    72
+  ],
+  "logos/kaist.webp": [
+    248,
+    72
+  ],
+  "logos/kentech.png": [
+    327,
+    79
+  ],
+  "logos/kentech.webp": [
+    327,
+    79
+  ],
+  "logos/kongju.png": [
+    236,
+    64
+  ],
+  "logos/kongju.webp": [
+    236,
+    64
   ],
   "logos/korean-bible.png": [
     420,
@@ -47,6 +151,22 @@
     420,
     141
   ],
+  "logos/pukyong.png": [
+    336,
+    61
+  ],
+  "logos/pukyong.webp": [
+    336,
+    61
+  ],
+  "logos/pusan.png": [
+    253,
+    54
+  ],
+  "logos/pusan.webp": [
+    253,
+    54
+  ],
   "logos/sejong.png": [
     150,
     150
@@ -55,6 +175,22 @@
     150,
     150
   ],
+  "logos/seoultech.png": [
+    600,
+    96
+  ],
+  "logos/seoultech.webp": [
+    600,
+    96
+  ],
+  "logos/sunchon.png": [
+    237,
+    58
+  ],
+  "logos/sunchon.webp": [
+    237,
+    58
+  ],
   "logos/tongmyong.png": [
     420,
     128
@@ -62,6 +198,14 @@
   "logos/tongmyong.webp": [
     420,
     128
+  ],
+  "logos/unist.png": [
+    169,
+    29
+  ],
+  "logos/unist.webp": [
+    169,
+    29
   ],
   "logos/woosung.png": [
     420,

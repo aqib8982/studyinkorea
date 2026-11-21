@@ -785,3 +785,7 @@ html:not(.js) .fsearch{display:none}
 .gstrip h2{margin:0 0 12px;font-size:20px;letter-spacing:-.02em;color:var(--navy)}
 .glink{display:inline-flex;align-items:center;min-height:44px;color:var(--link);font-weight:600;text-decoration:none}
 .glink:hover{text-decoration:underline}
+
+/* National universities (researched, 2026-11-22) */
+.natb{margin:2px 0 0;font-size:12.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--navy)}
+.natsrc{max-width:none;margin-top:28px}
