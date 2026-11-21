@@ -16,7 +16,7 @@ Cleaning, as the owner asked (2026-11-16):
 - the owner can set his own headline for any video: "overrides" in data/latest_videos.json,
   {"<video id>": "<headline>"}. It always wins and is never overwritten.
 - Shorts cut from a long video are not shown (owner, 2026-11-17). A Short counts as a clip
-  when its description links one of the channel's long videos (youtu.be/<id> or
+  when its description links a (non-Short) video (youtu.be/<id> or
   watch?v=<id>). Any other video can be hidden by hand: "hidden" in data/latest_videos.json,
   a list of video ids.
 - thumbnails are checked every run; a cover changed on YouTube replaces the old one,
@@ -221,14 +221,16 @@ def thumbnail(vid, sources):
     return True
 
 
-def clip_of(v, long_ids):
+def clip_of(v, short_ids):
     """A Short cut from a long video says so by linking that video in its description
-    ("In the full video ... youtu.be/<id>"). Such clips are not shown on the website (owner,
-    2026-11-17): the long video is shown instead. Returns the long video's id, or None."""
+    ("Full video ... youtu.be/<id>"). Such clips are not shown on the website (owner,
+    2026-11-17): the long video is shown instead. Links to other Shorts (/shorts/<id>) do not
+    count. A video link counts even when that video is not in the feed (2026-11-21: the
+    descriptions link a long video that is not public yet). Returns the linked id, or None."""
     if "/shorts/" not in v["url"]:
         return None
     for vid in re.findall(r"(?:youtu\.be/|watch\?v=|/live/)([\w-]{11})", v.get("youtube_description", "")):
-        if vid != v["id"] and vid in long_ids:
+        if vid != v["id"] and vid not in short_ids:
             return vid
     return None
 
@@ -292,15 +294,15 @@ def main(dry_run=False):
     for vid in list(known):
         if not thumbnail(vid, sources):
             known.pop(vid)  # no thumbnail yet: leave it for the next run
-    long_ids = {vid for vid, v in known.items() if "/shorts/" not in v["url"]}
-    long_ids |= {v["youtube_id"] for v in site["videos"] if "/shorts/" not in v.get("url", "")}
+    short_ids = {vid for vid, v in known.items() if "/shorts/" in v["url"]}
+    short_ids |= {v["youtube_id"] for v in site["videos"] if "/shorts/" in v.get("url", "")}
     for v in known.values():  # clean every video with the current rules
         v["title"] = clean_title(v.get("youtube_title", v.get("title", "")))
         v["title"] = v["title"] or tidy(HASHTAG.sub("", EMOJI.sub("", v.get("youtube_title", ""))))
         v["description"] = clean_description(v.get("youtube_description", ""))
         v.pop("clip_of", None)
-        if clip_of(v, long_ids):
-            v["clip_of"] = clip_of(v, long_ids)  # hidden on the website
+        if clip_of(v, short_ids):
+            v["clip_of"] = clip_of(v, short_ids)  # hidden on the website
     store = {"overrides": store["overrides"], "hidden": store.get("hidden", []),
              "thumbnail_sources": dict(sorted(sources.items()))}
     store["videos"] = sorted(known.values(), key=lambda v: (v["published"], v["id"]), reverse=True)

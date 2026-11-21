@@ -71,9 +71,17 @@ def load():
     latest = ROOT / "data/latest_videos.json"  # filled every night by tools/fetch_videos.py
     store = json.loads(latest.read_text(encoding="utf-8")) if latest.exists() else {"videos": []}
     own = store.get("overrides", {})  # the owner's own headline for a video always wins
-    hide = set(store.get("hidden", []))  # clips of a long video, and any the owner hides
+    hide = set(store.get("hidden", []))  # any video the owner hides
+    shorts = {v["id"] for v in store["videos"] if "/shorts/" in v["url"]}
+    shorts |= {v["youtube_id"] for v in site["videos"] if "/shorts/" in v["url"]}
+
+    def is_clip(v):  # same rule as clip_of() in tools/fetch_videos.py, decided here at every build
+        if "/shorts/" not in v["url"]:
+            return False
+        links = re.findall(r"(?:youtu\.be/|watch\?v=|/live/)([\w-]{11})", v.get("youtube_description", ""))
+        return any(i != v["id"] and i not in shorts for i in links)
     site["latest"] = [dict(v, title=own.get(v["id"], v["title"])) for v in store["videos"]
-                      if not v.get("clip_of") and v["id"] not in hide]
+                      if not v.get("clip_of") and not is_clip(v) and v["id"] not in hide]
     links = ROOT / "data/apply_links.json"  # official application links, checked by hand
     site["apply"] = json.loads(links.read_text(encoding="utf-8")) if links.exists() else {}
     return programs, site
