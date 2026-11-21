@@ -1,0 +1,369 @@
+{
+ "_about": "Guide pages and the Home finder (owner asked 2026-11-21; no scholarship group for now). Written only from official sources, listed per page. Re-check before each intake.",
+ "checked": "2026-11-21",
+ "groups": [
+  {
+   "key": "check",
+   "title": "Junk universities",
+   "sub": "Check a university before you apply."
+  },
+  {
+   "key": "life",
+   "title": "Life in Korea",
+   "sub": "What life costs and what you can earn."
+  }
+ ],
+ "guides": [
+  {
+   "slug": "visa-restricted",
+   "group": "check",
+   "chip": "Visa-restricted list",
+   "title": "Visa-restricted universities",
+   "sub": "Universities where new international students cannot get a student visa for now.",
+   "keywords": "junk fake restricted banned blacklist visa ban list universities avoid",
+   "quick": "<p>In February 2026, Korea's Ministry of Justice and Ministry of Education named <b>16 universities</b> where student visas for degree programs are <b>banned in principle</b> for one year from the fall 2026 semester. Four more are restricted for Korean language programs.</p><p>If a university is on this list, do not apply to it for the March 2027 intake.</p>",
+   "sections": [
+    {
+     "h": "Degree programs (16)",
+     "html": "<p>Names as written in the official list, which gives them in Korean only.</p><ul><li><b>Universities:</b> 금강대학교, 수원가톨릭대학교, 중앙승가대학교, 협성대학교</li><li><b>Junior colleges:</b> 부산경상대학교, 부산예술대학교, 한영대학교</li><li><b>Graduate-only universities:</b> 구세군사관대학원대학교, 국제법률경영대학원대학교, 능인대학원대학교, 성서침례대학원대학교, 순복음대학원대학교, 에스라성경대학원대학교, 치유상담대학원대학교, 한국상담대학원대학교, 합동신학대학원대학교</li></ul>"
+    },
+    {
+     "h": "Korean language programs (4)",
+     "html": "<ul><li><b>Universities:</b> 대구한의대학교, 상지대학교, 호원대학교</li><li><b>Junior college:</b> 목포과학대학교</li></ul><p>대구한의대학교 and 목포과학대학교 are certified for degree programs. Only their language programs are restricted.</p>"
+    },
+    {
+     "h": "What this means",
+     "html": "<ul><li>The list is the result of the government's 2025 evaluation, announced on 12 February 2026.</li><li>Visa issuance for these universities is restricted for one year from the second semester of 2026.</li><li>Universities that badly manage international students, for example by breaking immigration law, can now be restricted for up to three years.</li></ul>"
+    },
+    {
+     "h": "Not on the list does not mean safe",
+     "html": "<p>The government does not publish the names of universities that are uncertified or under extra visa checks. Check that a university is <a href=\"#ieqas\">IEQAS certified</a> as well.</p>"
+    }
+   ],
+   "video": "G0jr0b2E2dE",
+   "sources": [
+    {
+     "name": "Ministry of Justice and Ministry of Education, press release, 12 Feb 2026 (Korean)",
+     "url": "https://www.immigration.go.kr/bbs/moj/182/603491/artclView.do"
+    },
+    {
+     "name": "The full list, attachment 4 of the press release (PDF, Korean)",
+     "url": "https://www.immigration.go.kr/bbs/moj/182/490757/download.do"
+    }
+   ],
+   "related": [
+    "ieqas",
+    "check-a-university"
+   ]
+  },
+  {
+   "slug": "ieqas",
+   "group": "check",
+   "chip": "IEQAS certified",
+   "title": "IEQAS certified universities",
+   "sub": "The government certificate for universities that host international students well.",
+   "keywords": "ieqas certified certification accredited recognised quality good universities list",
+   "quick": "<p>IEQAS (International Education Quality Assurance System) is a certificate from Korea's Ministry of Education and Ministry of Justice. At certified universities the student visa review is simpler: the standard admission letter is usually enough, although students from some countries must still show financial documents.</p><p>In the 2025 evaluation, <b>181 universities</b> were certified for degree programs and <b>123</b> for language programs.</p>",
+   "sections": [
+    {
+     "h": "What certification means for you",
+     "html": "<ul><li><b>Simpler visa review.</b> The visa is reviewed on the standard admission letter. Students from countries named by the Minister of Justice still submit proof of funds.</li><li><b>More part-time work.</b> Students at certified universities are allowed extra weekday part-time hours. See <a href=\"#earnings\">Earnings</a>.</li><li>At uncertified universities the visa review also checks the university, your education and your finances. Some universities are under closer checks, which can include an interview.</li></ul>"
+    },
+    {
+     "h": "How long it lasts",
+     "html": "<p>The current certificates run for four years, from March 2026 to February 2030. They are checked every year and can be cancelled if a university stops meeting the standard.</p>"
+    },
+    {
+     "h": "Where to see the list",
+     "html": "<p>The government publishes the current list on the Study in Korea portal (studyinkorea.go.kr). That page lists each campus separately, so its totals are a little higher than the press release.</p>"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Study in Korea (NIIED): certified universities",
+     "url": "https://www.studyinkorea.go.kr/en/plan/certifiedUniversity.do"
+    },
+    {
+     "name": "Ministry of Justice and Ministry of Education, press release, 12 Feb 2026 (Korean)",
+     "url": "https://www.immigration.go.kr/bbs/moj/182/603491/artclView.do"
+    }
+   ],
+   "related": [
+    "visa-restricted",
+    "check-a-university"
+   ]
+  },
+  {
+   "slug": "check-a-university",
+   "group": "check",
+   "chip": "How to check",
+   "title": "How to check a university",
+   "sub": "Four checks to make before you apply.",
+   "keywords": "how to check verify junk fake university real genuine scam safe",
+   "quick": "<p>Before you apply, check that the university is <b>not on the visa-restricted list</b>, that it is <b>IEQAS certified</b>, and that it appears on <b>Academyinfo</b>, Korea's official university information site. Then apply through the university's official channel.</p>",
+   "sections": [
+    {
+     "h": "The four checks",
+     "html": "<ol><li><b>Visa-restricted list.</b> If the university is on the <a href=\"#visa-restricted\">visa-restricted list</a>, do not apply.</li><li><b>IEQAS certified.</b> Look for it on the <a href=\"#ieqas\">certified list</a> on the Study in Korea portal. The portal also has a school and department search.</li><li><b>Academyinfo (대학알리미).</b> The official disclosure site for Korean universities, run by the Korean Council for University Education. Search the university's name there.</li><li><b>Official channel.</b> Apply through the university's own site or the channel it names. Each university page on this website has an \"Apply now\" button with its official link.</li></ol>"
+    },
+    {
+     "h": "What the embassy asks for",
+     "html": "<p>For a D-2 student visa, the Korean Embassy in Pakistan asks for the original certificate of admission and the university's business registration certificate, along with your own documents. Processing takes at least 8 weeks. See <a href=\"#visa\">Student visa</a>.</p>"
+    }
+   ],
+   "video": "G0jr0b2E2dE",
+   "sources": [
+    {
+     "name": "Study in Korea (NIIED): certified universities",
+     "url": "https://www.studyinkorea.go.kr/en/plan/certifiedUniversity.do"
+    },
+    {
+     "name": "Academyinfo (대학알리미), official university disclosure",
+     "url": "https://www.academyinfo.go.kr"
+    },
+    {
+     "name": "Ministry of Justice and Ministry of Education, press release, 12 Feb 2026 (Korean)",
+     "url": "https://www.immigration.go.kr/bbs/moj/182/603491/artclView.do"
+    },
+    {
+     "name": "Embassy of the Republic of Korea in Pakistan: visa information",
+     "url": "https://overseas.mofa.go.kr/pk-en/wpge/m_3159/contents.do"
+    }
+   ],
+   "related": [
+    "visa-restricted",
+    "ieqas",
+    "visa"
+   ]
+  },
+  {
+   "slug": "earnings",
+   "group": "life",
+   "chip": "Earnings",
+   "title": "Part-time work and earnings",
+   "sub": "How many hours you may work on a student visa, and the minimum wage.",
+   "keywords": "job jobs work part-time parttime earn earnings salary wage minimum wage hours permit arbeit",
+   "quick": "<p>You need a <b>part-time work permit</b> from immigration before you start any job. With the required Korean level, Bachelor's students may work <b>25 hours a week</b> during the semester and Master's and PhD students <b>30 hours</b>, with no limit at weekends and in vacations. Without it, the limit is 10 hours a week (15 for graduate students).</p><p>The minimum wage is <b>KRW 10,320 an hour</b> in 2026 and <b>KRW 10,700 an hour</b> from 1 January 2027.</p>",
+   "sections": [
+    {
+     "h": "Weekly hours on a student visa",
+     "html": "<div class=\"gtw\"><table><thead><tr><th>Program</th><th>Korean level needed</th><th>Without it</th><th>With it: weekdays</th><th>Weekends and vacations</th></tr></thead><tbody><tr><td>Bachelor's, years 1–2</td><td>TOPIK 3</td><td>10 hours</td><td>25 hours</td><td>No limit</td></tr><tr><td>Bachelor's, years 3–4</td><td>TOPIK 4</td><td>10 hours</td><td>25 hours</td><td>No limit</td></tr><tr><td>Master's and PhD</td><td>TOPIK 4</td><td>15 hours</td><td>30 hours</td><td>No limit</td></tr><tr><td>Korean language course (D-4)</td><td>TOPIK 2</td><td>10 hours</td><td>20 hours</td><td>20 hours</td></tr></tbody></table></div><ul><li>The \"without it\" limit is a weekly total, weekends included.</li><li>Students at <a href=\"#ieqas\">IEQAS certified</a> universities, or with excellent grades or Korean, may work 5 more weekday hours.</li><li>Degree students can start straight away. Language-course students can start after 6 months.</li><li>Other Korean-language proofs also count, such as the Korea Immigration and Integration Program (KIIP) or King Sejong Institute courses.</li></ul>"
+    },
+    {
+     "h": "What kind of work",
+     "html": "<p>Part-time work is limited to the simple jobs students normally do, such as restaurant helper, general office assistant, tourist guide assistant or duty-free shop assistant.</p>"
+    },
+    {
+     "h": "Minimum wage",
+     "html": "<ul><li><b>2026:</b> KRW 10,320 an hour (KRW 2,156,880 a month for 209 hours).</li><li><b>2027:</b> KRW 10,700 an hour (KRW 2,236,300 a month for 209 hours), from 1 January 2027.</li></ul>"
+    },
+    {
+     "h": "Rules may change",
+     "html": "<p>In October 2026 the Ministry of Justice announced plans to simplify the work permit and base it on Korean ability and grades. No start date was given. Check the current rule before you plan around part-time income.</p>"
+    }
+   ],
+   "video": "KtlXp7r9gZ0",
+   "sources": [
+    {
+     "name": "Study in Korea (NIIED): part-time work for international students (Korean)",
+     "url": "https://www.studyinkorea.go.kr/ko/work/aboutForeignerEmploymentSystem.do"
+    },
+    {
+     "name": "Ministry of Justice: part-time hours raised to 25 a week, 23 Jun 2023 (Korean)",
+     "url": "https://www.immigration.go.kr/bbs/immigration/220/572355/artclView.do"
+    },
+    {
+     "name": "Ministry of Justice: planned changes, 7 Oct 2026 (Korean)",
+     "url": "https://www.moj.go.kr/bbs/immigration/214/611171/artclView.do"
+    },
+    {
+     "name": "Minimum Wage Commission: minimum wage by year (Korean)",
+     "url": "https://www.minimumwage.go.kr/minWage/policy/decisionMain.do"
+    }
+   ],
+   "related": [
+    "cost",
+    "visa",
+    "language-tests"
+   ]
+  },
+  {
+   "slug": "cost",
+   "group": "life",
+   "chip": "Cost",
+   "title": "Cost of living in Korea",
+   "sub": "What a month in Korea costs, on top of tuition.",
+   "keywords": "cost costs living expenses money budget monthly rent food bank statement funds",
+   "quick": "<p>The government's Study in Korea portal estimates <b>KRW 750,000 to 1,000,000 a month</b> for living costs, not counting tuition. Tuition is charged per semester and is listed on each university page on this website.</p>",
+   "sections": [
+    {
+     "h": "A month in Korea",
+     "html": "<ul><li><b>Housing:</b> KRW 500,000–700,000</li><li><b>Food:</b> KRW 200,000–300,000</li><li><b>Transport:</b> KRW 50,000–100,000</li><li><b>Other</b> (phone, insurance): KRW 100,000–200,000</li></ul><p>A university dormitory is usually cheaper than renting. Each university page lists its dormitory fee.</p>"
+    },
+    {
+     "h": "Health insurance",
+     "html": "<p>Students on a D-2 visa join Korea's national health insurance from the day they arrive. D-2 and D-4 students get a 50% reduction on the premium if their household income and assets are under the set limits.</p>"
+    },
+    {
+     "h": "Money for the visa",
+     "html": "<p>The Korean Embassy in Pakistan asks for bank statements showing enough money to cover your stay on the certificate of admission. The money must have been in the account for at least one month, and the statement must be issued within two weeks of your application.</p>"
+    }
+   ],
+   "video": "T5EWk6QQUks",
+   "sources": [
+    {
+     "name": "Study in Korea (NIIED): living expenses",
+     "url": "https://www.studyinkorea.go.kr/en/life/livingExpense.do"
+    },
+    {
+     "name": "Embassy of the Republic of Korea in Pakistan: visa information",
+     "url": "https://overseas.mofa.go.kr/pk-en/wpge/m_3159/contents.do"
+    },
+    {
+     "name": "National Health Insurance Service: insurance for foreigners",
+     "url": "https://www.nhis.or.kr/english/wbheaa02900m01.do"
+    },
+    {
+     "name": "National Health Insurance Service: rules for foreign residents (Korean)",
+     "url": "https://www.nhis.or.kr/lm/lmxsrv/law/lawFullContent.do?SEQ=41"
+    }
+   ],
+   "related": [
+    "earnings",
+    "dormitory",
+    "visa"
+   ]
+  },
+  {
+   "slug": "visa",
+   "group": "life",
+   "chip": "Visa",
+   "title": "Student visa (D-2)",
+   "sub": "The visa for degree students, and what to do after you arrive.",
+   "keywords": "visa d-2 d2 d-4 d4 embassy documents arc alien registration card residence permit immigration e-visa evisa online visa embassy track bachelors masters phd",
+   "quick": "<p>Degree students study on a <b>D-2 visa</b>. <b>Bachelor's students</b> apply at the Korean Embassy: the e-visa is not available to them. <b>Master's and PhD students</b> at an accredited university can get an <b>e-visa</b>.</p><p>At the Korean Embassy in Pakistan you apply in person, and processing takes <b>at least 8 weeks</b>. Within 90 days of arriving in Korea you must register for an Alien Registration Card. Korean language students usually hold a <b>D-4 visa</b>.</p>",
+   "sections": [
+    {
+     "h": "Embassy visa or e-visa",
+     "html": "<div class=\"gtw\"><table><thead><tr><th>Degree</th><th>How you get the D-2 visa</th></tr></thead><tbody><tr><td>Bachelor's</td><td>At the Korean Embassy. The e-visa is not available for Bachelor's students.</td></tr><tr><td>Master's and PhD</td><td>E-visa, when the university is accredited.</td></tr></tbody></table></div><p>Korea Immigration Service lists who can get an e-visa. For students, it names only Master's and PhD students at an accredited university:</p>",
+     "figure": {
+      "img": "photos/evisa-d2",
+      "alt": "Korea Immigration Service e-visa table. Highlighted: International Student (D-2) on Master's degree course or PhD program at accredited university.",
+      "caption": "Korea Immigration Service, E-Visa Center: who can get an e-visa. <a href=\"https://www.immigration.go.kr/immigration_eng/2098/subview.do\">See the official page</a>."
+     }
+    },
+    {
+     "h": "Documents for a D-2 visa at the embassy in Pakistan",
+     "html": "<p>The embassy lists these, along with the application form, a passport valid for at least 6 months and a photo:</p><ul><li>Certificate of admission from the university (original)</li><li>The university's business registration certificate</li><li>Scholarship certificate, if you have one</li><li>Your degrees and transcripts, attested by HEC or the related education board</li><li>An English test certificate: IELTS or TOEFL iBT preferred; TOEIC is not accepted</li><li>Bank statements for the last 6 months (see <a href=\"#cost\">Cost</a>)</li><li>A medical certificate and TB test report, for stays of more than 91 days</li></ul>"
+    },
+    {
+     "h": "After you arrive",
+     "html": "<ul><li><b>Alien Registration Card:</b> register within 90 days of arrival. You need your passport, a photo, a certificate of enrolment, proof of address and the fee.</li><li><b>Health insurance:</b> D-2 students are enrolled from the day they arrive.</li><li><b>Part-time work:</b> get a permit before you start. See <a href=\"#earnings\">Earnings</a>.</li></ul>"
+    }
+   ],
+   "video": "dbB_bHtg6wY",
+   "sources": [
+    {
+     "name": "Korea Immigration Service: E-Visa Center, e-visa eligibility",
+     "url": "https://www.immigration.go.kr/immigration_eng/2098/subview.do"
+    },
+    {
+     "name": "Embassy of the Republic of Korea in Pakistan: visa information",
+     "url": "https://overseas.mofa.go.kr/pk-en/wpge/m_3159/contents.do"
+    },
+    {
+     "name": "Study in Korea (NIIED): visa and stay (Korean)",
+     "url": "https://www.studyinkorea.go.kr/ko/plan/visaAndStay.do"
+    },
+    {
+     "name": "Study in Korea (NIIED): alien registration (Korean)",
+     "url": "https://www.studyinkorea.go.kr/ko/life/residenceAndStayInfo.do"
+    },
+    {
+     "name": "National Health Insurance Service: rules for foreign residents (Korean)",
+     "url": "https://www.nhis.or.kr/lm/lmxsrv/law/lawFullContent.do?SEQ=41"
+    }
+   ],
+   "related": [
+    "cost",
+    "earnings",
+    "check-a-university"
+   ]
+  },
+  {
+   "slug": "dormitory",
+   "group": "life",
+   "chip": "Dormitory",
+   "title": "Dormitories",
+   "sub": "Where most international students live in their first year.",
+   "keywords": "dormitory dorm hostel accommodation housing room live stay",
+   "quick": "<p>University dormitories are the simplest first home in Korea. Check three things in each listing: the <b>period covered</b>, whether <b>meals</b> are included, and whether there is a <b>kitchen</b>.</p>",
+   "sections": [
+    {
+     "h": "Dormitory fees on this website",
+     "html": "<p>Each university's course page lists its dormitory fee in the details below the course table. Open a university from the <a href=\"#universities\">Universities</a> page to compare them.</p>"
+    },
+    {
+     "h": "What housing costs",
+     "html": "<p>The Study in Korea portal estimates housing at KRW 500,000–700,000 a month. See <a href=\"#cost\">Cost</a>.</p>"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Study in Korea (NIIED): living expenses",
+     "url": "https://www.studyinkorea.go.kr/en/life/livingExpense.do"
+    }
+   ],
+   "related": [
+    "cost",
+    "earnings"
+   ]
+  },
+  {
+   "slug": "language-tests",
+   "group": "life",
+   "chip": "Language tests",
+   "title": "Language tests",
+   "sub": "English and Korean tests that universities and immigration ask for.",
+   "keywords": "language test tests ielts toefl topik korean english level score exam",
+   "quick": "<p><b>IELTS</b> and <b>TOEFL iBT</b> are the English tests most programs taught in English ask for. <b>TOPIK</b> is the Test of Proficiency in Korean: TOPIK I gives levels 1–2 and TOPIK II gives levels 3–6. TOPIK results are valid for two years.</p>",
+   "sections": [
+    {
+     "h": "TOPIK levels",
+     "html": "<ul><li><b>TOPIK I</b> (listening and reading): Level 1 from 80 points, Level 2 from 140.</li><li><b>TOPIK II</b> (listening, writing and reading): Level 3 from 120 points, Level 4 from 150, Level 5 from 190, Level 6 from 230.</li></ul><p>Your TOPIK level also sets how many hours you may work part-time. See <a href=\"#earnings\">Earnings</a>.</p>"
+    },
+    {
+     "h": "Next TOPIK dates in Korea",
+     "html": "<ul><li>Paper test (PBT 110): 10 January 2027. Registration 8–14 December 2026.</li><li>Internet test (IBT 17): 20 February 2027. Registration 15–21 December 2026.</li></ul><p>Test dates in Pakistan are set by the local organiser.</p>"
+    },
+    {
+     "h": "English tests",
+     "html": "<p>For a D-2 visa from Pakistan, the Korean Embassy prefers IELTS or TOEFL iBT and does not accept TOEIC.</p>"
+    }
+   ],
+   "video": "jqQsgEOPE1s",
+   "sources": [
+    {
+     "name": "TOPIK: levels and scores (Korean)",
+     "url": "https://www.topik.go.kr/TWSTDY/TWSTDY0090.do"
+    },
+    {
+     "name": "TOPIK: test schedule (Korean)",
+     "url": "https://www.topik.go.kr/TWGUID/TWGUID0020.do"
+    },
+    {
+     "name": "Study in Korea (NIIED): language tests (Korean)",
+     "url": "https://www.studyinkorea.go.kr/ko/plan/examAndKoreanStudy.do"
+    },
+    {
+     "name": "Embassy of the Republic of Korea in Pakistan: visa information",
+     "url": "https://overseas.mofa.go.kr/pk-en/wpge/m_3159/contents.do"
+    }
+   ],
+   "related": [
+    "earnings",
+    "visa"
+   ]
+  }
+ ]
+}

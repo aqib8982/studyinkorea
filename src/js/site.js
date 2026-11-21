@@ -133,6 +133,64 @@
     try { if (fromHash() !== name) location.hash = name; } catch (err) {}
     show(name);
   });
+  /* ---------- Home search: guides, universities, degrees, courses, videos and pages ---------- */
+  (function () {
+    var box = byId('fq'), list = byId('fres'), data = byId('qidx');
+    if (!box || !list || !data) return;
+    var items;
+    try { items = JSON.parse(data.textContent); } catch (e) { return; }
+    var RANK = {Guide: 0, University: 1, Degree: 2, Page: 3, Course: 4, Video: 5};
+    // everyday words students type, mapped to the words the pages use
+    var ALIAS = {job: 'earnings', jobs: 'earnings', work: 'earnings', 'part-time': 'earnings', parttime: 'earnings',
+      salary: 'earnings', earning: 'earnings', hostel: 'dormitory', dorm: 'dormitory', accommodation: 'dormitory',
+      fake: 'restricted', junk: 'restricted', scam: 'restricted', bank: 'cost', expenses: 'cost', fee: 'fees',
+      ielts: 'language', toefl: 'language', topik: 'language', bs: 'bachelors', ms: 'masters', mba: 'masters'};
+    var norm = function (s) { return (s || '').toLowerCase().replace(/[^a-z0-9\uac00-\ud7a3-]+/g, ' '); };
+    var hay = items.map(function (it) { return {it: it, t: norm(it[0]), all: ' ' + norm(it[0] + ' ' + it[3]) + ' '}; });
+    function find(q) {
+      var words = norm(q).split(' ').filter(Boolean);
+      if (!words.length) return [];
+      var out = [];
+      hay.forEach(function (h) {
+        var score = 0;
+        for (var i = 0; i < words.length; i++) {
+          var w = words[i], a = ALIAS[w];
+          var hit = h.all.indexOf(' ' + w) >= 0 || (a && h.all.indexOf(' ' + a) >= 0) || (w.length > 3 && h.all.indexOf(w) >= 0);
+          if (!hit) return;
+          if (h.t.indexOf(w) >= 0 || (a && h.t.indexOf(a) >= 0)) score += 2;
+        }
+        out.push({it: h.it, s: score * 10 - (RANK[h.it[1]] || 0)});
+      });
+      out.sort(function (x, y) { return y.s - x.s; });
+      var seen = {};  // one line per address and title
+      return out.filter(function (r) { var k = r.it[2] + '|' + r.it[0]; if (seen[k]) return false; seen[k] = 1; return true; }).slice(0, 8);
+    }
+    function show() {
+      var q = box.value.trim(), res = find(q);
+      list.innerHTML = '';
+      if (!q) return;
+      if (!res.length) {
+        var li = document.createElement('li'); li.className = 'fnone';
+        li.textContent = 'Nothing found. Try another word, or message me on WhatsApp.';
+        list.appendChild(li); return;
+      }
+      res.forEach(function (r) {
+        var li = document.createElement('li'), a = document.createElement('a');
+        a.href = '#' + r.it[2];
+        var k = document.createElement('span'); k.className = 'fk'; k.textContent = r.it[1];
+        a.appendChild(document.createTextNode(r.it[0])); a.appendChild(k);
+        li.appendChild(a); list.appendChild(li);
+      });
+    }
+    box.addEventListener('input', show);
+    box.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') { var first = list.querySelector('a'); if (first) first.click(); }
+      if (e.key === 'Escape') { box.value = ''; show(); }
+    });
+    byId('fgo').addEventListener('click', function () { show(); var first = list.querySelector('a'); if (first) first.focus(); else box.focus(); });
+    list.addEventListener('click', function (e) { if (e.target.closest('a')) { box.value = ''; setTimeout(show, 0); } });
+  })();
+
   /* ---------- videos play in place: the cover becomes YouTube's player on click ---------- */
   // The player loads only when asked, so pages stay fast; a play here counts as a YouTube view.
   function stopVideos() {

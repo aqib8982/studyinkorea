@@ -718,3 +718,61 @@ nav.fcolm a:not(.wabtn){box-sizing:border-box;height:44px;padding-block:0;margin
 @media (max-width:600px){.apply{padding:20px 18px;border-radius:18px}.apb{width:100%}.apb .btn{flex:1 1 auto;justify-content:center;text-align:center}}
 .uni .apply{margin:0 36px 28px}
 @media (max-width:600px){.uni .apply{margin:0 18px 22px}}
+
+/* Home finder: "What do you want to know?" search and topic groups (2026-11-21) */
+.band.find h2{text-align:center}
+.fsearch{display:flex;gap:10px;max-width:640px;margin:22px auto 0}
+html:not(.js) .fsearch{display:none}
+#fq{flex:1 1 auto;min-width:0;font:inherit;font-size:17px;padding:14px 20px;border:1px solid var(--line);border-radius:99px;color:var(--ink);background:#fff}
+#fq::placeholder{color:var(--muted)}
+#fq:focus{outline:3px solid var(--blue);outline-offset:1px;border-color:var(--navy)}
+.fres{list-style:none;margin:10px auto 0;padding:0;max-width:640px}
+.fres:empty{display:none}
+.fres li{border:1px solid var(--line);border-top:0;background:#fff}
+.fres li:first-child{border-top:1px solid var(--line);border-radius:16px 16px 0 0}
+.fres li:last-child{border-radius:0 0 16px 16px}
+.fres li:only-child{border-radius:16px}
+.fres a{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 18px;min-height:44px;color:var(--navy);text-decoration:none;font-weight:600}
+.fres a:hover,.fres a:focus{background:var(--bluetint)}
+.fk{flex:none;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.fnone{padding:14px 18px;color:var(--muted)}
+.fgroups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:32px}
+.fg{background:#fff;border:1px solid var(--line);border-radius:22px;padding:24px 26px}
+.fg h3{font-size:22px;letter-spacing:-.02em;color:var(--navy);margin:0}
+.fg p{margin:6px 0 16px;color:var(--muted);font-size:16px}
+.fchips{display:flex;flex-wrap:wrap;gap:8px}
+.fchips a{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border-radius:99px;background:var(--bluetint);color:var(--navy);font-weight:600;text-decoration:none;font-size:15.5px}
+.fchips a:hover{background:var(--navy);color:#fff}
+@media (max-width:760px){.fgroups{grid-template-columns:1fr}.fsearch .btn{display:none}}
+/* Guide pages */
+.guide{max-width:780px;margin:28px auto 0}
+.qa{background:var(--bluetint);border:1px solid var(--line);border-radius:22px;padding:22px 26px;margin-bottom:8px}
+.qal{margin:0 0 6px;font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--red)}
+.qa p{margin:0 0 8px;font-size:18px;line-height:1.55;color:var(--ink)}
+.qa p:last-child{margin-bottom:0}
+.guide .story ul{padding-left:1.2em}
+.guide .story li{margin:6px 0;line-height:1.55}
+.gvid{max-width:520px;margin:28px auto 0}
+.gsrc{margin-top:36px;padding-top:20px;border-top:1px solid var(--line);font-size:15px;color:var(--muted)}
+.gsrc h2{font-size:15px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+.gsrc ul{margin:0 0 10px;padding-left:1.2em}
+.gsrc li{margin:4px 0}
+.gsrc a{color:var(--link);word-break:break-word}
+.guide .story{margin-top:36px;max-width:none}
+.guide .story .sh{margin-top:40px;font-size:clamp(22px,2.4vw,27px)}
+.guide .story li{font-size:18px;color:#2B3944}
+@media (max-width:600px){.guide .story li{font-size:17px}.qa{padding:18px 18px}.qa p{font-size:17px}}
+.gsrc ul{list-style:none;padding:0}
+.gsrc li{margin:0;border-bottom:1px solid var(--line)}
+.gsrc li a{display:flex;align-items:center;min-height:44px;padding:6px 0;text-decoration:none}
+.gsrc li a:hover{text-decoration:underline}
+.gfig{margin:20px 0 8px}
+.gfig img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:14px}
+.gfig figcaption{margin-top:10px;font-size:14.5px;color:var(--muted);line-height:1.5}
+.gfig figcaption a{color:var(--link)}
+.gtw{overflow-x:auto;margin:8px 0 16px;border:1px solid var(--line);border-radius:16px;background:#fff}
+.gtw table{width:100%;border-collapse:collapse;font-size:16px}
+.gtw th{background:var(--bluetint);color:var(--navy);text-align:left;font-size:14px;font-weight:700;padding:12px 14px}
+.gtw td{padding:12px 14px;border-top:1px solid var(--line);color:#2B3944;vertical-align:top}
+.gtw td:first-child{font-weight:600;color:var(--ink)}
+@media (max-width:600px){.gtw table{font-size:14.5px;min-width:520px}}

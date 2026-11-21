@@ -72,6 +72,12 @@ def load():
     store = json.loads(latest.read_text(encoding="utf-8")) if latest.exists() else {"videos": []}
     own = store.get("overrides", {})  # the owner's own headline for a video always wins
     hide = set(store.get("hidden", []))  # any video the owner hides
+    # {"old id": "new id"}: a re-uploaded video. Once the new one has been fetched (it is public),
+    # it takes the old one's place in "featured" and the old one is no longer shown.
+    present = {v["id"] for v in store["videos"]}
+    swaps = {old: new for old, new in store.get("replaced_by", {}).items() if new in present}
+    site["featured"] = [swaps.get(i, i) for i in site.get("featured", [])]
+    hide |= set(swaps)
     shorts = {v["id"] for v in store["videos"] if "/shorts/" in v["url"]}
     shorts |= {v["youtube_id"] for v in site["videos"] if "/shorts/" in v["url"]}
 
@@ -270,6 +276,85 @@ def page_level(data, site, uni, lv):
             f'<tbody>{rows}</tbody></table></div><dl class="facts">{facts}</dl></div>{sib}</div></section>')
 
 
+# ---------------------------------------------------------------- guides and search (2026-11-21)
+# Topic pages ("Check a university", "Life in Korea") come from data/guides.json, written from
+# official sources only, each with its sources and the date they were checked.
+def load_guides():
+    f = ROOT / "data/guides.json"
+    return json.loads(f.read_text(encoding="utf-8")) if f.exists() else {"groups": [], "guides": []}
+
+
+def page_guide(G, g, site, thumbs, picture):
+    group = next(x for x in G["groups"] if x["key"] == g["group"])
+
+    def figure(f):  # a screenshot of the official source, with the key line highlighted
+        return (f'<figure class="gfig">{picture(f["img"], "jpg", alt=f["alt"], extra='loading="lazy"')}'
+                f'<figcaption>{f["caption"]}</figcaption></figure>')
+    body = "".join(f'<h2 class="sh">{esc(sec["h"])}</h2>{sec["html"]}' + (figure(sec["figure"]) if sec.get("figure") else "")
+                   for sec in g.get("sections", []))
+    vids = all_videos(site)
+    video = ""
+    if g.get("video") in vids:
+        video = f'<div class="gvid">{video_card(vids[g["video"]], thumbs, " lv", True)}</div>'
+    sources = "".join(f'<li><a href="{attr(x["url"])}">{esc(x["name"])}</a></li>' for x in g.get("sources", []))
+    rel = [x for x in G["guides"] if x["slug"] in g.get("related", [])]
+    related = ('<p class="sib">Related: ' + "".join(f'<a href="#{x["slug"]}">{esc(x["chip"])}</a>' for x in rel)
+               + "</p>") if rel else ""
+    return (f'<section class="page" id="p-{g["slug"]}" data-nav="basics"><div class="wrap">'
+            f'<nav class="crumb" aria-label="Breadcrumb"><a href="#home">Home</a><span>{esc(group["title"])}</span></nav>'
+            f'<header class="ph"><h1>{esc(g["title"])}</h1><p class="sub">{esc(g["sub"])}</p></header>'
+            f'<div class="guide"><div class="qa"><p class="qal">Quick answer</p>{g["quick"]}</div>'
+            f'<div class="story">{body}</div>{video}'
+            f'<div class="gsrc"><h2>Sources</h2><ul>{sources}</ul>'
+            f'<p>Checked {nice_date(G["checked"])}. Rules change, so confirm with the official source before you act.</p></div>'
+            f'</div>{related}</div></section>')
+
+
+def finder(G):
+    """Home: "What do you want to know?" search box and topic groups."""
+    groups = "".join(
+        f'<div class="fg"><h3>{esc(x["title"])}</h3><p>{esc(x["sub"])}</p><div class="fchips">'
+        + "".join(f'<a href="#{g["slug"]}">{esc(g["chip"])}</a>' for g in G["guides"] if g["group"] == x["key"])
+        + "</div></div>" for x in G["groups"])
+    return ('<div class="band find"><div class="wrap">'
+            '<h2>What do you want to know?</h2>'
+            '<div class="fsearch" role="search"><label class="vh" for="fq">Search this website</label>'
+            '<input id="fq" type="search" placeholder="Try: Sejong, part-time job, visa, dormitory" autocomplete="off" '
+            'aria-controls="fres" aria-describedby="fhint">'
+            '<button type="button" class="btn red" id="fgo">Search</button></div>'
+            '<p id="fhint" class="vh">Results appear below as you type.</p>'
+            '<ol id="fres" class="fres" aria-live="polite"></ol>'
+            f'<div class="fgroups">{groups}</div></div></div>')
+
+
+def search_index(data, site, G):
+    """Everything the Home search box can find: [title, kind, address, extra words]."""
+    def plain(h):
+        return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", h))).strip()
+    out = []
+    for g in G["guides"]:
+        out.append([g["title"], "Guide", g["slug"], " ".join([g["chip"], g.get("keywords", ""), plain(g["quick"])])])
+    for u in data["universities"]:
+        out.append([u["name"], "University", f'uni-{u["slug"]}', f'{u["city"]} {u["city_ko"]}'])
+        for lv in u["levels"]:
+            out.append([f'{u["name"]}: {short_level(lv)}', "Degree", f'uni-{u["slug"]}-{lv["slug"]}',
+                        f'{u["city"]} {lv["name"]} scholarship fees deadline apply'])
+            for p in lv["programs"]:
+                out.append([p["name"], "Course", f'uni-{u["slug"]}-{lv["slug"]}',
+                            f'{u["name"]} {short_level(lv)} {" ".join(p.get("details", []))}'])
+    for v in all_videos(site).values():
+        out.append([v["title"], "Video", "videos", "video youtube"])
+    out += [["Universities", "Page", "universities", "all universities list"],
+            ["Bachelors", "Page", "bachelors", "undergraduate degree bs ba"],
+            ["Masters", "Page", "masters", "graduate degree ms ma mba"],
+            ["PhD", "Page", "phd", "doctorate doctoral"],
+            ["Courses", "Page", "courses", "programs majors subjects search"],
+            ["Korea Basics", "Page", "basics", "academic year semester scholarship money"],
+            ["About me", "Page", "about", "aqib who"],
+            ["Contact", "Page", "contact", "whatsapp phone message help"]]
+    return json.dumps(out, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+
+
 def page_degree(data, key, label):
     tiles = []
     for u in data["universities"]:
@@ -358,7 +443,7 @@ def video_card(v, thumbs, extra="", details=False):
     return (f'<div class="vcard{extra}"><a class="vthumb" href="{attr(v["url"])}" data-yt="{attr(v["id"])}" '
             f'aria-label="Play video: {attr(v["title"])}">{thumbs({"youtube_id": v["id"]})}'
             f'<i class="vplay" aria-hidden="true"></i></a>{text}'
-            f'<span class="vact"><a href="{attr(v["url"])}">Comment<span class="vlong"> on YouTube</span></a>'
+            f'<span class="vact"><a href="{attr(v["url"])}">Comment<span class="vlong">&nbsp;on YouTube</span></a>'
             f'<a href="{SUBSCRIBE}">Subscribe</a></span></div>')
 
 
@@ -487,8 +572,9 @@ def build():
         "whatsapp": attr(site["whatsapp"]),
         "youtube": attr(site["socials"]["youtube"]["url"]),
     }
+    G = load_guides()
     pages = [
-        tpl("home.html", **common,
+        tpl("home.html", **common, finder=finder(G),
             mascot_hero=mascot("", 'class="masc hm"',
                                'role="img" aria-label="A cute blue girl mascot with a pink hair bow waving hello"',
                                face=(TPL / "partials/mascot-bow.svg").read_text(encoding="utf-8")),
@@ -511,6 +597,8 @@ def build():
         latest_section=latest_section(site, thumbs),
         video_articles=video_articles(site)))
     pages.append((TPL / "basics.html").read_text(encoding="utf-8"))
+    for g in G["guides"]:
+        pages.append(page_guide(G, g, site, thumbs, A.picture))
     pages.append(tpl("about.html", **common, portrait=portrait))
     pages.append(tpl("contact.html", **common, contact_photo=contact_photo, socials_big=socials(site, "big")))
 
@@ -539,7 +627,7 @@ def build():
     page = tpl("layout.html", **common,
                site_url=SITE_URL, icon_links=icon_links,
                head_links=head_links,
-               pages="\n".join(pages),
+               pages="\n".join(pages) + f'\n<script type="application/json" id="qidx">{search_index(data, site, G)}</script>',
                mascot_pop=mascot("p", 'class="pmasc"', 'aria-hidden="true"',
                                  neck=(TPL / "partials/mascot-bowtie.svg").read_text(encoding="utf-8")),
                socials_footer=socials(site, "lite"),

@@ -304,6 +304,7 @@ def main(dry_run=False):
         if clip_of(v, short_ids):
             v["clip_of"] = clip_of(v, short_ids)  # hidden on the website
     store = {"overrides": store["overrides"], "hidden": store.get("hidden", []),
+             "replaced_by": store.get("replaced_by", {}),
              "thumbnail_sources": dict(sorted(sources.items()))}
     store["videos"] = sorted(known.values(), key=lambda v: (v["published"], v["id"]), reverse=True)
     DATA.write_text(json.dumps(store, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
