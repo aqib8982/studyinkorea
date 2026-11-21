@@ -797,6 +797,10 @@ html:not(.js) .fsearch{display:none}
 .glink{display:inline-flex;align-items:center;min-height:44px;color:var(--link);font-weight:600;text-decoration:none}
 .glink:hover{text-decoration:underline}
 
+/* National universities (researched, 2026-11-22) */
+.natb{margin:2px 0 0;font-size:12.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--navy)}
+.natsrc{max-width:none;margin-top:28px}
+
 /* university logos (generated from data/programs.json) */
 .lg-tongmyong{aspect-ratio:420/128;background-image:url(../assets/logos/tongmyong.b8edf452bd.png);background-image:image-set(url(../assets/logos/tongmyong.698d48471f.webp) type("image/webp"),url(../assets/logos/tongmyong.b8edf452bd.png) type("image/png"))}
 .lg-dong-a{aspect-ratio:420/116;background-image:url(../assets/logos/dong-a.23d16d0d65.png);background-image:image-set(url(../assets/logos/dong-a.9aede9d8ce.webp) type("image/webp"),url(../assets/logos/dong-a.23d16d0d65.png) type("image/png"))}
@@ -807,3 +811,21 @@ html:not(.js) .fsearch{display:none}
 .lg-kyungdong-global{aspect-ratio:420/141;background-image:url(../assets/logos/kyungdong-global.880ad91afc.png);background-image:image-set(url(../assets/logos/kyungdong-global.703c3ea558.webp) type("image/webp"),url(../assets/logos/kyungdong-global.880ad91afc.png) type("image/png"))}
 .lg-catholic-kwandong{aspect-ratio:420/96;background-image:url(../assets/logos/catholic-kwandong.8c3d36d402.png);background-image:image-set(url(../assets/logos/catholic-kwandong.d11113f6b3.webp) type("image/webp"),url(../assets/logos/catholic-kwandong.8c3d36d402.png) type("image/png"))}
 .lg-korean-bible{aspect-ratio:420/91;background-image:url(../assets/logos/korean-bible.918263c8cc.png);background-image:image-set(url(../assets/logos/korean-bible.bb137bbaf0.webp) type("image/webp"),url(../assets/logos/korean-bible.918263c8cc.png) type("image/png"))}
+.lg-seoultech{aspect-ratio:600/96;background-image:url(../assets/logos/seoultech.9b153846cc.png);background-image:image-set(url(../assets/logos/seoultech.0d7dda90cf.webp) type("image/webp"),url(../assets/logos/seoultech.9b153846cc.png) type("image/png"))}
+.lg-pukyong{aspect-ratio:336/61;background-image:url(../assets/logos/pukyong.e04d91ac3b.png);background-image:image-set(url(../assets/logos/pukyong.2b9fc86b37.webp) type("image/webp"),url(../assets/logos/pukyong.e04d91ac3b.png) type("image/png"))}
+.lg-kaist{aspect-ratio:248/72;background-image:url(../assets/logos/kaist.8da5d0ca9c.png);background-image:image-set(url(../assets/logos/kaist.95e5d5e130.webp) type("image/webp"),url(../assets/logos/kaist.8da5d0ca9c.png) type("image/png"))}
+.lg-hanbat{aspect-ratio:600/86;background-image:url(../assets/logos/hanbat.1a5adad7b4.png);background-image:image-set(url(../assets/logos/hanbat.6aac3d9f4a.webp) type("image/webp"),url(../assets/logos/hanbat.1a5adad7b4.png) type("image/png"))}
+.lg-pusan{aspect-ratio:253/54;background-image:url(../assets/logos/pusan.4d3274de0a.png);background-image:image-set(url(../assets/logos/pusan.eaaec5b3c8.webp) type("image/webp"),url(../assets/logos/pusan.4d3274de0a.png) type("image/png"))}
+.lg-incheon{aspect-ratio:171/30;background-image:url(../assets/logos/incheon.21de9af487.png);background-image:image-set(url(../assets/logos/incheon.bab1a15ad1.webp) type("image/webp"),url(../assets/logos/incheon.21de9af487.png) type("image/png"))}
+.lg-jeonbuk{aspect-ratio:600/145;background-image:url(../assets/logos/jeonbuk.82c6b54da0.png);background-image:image-set(url(../assets/logos/jeonbuk.f8ce0ded17.webp) type("image/webp"),url(../assets/logos/jeonbuk.82c6b54da0.png) type("image/png"))}
+.lg-chungbuk{aspect-ratio:210/91;background-image:url(../assets/logos/chungbuk.d567f6a98b.png);background-image:image-set(url(../assets/logos/chungbuk.8529653820.webp) type("image/webp"),url(../assets/logos/chungbuk.d567f6a98b.png) type("image/png"))}
+.lg-chungnam{aspect-ratio:600/122;background-image:url(../assets/logos/chungnam.0c6b44c938.png);background-image:image-set(url(../assets/logos/chungnam.6d8b89ca18.webp) type("image/webp"),url(../assets/logos/chungnam.0c6b44c938.png) type("image/png"))}
+.lg-kongju{aspect-ratio:236/64;background-image:url(../assets/logos/kongju.dca88353e6.png);background-image:image-set(url(../assets/logos/kongju.6ced4f8b62.webp) type("image/webp"),url(../assets/logos/kongju.dca88353e6.png) type("image/png"))}
+.lg-sunchon{aspect-ratio:237/58;background-image:url(../assets/logos/sunchon.b5f02a0869.png);background-image:image-set(url(../assets/logos/sunchon.2462d90a4d.webp) type("image/webp"),url(../assets/logos/sunchon.b5f02a0869.png) type("image/png"))}
+.lg-gyeongsang{aspect-ratio:189/40;background-image:url(../assets/logos/gyeongsang.dee3c17f3a.png);background-image:image-set(url(../assets/logos/gyeongsang.b1728eb4e2.webp) type("image/webp"),url(../assets/logos/gyeongsang.dee3c17f3a.png) type("image/png"))}
+.lg-gyeongkuk{aspect-ratio:330/36;background-image:url(../assets/logos/gyeongkuk.45c66eebe0.png);background-image:image-set(url(../assets/logos/gyeongkuk.9cc0352582.webp) type("image/webp"),url(../assets/logos/gyeongkuk.45c66eebe0.png) type("image/png"))}
+.lg-jeju{aspect-ratio:600/112;background-image:url(../assets/logos/jeju.c948cb45a7.png);background-image:image-set(url(../assets/logos/jeju.c5611c67da.webp) type("image/webp"),url(../assets/logos/jeju.c948cb45a7.png) type("image/png"))}
+.lg-kentech{aspect-ratio:327/79;background-image:url(../assets/logos/kentech.2002f233bd.png);background-image:image-set(url(../assets/logos/kentech.358be43789.webp) type("image/webp"),url(../assets/logos/kentech.2002f233bd.png) type("image/png"))}
+.lg-gist{aspect-ratio:156/26;background-image:url(../assets/logos/gist.6d2355e070.png);background-image:image-set(url(../assets/logos/gist.57b95b9f70.webp) type("image/webp"),url(../assets/logos/gist.6d2355e070.png) type("image/png"))}
+.lg-unist{aspect-ratio:169/29;background-image:url(../assets/logos/unist.c1e7277032.png);background-image:image-set(url(../assets/logos/unist.ec8ed6e52b.webp) type("image/webp"),url(../assets/logos/unist.c1e7277032.png) type("image/png"))}
+.lg-dgist{aspect-ratio:309/49;background-image:url(../assets/logos/dgist.f963d90f85.png);background-image:image-set(url(../assets/logos/dgist.79efdd7682.webp) type("image/webp"),url(../assets/logos/dgist.f963d90f85.png) type("image/png"))}
