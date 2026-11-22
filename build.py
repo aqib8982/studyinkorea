@@ -671,6 +671,8 @@ def build():
                mascot_pop=mascot("p", 'class="pmasc"', 'aria-hidden="true"',
                                  neck=(TPL / "partials/mascot-bowtie.svg").read_text(encoding="utf-8")),
                socials_footer=socials(site, "lite"),
+               designer=(f'<a href="{attr(site["designer_url"])}">Muhammad Aqib Khan</a>'
+                         if site.get("designer_url") else "Muhammad Aqib Khan"),
                source=esc(data["source"]),
                script=js)
     # outside links open in a new tab (written into the HTML, so it works without the script)
